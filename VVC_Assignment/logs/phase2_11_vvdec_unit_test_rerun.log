@@ -1,0 +1,2477 @@
+﻿Re-run of full vvdec_unit_test via cmd /c (first run in phase2_10 printed 'Unknown argument' and ran no tests) - 2026-10-27 15:42:57 +06:00
+Running unit tests with seed=1793094177.
+
+Running test suite: ALF
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=8 h=4
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=8 h=8
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=8 h=16
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=8 h=24
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=8 h=32
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=16 h=4
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=16 h=8
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=16 h=16
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=16 h=24
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=16 h=32
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=32 h=4
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=32 h=8
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=32 h=16
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=32 h=24
+Testing AdaptiveLoopFilter::check_deriveClassificationBlk w=32 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=8 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=8 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=8 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=8 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=8 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=16 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=16 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=16 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=16 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=16 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=32 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=32 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=32 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=32 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_7 w=32 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=4 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=4 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=4 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=4 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=4 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=4 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=4 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=4 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=4 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=8 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=8 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=8 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=8 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=8 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=8 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=8 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=8 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=8 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=12 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=12 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=12 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=12 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=12 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=12 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=12 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=12 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=12 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=16 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=16 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=16 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=16 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=16 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=16 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=16 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=16 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=16 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=20 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=20 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=20 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=20 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=20 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=20 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=20 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=20 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=20 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=24 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=24 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=24 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=24 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=24 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=24 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=24 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=24 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=24 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=28 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=28 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=28 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=28 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=28 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=28 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=28 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=28 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=28 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=32 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=32 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=32 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=32 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=32 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=32 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=32 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=32 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=32 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=36 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=36 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=36 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=36 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=36 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=36 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=36 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=36 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=36 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=40 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=40 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=40 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=40 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=40 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=40 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=40 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=40 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=40 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=44 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=44 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=44 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=44 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=44 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=44 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=44 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=44 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=44 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=48 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=48 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=48 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=48 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=48 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=48 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=48 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=48 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=48 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=52 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=52 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=52 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=52 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=52 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=52 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=52 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=52 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=52 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=56 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=56 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=56 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=56 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=56 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=56 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=56 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=56 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=56 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=60 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=60 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=60 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=60 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=60 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=60 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=60 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=60 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=60 h=64
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=64 h=4
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=64 h=8
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=64 h=16
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=64 h=24
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=64 h=32
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=64 h=40
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=64 h=48
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=64 h=56
+Testing AdaptiveLoopFilter::filterBlk filterType=ALF_FILTER_5 w=64 h=64
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=4 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=4 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=4 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=4 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=4 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=4 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=4 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=4 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=4 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=4 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=8 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=8 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=8 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=8 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=8 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=8 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=8 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=8 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=8 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=8 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=12 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=12 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=12 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=12 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=12 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=12 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=12 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=12 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=12 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=12 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=16 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=16 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=16 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=16 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=16 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=16 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=16 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=16 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=16 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=16 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=20 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=20 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=20 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=20 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=20 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=20 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=20 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=20 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=20 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=20 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=32 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=32 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=32 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=32 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=32 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=32 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=32 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=32 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=32 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=32 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=64 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=64 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=64 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=64 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=64 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=64 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=64 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=64 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_420 w=64 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_420 w=64 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=4 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=4 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=4 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=4 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=4 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=4 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=4 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=4 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=4 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=4 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=8 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=8 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=8 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=8 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=8 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=8 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=8 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=8 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=8 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=8 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=12 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=12 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=12 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=12 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=12 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=12 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=12 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=12 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=12 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=12 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=16 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=16 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=16 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=16 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=16 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=16 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=16 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=16 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=16 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=16 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=20 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=20 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=20 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=20 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=20 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=20 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=20 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=20 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=20 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=20 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=32 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=32 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=32 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=32 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=32 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=32 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=32 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=32 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=32 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=32 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=64 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=64 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=64 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=64 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=64 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=64 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=64 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=64 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_422 w=64 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_422 w=64 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=4 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=4 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=4 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=4 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=4 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=4 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=4 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=4 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=4 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=4 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=8 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=8 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=8 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=8 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=8 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=8 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=8 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=8 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=8 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=8 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=12 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=12 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=12 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=12 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=12 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=12 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=12 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=12 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=12 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=12 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=16 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=16 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=16 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=16 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=16 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=16 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=16 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=16 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=16 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=16 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=20 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=20 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=20 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=20 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=20 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=20 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=20 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=20 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=20 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=20 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=32 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=32 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=32 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=32 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=32 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=32 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=32 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=32 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=32 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=32 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=64 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=64 h=4
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=64 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=64 h=8
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=64 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=64 h=16
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=64 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=64 h=24
+Testing AdaptiveLoopFilter::filterBlkCcAlf format=CHROMA_444 w=64 h=32
+Testing AdaptiveLoopFilter::filterBlkCcAlfBoth format=CHROMA_444 w=64 h=32
+Running test suite: DeQuant
+Running test suite: IntraPredAngleChroma
+Running test suite: InterpolationFilter
+Testing InterpolationFilter::filterHor_N6[1][0] width=1 height=6
+Testing InterpolationFilter::filterHor_N6[1][1] width=1 height=1
+Testing InterpolationFilter::filterVer_N6[0][0] width=1 height=1
+Testing InterpolationFilter::filterVer_N6[0][1] width=1 height=1
+Testing InterpolationFilter::filterVer_N6[1][0] width=1 height=1
+Testing InterpolationFilter::filterVer_N6[1][1] width=1 height=1
+Testing InterpolationFilter::filterHor_N8[1][0] width=1 height=8
+Testing InterpolationFilter::filterHor_N8[1][1] width=1 height=1
+Testing InterpolationFilter::filterVer_N8[0][0] width=1 height=1
+Testing InterpolationFilter::filterVer_N8[0][1] width=1 height=1
+Testing InterpolationFilter::filterVer_N8[1][0] width=1 height=1
+Testing InterpolationFilter::filterVer_N8[1][1] width=1 height=1
+Testing InterpolationFilter::filterHor_N6[1][0] width=4 height=6
+Testing InterpolationFilter::filterHor_N6[1][1] width=4 height=1
+Testing InterpolationFilter::filterVer_N6[0][0] width=4 height=1
+Testing InterpolationFilter::filterVer_N6[0][1] width=4 height=1
+Testing InterpolationFilter::filterVer_N6[1][0] width=4 height=1
+Testing InterpolationFilter::filterVer_N6[1][1] width=4 height=1
+Testing InterpolationFilter::filterHor_N8[1][0] width=4 height=8
+Testing InterpolationFilter::filterHor_N8[1][1] width=4 height=1
+Testing InterpolationFilter::filterVer_N8[0][0] width=4 height=1
+Testing InterpolationFilter::filterVer_N8[0][1] width=4 height=1
+Testing InterpolationFilter::filterVer_N8[1][0] width=4 height=1
+Testing InterpolationFilter::filterVer_N8[1][1] width=4 height=1
+Testing InterpolationFilter::filterHor_N6[1][0] width=8 height=6
+Testing InterpolationFilter::filterHor_N6[1][1] width=8 height=1
+Testing InterpolationFilter::filterVer_N6[0][0] width=8 height=1
+Testing InterpolationFilter::filterVer_N6[0][1] width=8 height=1
+Testing InterpolationFilter::filterVer_N6[1][0] width=8 height=1
+Testing InterpolationFilter::filterVer_N6[1][1] width=8 height=1
+Testing InterpolationFilter::filterHor_N8[1][0] width=8 height=8
+Testing InterpolationFilter::filterHor_N8[1][1] width=8 height=1
+Testing InterpolationFilter::filterVer_N8[0][0] width=8 height=1
+Testing InterpolationFilter::filterVer_N8[0][1] width=8 height=1
+Testing InterpolationFilter::filterVer_N8[1][0] width=8 height=1
+Testing InterpolationFilter::filterVer_N8[1][1] width=8 height=1
+Testing InterpolationFilter::filterHor_N6[1][0] width=16 height=6
+Testing InterpolationFilter::filterHor_N6[1][1] width=16 height=1
+Testing InterpolationFilter::filterVer_N6[0][0] width=16 height=1
+Testing InterpolationFilter::filterVer_N6[0][1] width=16 height=1
+Testing InterpolationFilter::filterVer_N6[1][0] width=16 height=1
+Testing InterpolationFilter::filterVer_N6[1][1] width=16 height=1
+Testing InterpolationFilter::filterHor_N8[1][0] width=16 height=8
+Testing InterpolationFilter::filterHor_N8[1][1] width=16 height=1
+Testing InterpolationFilter::filterVer_N8[0][0] width=16 height=1
+Testing InterpolationFilter::filterVer_N8[0][1] width=16 height=1
+Testing InterpolationFilter::filterVer_N8[1][0] width=16 height=1
+Testing InterpolationFilter::filterVer_N8[1][1] width=16 height=1
+Testing InterpolationFilter::filterHor_N6[1][0] width=32 height=6
+Testing InterpolationFilter::filterHor_N6[1][1] width=32 height=1
+Testing InterpolationFilter::filterVer_N6[0][0] width=32 height=1
+Testing InterpolationFilter::filterVer_N6[0][1] width=32 height=1
+Testing InterpolationFilter::filterVer_N6[1][0] width=32 height=1
+Testing InterpolationFilter::filterVer_N6[1][1] width=32 height=1
+Testing InterpolationFilter::filterHor_N8[1][0] width=32 height=8
+Testing InterpolationFilter::filterHor_N8[1][1] width=32 height=1
+Testing InterpolationFilter::filterVer_N8[0][0] width=32 height=1
+Testing InterpolationFilter::filterVer_N8[0][1] width=32 height=1
+Testing InterpolationFilter::filterVer_N8[1][0] width=32 height=1
+Testing InterpolationFilter::filterVer_N8[1][1] width=32 height=1
+Testing InterpolationFilter::filterHor_N6[1][0] width=64 height=6
+Testing InterpolationFilter::filterHor_N6[1][1] width=64 height=1
+Testing InterpolationFilter::filterVer_N6[0][0] width=64 height=1
+Testing InterpolationFilter::filterVer_N6[0][1] width=64 height=1
+Testing InterpolationFilter::filterVer_N6[1][0] width=64 height=1
+Testing InterpolationFilter::filterVer_N6[1][1] width=64 height=1
+Testing InterpolationFilter::filterHor_N8[1][0] width=64 height=8
+Testing InterpolationFilter::filterHor_N8[1][1] width=64 height=1
+Testing InterpolationFilter::filterVer_N8[0][0] width=64 height=1
+Testing InterpolationFilter::filterVer_N8[0][1] width=64 height=1
+Testing InterpolationFilter::filterVer_N8[1][0] width=64 height=1
+Testing InterpolationFilter::filterVer_N8[1][1] width=64 height=1
+Testing InterpolationFilter::filterHor_N6[1][0] width=128 height=6
+Testing InterpolationFilter::filterHor_N6[1][1] width=128 height=1
+Testing InterpolationFilter::filterVer_N6[0][0] width=128 height=1
+Testing InterpolationFilter::filterVer_N6[0][1] width=128 height=1
+Testing InterpolationFilter::filterVer_N6[1][0] width=128 height=1
+Testing InterpolationFilter::filterVer_N6[1][1] width=128 height=1
+Testing InterpolationFilter::filterHor_N8[1][0] width=128 height=8
+Testing InterpolationFilter::filterHor_N8[1][1] width=128 height=1
+Testing InterpolationFilter::filterVer_N8[0][0] width=128 height=1
+Testing InterpolationFilter::filterVer_N8[0][1] width=128 height=1
+Testing InterpolationFilter::filterVer_N8[1][0] width=128 height=1
+Testing InterpolationFilter::filterVer_N8[1][1] width=128 height=1
+Testing InterpolationFilter::filterHor_N6[1][0] width=1 height=9
+Testing InterpolationFilter::filterHor_N6[1][1] width=1 height=4
+Testing InterpolationFilter::filterVer_N6[0][0] width=1 height=4
+Testing InterpolationFilter::filterVer_N6[0][1] width=1 height=4
+Testing InterpolationFilter::filterVer_N6[1][0] width=1 height=4
+Testing InterpolationFilter::filterVer_N6[1][1] width=1 height=4
+Testing InterpolationFilter::filterHor_N8[1][0] width=1 height=11
+Testing InterpolationFilter::filterHor_N8[1][1] width=1 height=4
+Testing InterpolationFilter::filterVer_N8[0][0] width=1 height=4
+Testing InterpolationFilter::filterVer_N8[0][1] width=1 height=4
+Testing InterpolationFilter::filterVer_N8[1][0] width=1 height=4
+Testing InterpolationFilter::filterVer_N8[1][1] width=1 height=4
+Testing InterpolationFilter::filterHor_N6[1][0] width=4 height=9
+Testing InterpolationFilter::filterHor_N6[1][1] width=4 height=4
+Testing InterpolationFilter::filterVer_N6[0][0] width=4 height=4
+Testing InterpolationFilter::filterVer_N6[0][1] width=4 height=4
+Testing InterpolationFilter::filterVer_N6[1][0] width=4 height=4
+Testing InterpolationFilter::filterVer_N6[1][1] width=4 height=4
+Testing InterpolationFilter::filterHor_N8[1][0] width=4 height=11
+Testing InterpolationFilter::filterHor_N8[1][1] width=4 height=4
+Testing InterpolationFilter::filterVer_N8[0][0] width=4 height=4
+Testing InterpolationFilter::filterVer_N8[0][1] width=4 height=4
+Testing InterpolationFilter::filterVer_N8[1][0] width=4 height=4
+Testing InterpolationFilter::filterVer_N8[1][1] width=4 height=4
+Testing InterpolationFilter::filterHor_N6[1][0] width=8 height=9
+Testing InterpolationFilter::filterHor_N6[1][1] width=8 height=4
+Testing InterpolationFilter::filterVer_N6[0][0] width=8 height=4
+Testing InterpolationFilter::filterVer_N6[0][1] width=8 height=4
+Testing InterpolationFilter::filterVer_N6[1][0] width=8 height=4
+Testing InterpolationFilter::filterVer_N6[1][1] width=8 height=4
+Testing InterpolationFilter::filterHor_N8[1][0] width=8 height=11
+Testing InterpolationFilter::filterHor_N8[1][1] width=8 height=4
+Testing InterpolationFilter::filterVer_N8[0][0] width=8 height=4
+Testing InterpolationFilter::filterVer_N8[0][1] width=8 height=4
+Testing InterpolationFilter::filterVer_N8[1][0] width=8 height=4
+Testing InterpolationFilter::filterVer_N8[1][1] width=8 height=4
+Testing InterpolationFilter::filterHor_N6[1][0] width=16 height=9
+Testing InterpolationFilter::filterHor_N6[1][1] width=16 height=4
+Testing InterpolationFilter::filterVer_N6[0][0] width=16 height=4
+Testing InterpolationFilter::filterVer_N6[0][1] width=16 height=4
+Testing InterpolationFilter::filterVer_N6[1][0] width=16 height=4
+Testing InterpolationFilter::filterVer_N6[1][1] width=16 height=4
+Testing InterpolationFilter::filterHor_N8[1][0] width=16 height=11
+Testing InterpolationFilter::filterHor_N8[1][1] width=16 height=4
+Testing InterpolationFilter::filterVer_N8[0][0] width=16 height=4
+Testing InterpolationFilter::filterVer_N8[0][1] width=16 height=4
+Testing InterpolationFilter::filterVer_N8[1][0] width=16 height=4
+Testing InterpolationFilter::filterVer_N8[1][1] width=16 height=4
+Testing InterpolationFilter::filterHor_N6[1][0] width=32 height=9
+Testing InterpolationFilter::filterHor_N6[1][1] width=32 height=4
+Testing InterpolationFilter::filterVer_N6[0][0] width=32 height=4
+Testing InterpolationFilter::filterVer_N6[0][1] width=32 height=4
+Testing InterpolationFilter::filterVer_N6[1][0] width=32 height=4
+Testing InterpolationFilter::filterVer_N6[1][1] width=32 height=4
+Testing InterpolationFilter::filterHor_N8[1][0] width=32 height=11
+Testing InterpolationFilter::filterHor_N8[1][1] width=32 height=4
+Testing InterpolationFilter::filterVer_N8[0][0] width=32 height=4
+Testing InterpolationFilter::filterVer_N8[0][1] width=32 height=4
+Testing InterpolationFilter::filterVer_N8[1][0] width=32 height=4
+Testing InterpolationFilter::filterVer_N8[1][1] width=32 height=4
+Testing InterpolationFilter::filterHor_N6[1][0] width=64 height=9
+Testing InterpolationFilter::filterHor_N6[1][1] width=64 height=4
+Testing InterpolationFilter::filterVer_N6[0][0] width=64 height=4
+Testing InterpolationFilter::filterVer_N6[0][1] width=64 height=4
+Testing InterpolationFilter::filterVer_N6[1][0] width=64 height=4
+Testing InterpolationFilter::filterVer_N6[1][1] width=64 height=4
+Testing InterpolationFilter::filterHor_N8[1][0] width=64 height=11
+Testing InterpolationFilter::filterHor_N8[1][1] width=64 height=4
+Testing InterpolationFilter::filterVer_N8[0][0] width=64 height=4
+Testing InterpolationFilter::filterVer_N8[0][1] width=64 height=4
+Testing InterpolationFilter::filterVer_N8[1][0] width=64 height=4
+Testing InterpolationFilter::filterVer_N8[1][1] width=64 height=4
+Testing InterpolationFilter::filterHor_N6[1][0] width=128 height=9
+Testing InterpolationFilter::filterHor_N6[1][1] width=128 height=4
+Testing InterpolationFilter::filterVer_N6[0][0] width=128 height=4
+Testing InterpolationFilter::filterVer_N6[0][1] width=128 height=4
+Testing InterpolationFilter::filterVer_N6[1][0] width=128 height=4
+Testing InterpolationFilter::filterVer_N6[1][1] width=128 height=4
+Testing InterpolationFilter::filterHor_N8[1][0] width=128 height=11
+Testing InterpolationFilter::filterHor_N8[1][1] width=128 height=4
+Testing InterpolationFilter::filterVer_N8[0][0] width=128 height=4
+Testing InterpolationFilter::filterVer_N8[0][1] width=128 height=4
+Testing InterpolationFilter::filterVer_N8[1][0] width=128 height=4
+Testing InterpolationFilter::filterVer_N8[1][1] width=128 height=4
+Testing InterpolationFilter::filterHor_N6[1][0] width=1 height=13
+Testing InterpolationFilter::filterHor_N6[1][1] width=1 height=8
+Testing InterpolationFilter::filterVer_N6[0][0] width=1 height=8
+Testing InterpolationFilter::filterVer_N6[0][1] width=1 height=8
+Testing InterpolationFilter::filterVer_N6[1][0] width=1 height=8
+Testing InterpolationFilter::filterVer_N6[1][1] width=1 height=8
+Testing InterpolationFilter::filterHor_N8[1][0] width=1 height=15
+Testing InterpolationFilter::filterHor_N8[1][1] width=1 height=8
+Testing InterpolationFilter::filterVer_N8[0][0] width=1 height=8
+Testing InterpolationFilter::filterVer_N8[0][1] width=1 height=8
+Testing InterpolationFilter::filterVer_N8[1][0] width=1 height=8
+Testing InterpolationFilter::filterVer_N8[1][1] width=1 height=8
+Testing InterpolationFilter::filterHor_N6[1][0] width=4 height=13
+Testing InterpolationFilter::filterHor_N6[1][1] width=4 height=8
+Testing InterpolationFilter::filterVer_N6[0][0] width=4 height=8
+Testing InterpolationFilter::filterVer_N6[0][1] width=4 height=8
+Testing InterpolationFilter::filterVer_N6[1][0] width=4 height=8
+Testing InterpolationFilter::filterVer_N6[1][1] width=4 height=8
+Testing InterpolationFilter::filterHor_N8[1][0] width=4 height=15
+Testing InterpolationFilter::filterHor_N8[1][1] width=4 height=8
+Testing InterpolationFilter::filterVer_N8[0][0] width=4 height=8
+Testing InterpolationFilter::filterVer_N8[0][1] width=4 height=8
+Testing InterpolationFilter::filterVer_N8[1][0] width=4 height=8
+Testing InterpolationFilter::filterVer_N8[1][1] width=4 height=8
+Testing InterpolationFilter::filterHor_N6[1][0] width=8 height=13
+Testing InterpolationFilter::filterHor_N6[1][1] width=8 height=8
+Testing InterpolationFilter::filterVer_N6[0][0] width=8 height=8
+Testing InterpolationFilter::filterVer_N6[0][1] width=8 height=8
+Testing InterpolationFilter::filterVer_N6[1][0] width=8 height=8
+Testing InterpolationFilter::filterVer_N6[1][1] width=8 height=8
+Testing InterpolationFilter::filterHor_N8[1][0] width=8 height=15
+Testing InterpolationFilter::filterHor_N8[1][1] width=8 height=8
+Testing InterpolationFilter::filterVer_N8[0][0] width=8 height=8
+Testing InterpolationFilter::filterVer_N8[0][1] width=8 height=8
+Testing InterpolationFilter::filterVer_N8[1][0] width=8 height=8
+Testing InterpolationFilter::filterVer_N8[1][1] width=8 height=8
+Testing InterpolationFilter::filterHor_N6[1][0] width=16 height=13
+Testing InterpolationFilter::filterHor_N6[1][1] width=16 height=8
+Testing InterpolationFilter::filterVer_N6[0][0] width=16 height=8
+Testing InterpolationFilter::filterVer_N6[0][1] width=16 height=8
+Testing InterpolationFilter::filterVer_N6[1][0] width=16 height=8
+Testing InterpolationFilter::filterVer_N6[1][1] width=16 height=8
+Testing InterpolationFilter::filterHor_N8[1][0] width=16 height=15
+Testing InterpolationFilter::filterHor_N8[1][1] width=16 height=8
+Testing InterpolationFilter::filterVer_N8[0][0] width=16 height=8
+Testing InterpolationFilter::filterVer_N8[0][1] width=16 height=8
+Testing InterpolationFilter::filterVer_N8[1][0] width=16 height=8
+Testing InterpolationFilter::filterVer_N8[1][1] width=16 height=8
+Testing InterpolationFilter::filterHor_N6[1][0] width=32 height=13
+Testing InterpolationFilter::filterHor_N6[1][1] width=32 height=8
+Testing InterpolationFilter::filterVer_N6[0][0] width=32 height=8
+Testing InterpolationFilter::filterVer_N6[0][1] width=32 height=8
+Testing InterpolationFilter::filterVer_N6[1][0] width=32 height=8
+Testing InterpolationFilter::filterVer_N6[1][1] width=32 height=8
+Testing InterpolationFilter::filterHor_N8[1][0] width=32 height=15
+Testing InterpolationFilter::filterHor_N8[1][1] width=32 height=8
+Testing InterpolationFilter::filterVer_N8[0][0] width=32 height=8
+Testing InterpolationFilter::filterVer_N8[0][1] width=32 height=8
+Testing InterpolationFilter::filterVer_N8[1][0] width=32 height=8
+Testing InterpolationFilter::filterVer_N8[1][1] width=32 height=8
+Testing InterpolationFilter::filterHor_N6[1][0] width=64 height=13
+Testing InterpolationFilter::filterHor_N6[1][1] width=64 height=8
+Testing InterpolationFilter::filterVer_N6[0][0] width=64 height=8
+Testing InterpolationFilter::filterVer_N6[0][1] width=64 height=8
+Testing InterpolationFilter::filterVer_N6[1][0] width=64 height=8
+Testing InterpolationFilter::filterVer_N6[1][1] width=64 height=8
+Testing InterpolationFilter::filterHor_N8[1][0] width=64 height=15
+Testing InterpolationFilter::filterHor_N8[1][1] width=64 height=8
+Testing InterpolationFilter::filterVer_N8[0][0] width=64 height=8
+Testing InterpolationFilter::filterVer_N8[0][1] width=64 height=8
+Testing InterpolationFilter::filterVer_N8[1][0] width=64 height=8
+Testing InterpolationFilter::filterVer_N8[1][1] width=64 height=8
+Testing InterpolationFilter::filterHor_N6[1][0] width=128 height=13
+Testing InterpolationFilter::filterHor_N6[1][1] width=128 height=8
+Testing InterpolationFilter::filterVer_N6[0][0] width=128 height=8
+Testing InterpolationFilter::filterVer_N6[0][1] width=128 height=8
+Testing InterpolationFilter::filterVer_N6[1][0] width=128 height=8
+Testing InterpolationFilter::filterVer_N6[1][1] width=128 height=8
+Testing InterpolationFilter::filterHor_N8[1][0] width=128 height=15
+Testing InterpolationFilter::filterHor_N8[1][1] width=128 height=8
+Testing InterpolationFilter::filterVer_N8[0][0] width=128 height=8
+Testing InterpolationFilter::filterVer_N8[0][1] width=128 height=8
+Testing InterpolationFilter::filterVer_N8[1][0] width=128 height=8
+Testing InterpolationFilter::filterVer_N8[1][1] width=128 height=8
+Testing InterpolationFilter::filterHor_N6[1][0] width=1 height=21
+Testing InterpolationFilter::filterHor_N6[1][1] width=1 height=16
+Testing InterpolationFilter::filterVer_N6[0][0] width=1 height=16
+Testing InterpolationFilter::filterVer_N6[0][1] width=1 height=16
+Testing InterpolationFilter::filterVer_N6[1][0] width=1 height=16
+Testing InterpolationFilter::filterVer_N6[1][1] width=1 height=16
+Testing InterpolationFilter::filterHor_N8[1][0] width=1 height=23
+Testing InterpolationFilter::filterHor_N8[1][1] width=1 height=16
+Testing InterpolationFilter::filterVer_N8[0][0] width=1 height=16
+Testing InterpolationFilter::filterVer_N8[0][1] width=1 height=16
+Testing InterpolationFilter::filterVer_N8[1][0] width=1 height=16
+Testing InterpolationFilter::filterVer_N8[1][1] width=1 height=16
+Testing InterpolationFilter::filterHor_N6[1][0] width=4 height=21
+Testing InterpolationFilter::filterHor_N6[1][1] width=4 height=16
+Testing InterpolationFilter::filterVer_N6[0][0] width=4 height=16
+Testing InterpolationFilter::filterVer_N6[0][1] width=4 height=16
+Testing InterpolationFilter::filterVer_N6[1][0] width=4 height=16
+Testing InterpolationFilter::filterVer_N6[1][1] width=4 height=16
+Testing InterpolationFilter::filterHor_N8[1][0] width=4 height=23
+Testing InterpolationFilter::filterHor_N8[1][1] width=4 height=16
+Testing InterpolationFilter::filterVer_N8[0][0] width=4 height=16
+Testing InterpolationFilter::filterVer_N8[0][1] width=4 height=16
+Testing InterpolationFilter::filterVer_N8[1][0] width=4 height=16
+Testing InterpolationFilter::filterVer_N8[1][1] width=4 height=16
+Testing InterpolationFilter::filterHor_N6[1][0] width=8 height=21
+Testing InterpolationFilter::filterHor_N6[1][1] width=8 height=16
+Testing InterpolationFilter::filterVer_N6[0][0] width=8 height=16
+Testing InterpolationFilter::filterVer_N6[0][1] width=8 height=16
+Testing InterpolationFilter::filterVer_N6[1][0] width=8 height=16
+Testing InterpolationFilter::filterVer_N6[1][1] width=8 height=16
+Testing InterpolationFilter::filterHor_N8[1][0] width=8 height=23
+Testing InterpolationFilter::filterHor_N8[1][1] width=8 height=16
+Testing InterpolationFilter::filterVer_N8[0][0] width=8 height=16
+Testing InterpolationFilter::filterVer_N8[0][1] width=8 height=16
+Testing InterpolationFilter::filterVer_N8[1][0] width=8 height=16
+Testing InterpolationFilter::filterVer_N8[1][1] width=8 height=16
+Testing InterpolationFilter::filterHor_N6[1][0] width=16 height=21
+Testing InterpolationFilter::filterHor_N6[1][1] width=16 height=16
+Testing InterpolationFilter::filterVer_N6[0][0] width=16 height=16
+Testing InterpolationFilter::filterVer_N6[0][1] width=16 height=16
+Testing InterpolationFilter::filterVer_N6[1][0] width=16 height=16
+Testing InterpolationFilter::filterVer_N6[1][1] width=16 height=16
+Testing InterpolationFilter::filterHor_N8[1][0] width=16 height=23
+Testing InterpolationFilter::filterHor_N8[1][1] width=16 height=16
+Testing InterpolationFilter::filterVer_N8[0][0] width=16 height=16
+Testing InterpolationFilter::filterVer_N8[0][1] width=16 height=16
+Testing InterpolationFilter::filterVer_N8[1][0] width=16 height=16
+Testing InterpolationFilter::filterVer_N8[1][1] width=16 height=16
+Testing InterpolationFilter::filterHor_N6[1][0] width=32 height=21
+Testing InterpolationFilter::filterHor_N6[1][1] width=32 height=16
+Testing InterpolationFilter::filterVer_N6[0][0] width=32 height=16
+Testing InterpolationFilter::filterVer_N6[0][1] width=32 height=16
+Testing InterpolationFilter::filterVer_N6[1][0] width=32 height=16
+Testing InterpolationFilter::filterVer_N6[1][1] width=32 height=16
+Testing InterpolationFilter::filterHor_N8[1][0] width=32 height=23
+Testing InterpolationFilter::filterHor_N8[1][1] width=32 height=16
+Testing InterpolationFilter::filterVer_N8[0][0] width=32 height=16
+Testing InterpolationFilter::filterVer_N8[0][1] width=32 height=16
+Testing InterpolationFilter::filterVer_N8[1][0] width=32 height=16
+Testing InterpolationFilter::filterVer_N8[1][1] width=32 height=16
+Testing InterpolationFilter::filterHor_N6[1][0] width=64 height=21
+Testing InterpolationFilter::filterHor_N6[1][1] width=64 height=16
+Testing InterpolationFilter::filterVer_N6[0][0] width=64 height=16
+Testing InterpolationFilter::filterVer_N6[0][1] width=64 height=16
+Testing InterpolationFilter::filterVer_N6[1][0] width=64 height=16
+Testing InterpolationFilter::filterVer_N6[1][1] width=64 height=16
+Testing InterpolationFilter::filterHor_N8[1][0] width=64 height=23
+Testing InterpolationFilter::filterHor_N8[1][1] width=64 height=16
+Testing InterpolationFilter::filterVer_N8[0][0] width=64 height=16
+Testing InterpolationFilter::filterVer_N8[0][1] width=64 height=16
+Testing InterpolationFilter::filterVer_N8[1][0] width=64 height=16
+Testing InterpolationFilter::filterVer_N8[1][1] width=64 height=16
+Testing InterpolationFilter::filterHor_N6[1][0] width=128 height=21
+Testing InterpolationFilter::filterHor_N6[1][1] width=128 height=16
+Testing InterpolationFilter::filterVer_N6[0][0] width=128 height=16
+Testing InterpolationFilter::filterVer_N6[0][1] width=128 height=16
+Testing InterpolationFilter::filterVer_N6[1][0] width=128 height=16
+Testing InterpolationFilter::filterVer_N6[1][1] width=128 height=16
+Testing InterpolationFilter::filterHor_N8[1][0] width=128 height=23
+Testing InterpolationFilter::filterHor_N8[1][1] width=128 height=16
+Testing InterpolationFilter::filterVer_N8[0][0] width=128 height=16
+Testing InterpolationFilter::filterVer_N8[0][1] width=128 height=16
+Testing InterpolationFilter::filterVer_N8[1][0] width=128 height=16
+Testing InterpolationFilter::filterVer_N8[1][1] width=128 height=16
+Testing InterpolationFilter::filterHor_N6[1][0] width=1 height=37
+Testing InterpolationFilter::filterHor_N6[1][1] width=1 height=32
+Testing InterpolationFilter::filterVer_N6[0][0] width=1 height=32
+Testing InterpolationFilter::filterVer_N6[0][1] width=1 height=32
+Testing InterpolationFilter::filterVer_N6[1][0] width=1 height=32
+Testing InterpolationFilter::filterVer_N6[1][1] width=1 height=32
+Testing InterpolationFilter::filterHor_N8[1][0] width=1 height=39
+Testing InterpolationFilter::filterHor_N8[1][1] width=1 height=32
+Testing InterpolationFilter::filterVer_N8[0][0] width=1 height=32
+Testing InterpolationFilter::filterVer_N8[0][1] width=1 height=32
+Testing InterpolationFilter::filterVer_N8[1][0] width=1 height=32
+Testing InterpolationFilter::filterVer_N8[1][1] width=1 height=32
+Testing InterpolationFilter::filterHor_N6[1][0] width=4 height=37
+Testing InterpolationFilter::filterHor_N6[1][1] width=4 height=32
+Testing InterpolationFilter::filterVer_N6[0][0] width=4 height=32
+Testing InterpolationFilter::filterVer_N6[0][1] width=4 height=32
+Testing InterpolationFilter::filterVer_N6[1][0] width=4 height=32
+Testing InterpolationFilter::filterVer_N6[1][1] width=4 height=32
+Testing InterpolationFilter::filterHor_N8[1][0] width=4 height=39
+Testing InterpolationFilter::filterHor_N8[1][1] width=4 height=32
+Testing InterpolationFilter::filterVer_N8[0][0] width=4 height=32
+Testing InterpolationFilter::filterVer_N8[0][1] width=4 height=32
+Testing InterpolationFilter::filterVer_N8[1][0] width=4 height=32
+Testing InterpolationFilter::filterVer_N8[1][1] width=4 height=32
+Testing InterpolationFilter::filterHor_N6[1][0] width=8 height=37
+Testing InterpolationFilter::filterHor_N6[1][1] width=8 height=32
+Testing InterpolationFilter::filterVer_N6[0][0] width=8 height=32
+Testing InterpolationFilter::filterVer_N6[0][1] width=8 height=32
+Testing InterpolationFilter::filterVer_N6[1][0] width=8 height=32
+Testing InterpolationFilter::filterVer_N6[1][1] width=8 height=32
+Testing InterpolationFilter::filterHor_N8[1][0] width=8 height=39
+Testing InterpolationFilter::filterHor_N8[1][1] width=8 height=32
+Testing InterpolationFilter::filterVer_N8[0][0] width=8 height=32
+Testing InterpolationFilter::filterVer_N8[0][1] width=8 height=32
+Testing InterpolationFilter::filterVer_N8[1][0] width=8 height=32
+Testing InterpolationFilter::filterVer_N8[1][1] width=8 height=32
+Testing InterpolationFilter::filterHor_N6[1][0] width=16 height=37
+Testing InterpolationFilter::filterHor_N6[1][1] width=16 height=32
+Testing InterpolationFilter::filterVer_N6[0][0] width=16 height=32
+Testing InterpolationFilter::filterVer_N6[0][1] width=16 height=32
+Testing InterpolationFilter::filterVer_N6[1][0] width=16 height=32
+Testing InterpolationFilter::filterVer_N6[1][1] width=16 height=32
+Testing InterpolationFilter::filterHor_N8[1][0] width=16 height=39
+Testing InterpolationFilter::filterHor_N8[1][1] width=16 height=32
+Testing InterpolationFilter::filterVer_N8[0][0] width=16 height=32
+Testing InterpolationFilter::filterVer_N8[0][1] width=16 height=32
+Testing InterpolationFilter::filterVer_N8[1][0] width=16 height=32
+Testing InterpolationFilter::filterVer_N8[1][1] width=16 height=32
+Testing InterpolationFilter::filterHor_N6[1][0] width=32 height=37
+Testing InterpolationFilter::filterHor_N6[1][1] width=32 height=32
+Testing InterpolationFilter::filterVer_N6[0][0] width=32 height=32
+Testing InterpolationFilter::filterVer_N6[0][1] width=32 height=32
+Testing InterpolationFilter::filterVer_N6[1][0] width=32 height=32
+Testing InterpolationFilter::filterVer_N6[1][1] width=32 height=32
+Testing InterpolationFilter::filterHor_N8[1][0] width=32 height=39
+Testing InterpolationFilter::filterHor_N8[1][1] width=32 height=32
+Testing InterpolationFilter::filterVer_N8[0][0] width=32 height=32
+Testing InterpolationFilter::filterVer_N8[0][1] width=32 height=32
+Testing InterpolationFilter::filterVer_N8[1][0] width=32 height=32
+Testing InterpolationFilter::filterVer_N8[1][1] width=32 height=32
+Testing InterpolationFilter::filterHor_N6[1][0] width=64 height=37
+Testing InterpolationFilter::filterHor_N6[1][1] width=64 height=32
+Testing InterpolationFilter::filterVer_N6[0][0] width=64 height=32
+Testing InterpolationFilter::filterVer_N6[0][1] width=64 height=32
+Testing InterpolationFilter::filterVer_N6[1][0] width=64 height=32
+Testing InterpolationFilter::filterVer_N6[1][1] width=64 height=32
+Testing InterpolationFilter::filterHor_N8[1][0] width=64 height=39
+Testing InterpolationFilter::filterHor_N8[1][1] width=64 height=32
+Testing InterpolationFilter::filterVer_N8[0][0] width=64 height=32
+Testing InterpolationFilter::filterVer_N8[0][1] width=64 height=32
+Testing InterpolationFilter::filterVer_N8[1][0] width=64 height=32
+Testing InterpolationFilter::filterVer_N8[1][1] width=64 height=32
+Testing InterpolationFilter::filterHor_N6[1][0] width=128 height=37
+Testing InterpolationFilter::filterHor_N6[1][1] width=128 height=32
+Testing InterpolationFilter::filterVer_N6[0][0] width=128 height=32
+Testing InterpolationFilter::filterVer_N6[0][1] width=128 height=32
+Testing InterpolationFilter::filterVer_N6[1][0] width=128 height=32
+Testing InterpolationFilter::filterVer_N6[1][1] width=128 height=32
+Testing InterpolationFilter::filterHor_N8[1][0] width=128 height=39
+Testing InterpolationFilter::filterHor_N8[1][1] width=128 height=32
+Testing InterpolationFilter::filterVer_N8[0][0] width=128 height=32
+Testing InterpolationFilter::filterVer_N8[0][1] width=128 height=32
+Testing InterpolationFilter::filterVer_N8[1][0] width=128 height=32
+Testing InterpolationFilter::filterVer_N8[1][1] width=128 height=32
+Testing InterpolationFilter::filterHor_N6[1][0] width=1 height=69
+Testing InterpolationFilter::filterHor_N6[1][1] width=1 height=64
+Testing InterpolationFilter::filterVer_N6[0][0] width=1 height=64
+Testing InterpolationFilter::filterVer_N6[0][1] width=1 height=64
+Testing InterpolationFilter::filterVer_N6[1][0] width=1 height=64
+Testing InterpolationFilter::filterVer_N6[1][1] width=1 height=64
+Testing InterpolationFilter::filterHor_N8[1][0] width=1 height=71
+Testing InterpolationFilter::filterHor_N8[1][1] width=1 height=64
+Testing InterpolationFilter::filterVer_N8[0][0] width=1 height=64
+Testing InterpolationFilter::filterVer_N8[0][1] width=1 height=64
+Testing InterpolationFilter::filterVer_N8[1][0] width=1 height=64
+Testing InterpolationFilter::filterVer_N8[1][1] width=1 height=64
+Testing InterpolationFilter::filterHor_N6[1][0] width=4 height=69
+Testing InterpolationFilter::filterHor_N6[1][1] width=4 height=64
+Testing InterpolationFilter::filterVer_N6[0][0] width=4 height=64
+Testing InterpolationFilter::filterVer_N6[0][1] width=4 height=64
+Testing InterpolationFilter::filterVer_N6[1][0] width=4 height=64
+Testing InterpolationFilter::filterVer_N6[1][1] width=4 height=64
+Testing InterpolationFilter::filterHor_N8[1][0] width=4 height=71
+Testing InterpolationFilter::filterHor_N8[1][1] width=4 height=64
+Testing InterpolationFilter::filterVer_N8[0][0] width=4 height=64
+Testing InterpolationFilter::filterVer_N8[0][1] width=4 height=64
+Testing InterpolationFilter::filterVer_N8[1][0] width=4 height=64
+Testing InterpolationFilter::filterVer_N8[1][1] width=4 height=64
+Testing InterpolationFilter::filterHor_N6[1][0] width=8 height=69
+Testing InterpolationFilter::filterHor_N6[1][1] width=8 height=64
+Testing InterpolationFilter::filterVer_N6[0][0] width=8 height=64
+Testing InterpolationFilter::filterVer_N6[0][1] width=8 height=64
+Testing InterpolationFilter::filterVer_N6[1][0] width=8 height=64
+Testing InterpolationFilter::filterVer_N6[1][1] width=8 height=64
+Testing InterpolationFilter::filterHor_N8[1][0] width=8 height=71
+Testing InterpolationFilter::filterHor_N8[1][1] width=8 height=64
+Testing InterpolationFilter::filterVer_N8[0][0] width=8 height=64
+Testing InterpolationFilter::filterVer_N8[0][1] width=8 height=64
+Testing InterpolationFilter::filterVer_N8[1][0] width=8 height=64
+Testing InterpolationFilter::filterVer_N8[1][1] width=8 height=64
+Testing InterpolationFilter::filterHor_N6[1][0] width=16 height=69
+Testing InterpolationFilter::filterHor_N6[1][1] width=16 height=64
+Testing InterpolationFilter::filterVer_N6[0][0] width=16 height=64
+Testing InterpolationFilter::filterVer_N6[0][1] width=16 height=64
+Testing InterpolationFilter::filterVer_N6[1][0] width=16 height=64
+Testing InterpolationFilter::filterVer_N6[1][1] width=16 height=64
+Testing InterpolationFilter::filterHor_N8[1][0] width=16 height=71
+Testing InterpolationFilter::filterHor_N8[1][1] width=16 height=64
+Testing InterpolationFilter::filterVer_N8[0][0] width=16 height=64
+Testing InterpolationFilter::filterVer_N8[0][1] width=16 height=64
+Testing InterpolationFilter::filterVer_N8[1][0] width=16 height=64
+Testing InterpolationFilter::filterVer_N8[1][1] width=16 height=64
+Testing InterpolationFilter::filterHor_N6[1][0] width=32 height=69
+Testing InterpolationFilter::filterHor_N6[1][1] width=32 height=64
+Testing InterpolationFilter::filterVer_N6[0][0] width=32 height=64
+Testing InterpolationFilter::filterVer_N6[0][1] width=32 height=64
+Testing InterpolationFilter::filterVer_N6[1][0] width=32 height=64
+Testing InterpolationFilter::filterVer_N6[1][1] width=32 height=64
+Testing InterpolationFilter::filterHor_N8[1][0] width=32 height=71
+Testing InterpolationFilter::filterHor_N8[1][1] width=32 height=64
+Testing InterpolationFilter::filterVer_N8[0][0] width=32 height=64
+Testing InterpolationFilter::filterVer_N8[0][1] width=32 height=64
+Testing InterpolationFilter::filterVer_N8[1][0] width=32 height=64
+Testing InterpolationFilter::filterVer_N8[1][1] width=32 height=64
+Testing InterpolationFilter::filterHor_N6[1][0] width=64 height=69
+Testing InterpolationFilter::filterHor_N6[1][1] width=64 height=64
+Testing InterpolationFilter::filterVer_N6[0][0] width=64 height=64
+Testing InterpolationFilter::filterVer_N6[0][1] width=64 height=64
+Testing InterpolationFilter::filterVer_N6[1][0] width=64 height=64
+Testing InterpolationFilter::filterVer_N6[1][1] width=64 height=64
+Testing InterpolationFilter::filterHor_N8[1][0] width=64 height=71
+Testing InterpolationFilter::filterHor_N8[1][1] width=64 height=64
+Testing InterpolationFilter::filterVer_N8[0][0] width=64 height=64
+Testing InterpolationFilter::filterVer_N8[0][1] width=64 height=64
+Testing InterpolationFilter::filterVer_N8[1][0] width=64 height=64
+Testing InterpolationFilter::filterVer_N8[1][1] width=64 height=64
+Testing InterpolationFilter::filterHor_N6[1][0] width=128 height=69
+Testing InterpolationFilter::filterHor_N6[1][1] width=128 height=64
+Testing InterpolationFilter::filterVer_N6[0][0] width=128 height=64
+Testing InterpolationFilter::filterVer_N6[0][1] width=128 height=64
+Testing InterpolationFilter::filterVer_N6[1][0] width=128 height=64
+Testing InterpolationFilter::filterVer_N6[1][1] width=128 height=64
+Testing InterpolationFilter::filterHor_N8[1][0] width=128 height=71
+Testing InterpolationFilter::filterHor_N8[1][1] width=128 height=64
+Testing InterpolationFilter::filterVer_N8[0][0] width=128 height=64
+Testing InterpolationFilter::filterVer_N8[0][1] width=128 height=64
+Testing InterpolationFilter::filterVer_N8[1][0] width=128 height=64
+Testing InterpolationFilter::filterVer_N8[1][1] width=128 height=64
+Testing InterpolationFilter::filterHor_N6[1][0] width=1 height=133
+Testing InterpolationFilter::filterHor_N6[1][1] width=1 height=128
+Testing InterpolationFilter::filterVer_N6[0][0] width=1 height=128
+Testing InterpolationFilter::filterVer_N6[0][1] width=1 height=128
+Testing InterpolationFilter::filterVer_N6[1][0] width=1 height=128
+Testing InterpolationFilter::filterVer_N6[1][1] width=1 height=128
+Testing InterpolationFilter::filterHor_N8[1][0] width=1 height=135
+Testing InterpolationFilter::filterHor_N8[1][1] width=1 height=128
+Testing InterpolationFilter::filterVer_N8[0][0] width=1 height=128
+Testing InterpolationFilter::filterVer_N8[0][1] width=1 height=128
+Testing InterpolationFilter::filterVer_N8[1][0] width=1 height=128
+Testing InterpolationFilter::filterVer_N8[1][1] width=1 height=128
+Testing InterpolationFilter::filterHor_N6[1][0] width=4 height=133
+Testing InterpolationFilter::filterHor_N6[1][1] width=4 height=128
+Testing InterpolationFilter::filterVer_N6[0][0] width=4 height=128
+Testing InterpolationFilter::filterVer_N6[0][1] width=4 height=128
+Testing InterpolationFilter::filterVer_N6[1][0] width=4 height=128
+Testing InterpolationFilter::filterVer_N6[1][1] width=4 height=128
+Testing InterpolationFilter::filterHor_N8[1][0] width=4 height=135
+Testing InterpolationFilter::filterHor_N8[1][1] width=4 height=128
+Testing InterpolationFilter::filterVer_N8[0][0] width=4 height=128
+Testing InterpolationFilter::filterVer_N8[0][1] width=4 height=128
+Testing InterpolationFilter::filterVer_N8[1][0] width=4 height=128
+Testing InterpolationFilter::filterVer_N8[1][1] width=4 height=128
+Testing InterpolationFilter::filterHor_N6[1][0] width=8 height=133
+Testing InterpolationFilter::filterHor_N6[1][1] width=8 height=128
+Testing InterpolationFilter::filterVer_N6[0][0] width=8 height=128
+Testing InterpolationFilter::filterVer_N6[0][1] width=8 height=128
+Testing InterpolationFilter::filterVer_N6[1][0] width=8 height=128
+Testing InterpolationFilter::filterVer_N6[1][1] width=8 height=128
+Testing InterpolationFilter::filterHor_N8[1][0] width=8 height=135
+Testing InterpolationFilter::filterHor_N8[1][1] width=8 height=128
+Testing InterpolationFilter::filterVer_N8[0][0] width=8 height=128
+Testing InterpolationFilter::filterVer_N8[0][1] width=8 height=128
+Testing InterpolationFilter::filterVer_N8[1][0] width=8 height=128
+Testing InterpolationFilter::filterVer_N8[1][1] width=8 height=128
+Testing InterpolationFilter::filterHor_N6[1][0] width=16 height=133
+Testing InterpolationFilter::filterHor_N6[1][1] width=16 height=128
+Testing InterpolationFilter::filterVer_N6[0][0] width=16 height=128
+Testing InterpolationFilter::filterVer_N6[0][1] width=16 height=128
+Testing InterpolationFilter::filterVer_N6[1][0] width=16 height=128
+Testing InterpolationFilter::filterVer_N6[1][1] width=16 height=128
+Testing InterpolationFilter::filterHor_N8[1][0] width=16 height=135
+Testing InterpolationFilter::filterHor_N8[1][1] width=16 height=128
+Testing InterpolationFilter::filterVer_N8[0][0] width=16 height=128
+Testing InterpolationFilter::filterVer_N8[0][1] width=16 height=128
+Testing InterpolationFilter::filterVer_N8[1][0] width=16 height=128
+Testing InterpolationFilter::filterVer_N8[1][1] width=16 height=128
+Testing InterpolationFilter::filterHor_N6[1][0] width=32 height=133
+Testing InterpolationFilter::filterHor_N6[1][1] width=32 height=128
+Testing InterpolationFilter::filterVer_N6[0][0] width=32 height=128
+Testing InterpolationFilter::filterVer_N6[0][1] width=32 height=128
+Testing InterpolationFilter::filterVer_N6[1][0] width=32 height=128
+Testing InterpolationFilter::filterVer_N6[1][1] width=32 height=128
+Testing InterpolationFilter::filterHor_N8[1][0] width=32 height=135
+Testing InterpolationFilter::filterHor_N8[1][1] width=32 height=128
+Testing InterpolationFilter::filterVer_N8[0][0] width=32 height=128
+Testing InterpolationFilter::filterVer_N8[0][1] width=32 height=128
+Testing InterpolationFilter::filterVer_N8[1][0] width=32 height=128
+Testing InterpolationFilter::filterVer_N8[1][1] width=32 height=128
+Testing InterpolationFilter::filterHor_N6[1][0] width=64 height=133
+Testing InterpolationFilter::filterHor_N6[1][1] width=64 height=128
+Testing InterpolationFilter::filterVer_N6[0][0] width=64 height=128
+Testing InterpolationFilter::filterVer_N6[0][1] width=64 height=128
+Testing InterpolationFilter::filterVer_N6[1][0] width=64 height=128
+Testing InterpolationFilter::filterVer_N6[1][1] width=64 height=128
+Testing InterpolationFilter::filterHor_N8[1][0] width=64 height=135
+Testing InterpolationFilter::filterHor_N8[1][1] width=64 height=128
+Testing InterpolationFilter::filterVer_N8[0][0] width=64 height=128
+Testing InterpolationFilter::filterVer_N8[0][1] width=64 height=128
+Testing InterpolationFilter::filterVer_N8[1][0] width=64 height=128
+Testing InterpolationFilter::filterVer_N8[1][1] width=64 height=128
+Testing InterpolationFilter::filterHor_N6[1][0] width=128 height=133
+Testing InterpolationFilter::filterHor_N6[1][1] width=128 height=128
+Testing InterpolationFilter::filterVer_N6[0][0] width=128 height=128
+Testing InterpolationFilter::filterVer_N6[0][1] width=128 height=128
+Testing InterpolationFilter::filterVer_N6[1][0] width=128 height=128
+Testing InterpolationFilter::filterVer_N6[1][1] width=128 height=128
+Testing InterpolationFilter::filterHor_N8[1][0] width=128 height=135
+Testing InterpolationFilter::filterHor_N8[1][1] width=128 height=128
+Testing InterpolationFilter::filterVer_N8[0][0] width=128 height=128
+Testing InterpolationFilter::filterVer_N8[0][1] width=128 height=128
+Testing InterpolationFilter::filterVer_N8[1][0] width=128 height=128
+Testing InterpolationFilter::filterVer_N8[1][1] width=128 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=1 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=1 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=1 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=1 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=1 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=1 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=2 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=2 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=2 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=2 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=2 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=2 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=4 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=4 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=4 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=4 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=4 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=4 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=8 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=8 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=8 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=8 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=8 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=8 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=12 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=12 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=12 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=12 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=12 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=12 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=16 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=16 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=16 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=16 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=16 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=16 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=20 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=20 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=20 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=20 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=20 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=20 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=24 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=24 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=24 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=24 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=24 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=24 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=32 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=32 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=32 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=32 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=32 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=32 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=64 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=64 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=64 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=64 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=64 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=64 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=128 height=4
+Testing InterpolationFilter::filterHor_N4[1][1] width=128 height=1
+Testing InterpolationFilter::filterVer_N4[0][0] width=128 height=1
+Testing InterpolationFilter::filterVer_N4[0][1] width=128 height=1
+Testing InterpolationFilter::filterVer_N4[1][0] width=128 height=1
+Testing InterpolationFilter::filterVer_N4[1][1] width=128 height=1
+Testing InterpolationFilter::filterHor_N4[1][0] width=1 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=1 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=1 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=1 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=1 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=1 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=2 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=2 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=2 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=2 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=2 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=2 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=4 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=4 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=4 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=4 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=4 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=4 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=8 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=8 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=8 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=8 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=8 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=8 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=12 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=12 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=12 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=12 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=12 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=12 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=16 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=16 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=16 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=16 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=16 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=16 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=20 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=20 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=20 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=20 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=20 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=20 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=24 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=24 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=24 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=24 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=24 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=24 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=32 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=32 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=32 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=32 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=32 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=32 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=64 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=64 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=64 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=64 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=64 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=64 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=128 height=5
+Testing InterpolationFilter::filterHor_N4[1][1] width=128 height=2
+Testing InterpolationFilter::filterVer_N4[0][0] width=128 height=2
+Testing InterpolationFilter::filterVer_N4[0][1] width=128 height=2
+Testing InterpolationFilter::filterVer_N4[1][0] width=128 height=2
+Testing InterpolationFilter::filterVer_N4[1][1] width=128 height=2
+Testing InterpolationFilter::filterHor_N4[1][0] width=1 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=1 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=1 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=1 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=1 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=1 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=2 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=2 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=2 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=2 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=2 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=2 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=4 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=4 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=4 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=4 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=4 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=4 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=8 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=8 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=8 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=8 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=8 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=8 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=12 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=12 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=12 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=12 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=12 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=12 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=16 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=16 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=16 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=16 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=16 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=16 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=20 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=20 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=20 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=20 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=20 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=20 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=24 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=24 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=24 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=24 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=24 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=24 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=32 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=32 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=32 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=32 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=32 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=32 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=64 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=64 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=64 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=64 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=64 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=64 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=128 height=7
+Testing InterpolationFilter::filterHor_N4[1][1] width=128 height=4
+Testing InterpolationFilter::filterVer_N4[0][0] width=128 height=4
+Testing InterpolationFilter::filterVer_N4[0][1] width=128 height=4
+Testing InterpolationFilter::filterVer_N4[1][0] width=128 height=4
+Testing InterpolationFilter::filterVer_N4[1][1] width=128 height=4
+Testing InterpolationFilter::filterHor_N4[1][0] width=1 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=1 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=1 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=1 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=1 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=1 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=2 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=2 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=2 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=2 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=2 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=2 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=4 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=4 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=4 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=4 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=4 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=4 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=8 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=8 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=8 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=8 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=8 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=8 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=12 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=12 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=12 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=12 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=12 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=12 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=16 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=16 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=16 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=16 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=16 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=16 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=20 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=20 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=20 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=20 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=20 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=20 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=24 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=24 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=24 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=24 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=24 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=24 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=32 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=32 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=32 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=32 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=32 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=32 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=64 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=64 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=64 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=64 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=64 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=64 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=128 height=11
+Testing InterpolationFilter::filterHor_N4[1][1] width=128 height=8
+Testing InterpolationFilter::filterVer_N4[0][0] width=128 height=8
+Testing InterpolationFilter::filterVer_N4[0][1] width=128 height=8
+Testing InterpolationFilter::filterVer_N4[1][0] width=128 height=8
+Testing InterpolationFilter::filterVer_N4[1][1] width=128 height=8
+Testing InterpolationFilter::filterHor_N4[1][0] width=1 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=1 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=1 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=1 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=1 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=1 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=2 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=2 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=2 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=2 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=2 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=2 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=4 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=4 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=4 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=4 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=4 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=4 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=8 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=8 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=8 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=8 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=8 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=8 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=12 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=12 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=12 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=12 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=12 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=12 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=16 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=16 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=16 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=16 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=16 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=16 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=20 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=20 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=20 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=20 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=20 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=20 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=24 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=24 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=24 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=24 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=24 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=24 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=32 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=32 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=32 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=32 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=32 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=32 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=64 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=64 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=64 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=64 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=64 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=64 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=128 height=19
+Testing InterpolationFilter::filterHor_N4[1][1] width=128 height=16
+Testing InterpolationFilter::filterVer_N4[0][0] width=128 height=16
+Testing InterpolationFilter::filterVer_N4[0][1] width=128 height=16
+Testing InterpolationFilter::filterVer_N4[1][0] width=128 height=16
+Testing InterpolationFilter::filterVer_N4[1][1] width=128 height=16
+Testing InterpolationFilter::filterHor_N4[1][0] width=1 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=1 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=1 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=1 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=1 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=1 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=2 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=2 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=2 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=2 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=2 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=2 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=4 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=4 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=4 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=4 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=4 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=4 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=8 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=8 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=8 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=8 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=8 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=8 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=12 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=12 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=12 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=12 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=12 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=12 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=16 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=16 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=16 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=16 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=16 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=16 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=20 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=20 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=20 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=20 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=20 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=20 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=24 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=24 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=24 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=24 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=24 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=24 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=32 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=32 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=32 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=32 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=32 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=32 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=64 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=64 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=64 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=64 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=64 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=64 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=128 height=35
+Testing InterpolationFilter::filterHor_N4[1][1] width=128 height=32
+Testing InterpolationFilter::filterVer_N4[0][0] width=128 height=32
+Testing InterpolationFilter::filterVer_N4[0][1] width=128 height=32
+Testing InterpolationFilter::filterVer_N4[1][0] width=128 height=32
+Testing InterpolationFilter::filterVer_N4[1][1] width=128 height=32
+Testing InterpolationFilter::filterHor_N4[1][0] width=1 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=1 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=1 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=1 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=1 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=1 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=2 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=2 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=2 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=2 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=2 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=2 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=4 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=4 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=4 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=4 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=4 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=4 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=8 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=8 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=8 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=8 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=8 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=8 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=12 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=12 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=12 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=12 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=12 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=12 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=16 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=16 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=16 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=16 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=16 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=16 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=20 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=20 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=20 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=20 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=20 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=20 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=24 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=24 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=24 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=24 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=24 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=24 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=32 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=32 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=32 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=32 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=32 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=32 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=64 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=64 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=64 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=64 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=64 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=64 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=128 height=67
+Testing InterpolationFilter::filterHor_N4[1][1] width=128 height=64
+Testing InterpolationFilter::filterVer_N4[0][0] width=128 height=64
+Testing InterpolationFilter::filterVer_N4[0][1] width=128 height=64
+Testing InterpolationFilter::filterVer_N4[1][0] width=128 height=64
+Testing InterpolationFilter::filterVer_N4[1][1] width=128 height=64
+Testing InterpolationFilter::filterHor_N4[1][0] width=1 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=1 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=1 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=1 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=1 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=1 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=2 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=2 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=2 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=2 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=2 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=2 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=4 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=4 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=4 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=4 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=4 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=4 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=8 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=8 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=8 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=8 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=8 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=8 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=12 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=12 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=12 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=12 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=12 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=12 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=16 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=16 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=16 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=16 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=16 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=16 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=20 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=20 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=20 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=20 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=20 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=20 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=24 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=24 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=24 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=24 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=24 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=24 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=32 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=32 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=32 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=32 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=32 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=32 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=64 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=64 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=64 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=64 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=64 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=64 height=128
+Testing InterpolationFilter::filterHor_N4[1][0] width=128 height=131
+Testing InterpolationFilter::filterHor_N4[1][1] width=128 height=128
+Testing InterpolationFilter::filterVer_N4[0][0] width=128 height=128
+Testing InterpolationFilter::filterVer_N4[0][1] width=128 height=128
+Testing InterpolationFilter::filterVer_N4[1][0] width=128 height=128
+Testing InterpolationFilter::filterVer_N4[1][1] width=128 height=128
+Testing InterpolationFilter::filterHor_N2[1][0] width=12 height=12
+Testing InterpolationFilter::filterVer_N2[1][0] width=12 height=12
+Testing InterpolationFilter::filterHor_N2[1][0] width=20 height=12
+Testing InterpolationFilter::filterVer_N2[1][0] width=20 height=12
+Testing InterpolationFilter::filterHor_N2[1][0] width=36 height=12
+Testing InterpolationFilter::filterVer_N2[1][0] width=36 height=12
+Testing InterpolationFilter::filterHor_N2[1][0] width=68 height=12
+Testing InterpolationFilter::filterVer_N2[1][0] width=68 height=12
+Testing InterpolationFilter::filterHor_N2[1][0] width=132 height=12
+Testing InterpolationFilter::filterVer_N2[1][0] width=132 height=12
+Testing InterpolationFilter::filterHor_N2[1][0] width=12 height=20
+Testing InterpolationFilter::filterVer_N2[1][0] width=12 height=20
+Testing InterpolationFilter::filterHor_N2[1][0] width=20 height=20
+Testing InterpolationFilter::filterVer_N2[1][0] width=20 height=20
+Testing InterpolationFilter::filterHor_N2[1][0] width=36 height=20
+Testing InterpolationFilter::filterVer_N2[1][0] width=36 height=20
+Testing InterpolationFilter::filterHor_N2[1][0] width=68 height=20
+Testing InterpolationFilter::filterVer_N2[1][0] width=68 height=20
+Testing InterpolationFilter::filterHor_N2[1][0] width=132 height=20
+Testing InterpolationFilter::filterVer_N2[1][0] width=132 height=20
+Testing InterpolationFilter::filterHor_N2[1][0] width=12 height=36
+Testing InterpolationFilter::filterVer_N2[1][0] width=12 height=36
+Testing InterpolationFilter::filterHor_N2[1][0] width=20 height=36
+Testing InterpolationFilter::filterVer_N2[1][0] width=20 height=36
+Testing InterpolationFilter::filterHor_N2[1][0] width=36 height=36
+Testing InterpolationFilter::filterVer_N2[1][0] width=36 height=36
+Testing InterpolationFilter::filterHor_N2[1][0] width=68 height=36
+Testing InterpolationFilter::filterVer_N2[1][0] width=68 height=36
+Testing InterpolationFilter::filterHor_N2[1][0] width=132 height=36
+Testing InterpolationFilter::filterVer_N2[1][0] width=132 height=36
+Testing InterpolationFilter::filterHor_N2[1][0] width=12 height=68
+Testing InterpolationFilter::filterVer_N2[1][0] width=12 height=68
+Testing InterpolationFilter::filterHor_N2[1][0] width=20 height=68
+Testing InterpolationFilter::filterVer_N2[1][0] width=20 height=68
+Testing InterpolationFilter::filterHor_N2[1][0] width=36 height=68
+Testing InterpolationFilter::filterVer_N2[1][0] width=36 height=68
+Testing InterpolationFilter::filterHor_N2[1][0] width=68 height=68
+Testing InterpolationFilter::filterVer_N2[1][0] width=68 height=68
+Testing InterpolationFilter::filterHor_N2[1][0] width=132 height=68
+Testing InterpolationFilter::filterVer_N2[1][0] width=132 height=68
+Testing InterpolationFilter::filterHor_N2[1][0] width=12 height=132
+Testing InterpolationFilter::filterVer_N2[1][0] width=12 height=132
+Testing InterpolationFilter::filterHor_N2[1][0] width=20 height=132
+Testing InterpolationFilter::filterVer_N2[1][0] width=20 height=132
+Testing InterpolationFilter::filterHor_N2[1][0] width=36 height=132
+Testing InterpolationFilter::filterVer_N2[1][0] width=36 height=132
+Testing InterpolationFilter::filterHor_N2[1][0] width=68 height=132
+Testing InterpolationFilter::filterVer_N2[1][0] width=68 height=132
+Testing InterpolationFilter::filterHor_N2[1][0] width=132 height=132
+Testing InterpolationFilter::filterVer_N2[1][0] width=132 height=132
+Testing InterpolationFilter::filter4x4[0][0]
+Testing InterpolationFilter::filter4x4[0][1]
+Testing InterpolationFilter::filter8x4[0][0]
+Testing InterpolationFilter::filter8x4[0][1]
+Testing InterpolationFilter::filter16x4[0][0]
+Testing InterpolationFilter::filter16x4[0][1]
+Testing InterpolationFilter::filter8x8[0][0]
+Testing InterpolationFilter::filter8x8[0][1]
+Testing InterpolationFilter::filter16x8[0][0]
+Testing InterpolationFilter::filter16x8[0][1]
+Testing InterpolationFilter::filter8x16[0][0]
+Testing InterpolationFilter::filter8x16[0][1]
+Testing InterpolationFilter::filter16x16[0][0]
+Testing InterpolationFilter::filter16x16[0][1]
+Testing InterpolationFilter::filter8x32[0][0]
+Testing InterpolationFilter::filter8x32[0][1]
+Testing InterpolationFilter::filter16x32[0][0]
+Testing InterpolationFilter::filter16x32[0][1]
+Testing InterpolationFilter::filter8x64[0][0]
+Testing InterpolationFilter::filter8x64[0][1]
+Testing InterpolationFilter::filter16x64[0][0]
+Testing InterpolationFilter::filter16x64[0][1]
+Testing InterpolationFilter::filter8x128[0][0]
+Testing InterpolationFilter::filter8x128[0][1]
+Testing InterpolationFilter::filter16x128[0][0]
+Testing InterpolationFilter::filter16x128[0][1]
+Testing InterpolationFilter::filter4x4[1][0]
+Testing InterpolationFilter::filter4x4[1][1]
+Testing InterpolationFilter::filter8x2[1][0]
+Testing InterpolationFilter::filter8x2[1][1]
+Testing InterpolationFilter::filter16x2[1][0]
+Testing InterpolationFilter::filter16x2[1][1]
+Testing InterpolationFilter::filter8x4[1][0]
+Testing InterpolationFilter::filter8x4[1][1]
+Testing InterpolationFilter::filter16x4[1][0]
+Testing InterpolationFilter::filter16x4[1][1]
+Testing InterpolationFilter::filter8x8[1][0]
+Testing InterpolationFilter::filter8x8[1][1]
+Testing InterpolationFilter::filter16x8[1][0]
+Testing InterpolationFilter::filter16x8[1][1]
+Testing InterpolationFilter::filter8x16[1][0]
+Testing InterpolationFilter::filter8x16[1][1]
+Testing InterpolationFilter::filter16x16[1][0]
+Testing InterpolationFilter::filter16x16[1][1]
+Testing InterpolationFilter::filter8x32[1][0]
+Testing InterpolationFilter::filter8x32[1][1]
+Testing InterpolationFilter::filter16x32[1][0]
+Testing InterpolationFilter::filter16x32[1][1]
+Testing InterpolationFilter::filterCopy[0][0] biMCForDMVR=false bitDepth=8
+Testing InterpolationFilter::filterCopy[0][0] biMCForDMVR=false bitDepth=10
+Testing InterpolationFilter::filterCopy[0][1] biMCForDMVR=false bitDepth=8
+Testing InterpolationFilter::filterCopy[0][1] biMCForDMVR=false bitDepth=10
+Testing InterpolationFilter::filterCopy[1][0] biMCForDMVR=false bitDepth=8
+Testing InterpolationFilter::filterCopy[1][0] biMCForDMVR=false bitDepth=10
+Testing InterpolationFilter::filterCopy[1][1] biMCForDMVR=false bitDepth=8
+Testing InterpolationFilter::filterCopy[1][1] biMCForDMVR=false bitDepth=10
+Testing InterpolationFilter::filterCopy[1][0] biMCForDMVR=true bitDepth=8
+Testing InterpolationFilter::filterCopy[1][0] biMCForDMVR=true bitDepth=10
+Testing InterpolationFilter::filterN2_2D 8x8
+Testing InterpolationFilter::filterN2_2D 16x8
+Testing InterpolationFilter::filterN2_2D 32x8
+Testing InterpolationFilter::filterN2_2D 64x8
+Testing InterpolationFilter::filterN2_2D 128x8
+Testing InterpolationFilter::filterN2_2D 8x16
+Testing InterpolationFilter::filterN2_2D 16x16
+Testing InterpolationFilter::filterN2_2D 32x16
+Testing InterpolationFilter::filterN2_2D 64x16
+Testing InterpolationFilter::filterN2_2D 128x16
+Testing InterpolationFilter::filterN2_2D 8x32
+Testing InterpolationFilter::filterN2_2D 16x32
+Testing InterpolationFilter::filterN2_2D 32x32
+Testing InterpolationFilter::filterN2_2D 64x32
+Testing InterpolationFilter::filterN2_2D 128x32
+Testing InterpolationFilter::filterN2_2D 8x64
+Testing InterpolationFilter::filterN2_2D 16x64
+Testing InterpolationFilter::filterN2_2D 32x64
+Testing InterpolationFilter::filterN2_2D 64x64
+Testing InterpolationFilter::filterN2_2D 128x64
+Testing InterpolationFilter::filterN2_2D 8x128
+Testing InterpolationFilter::filterN2_2D 16x128
+Testing InterpolationFilter::filterN2_2D 32x128
+Testing InterpolationFilter::filterN2_2D 64x128
+Testing InterpolationFilter::filterN2_2D 128x128
+Running test suite: InterPrediction
+Testing InterPrediction::BiOptFlow w=8 h=16
+Testing InterPrediction::BiOptFlow w=16 h=8
+Testing InterPrediction::BiOptFlow w=16 h=16
+Testing InterPred::gradFilter w=10 h=18 padding=1
+Testing InterPred::gradFilter w=18 h=10 padding=1
+Testing InterPred::gradFilter w=18 h=18 padding=1
+Testing InterPred::gradFilter w=4 h=4 padding=0
+Testing InterPrediction::xPrefetchPad w=7 h=7 padSize=1
+Testing InterPrediction::xPrefetchPad w=7 h=11 padSize=1
+Testing InterPrediction::xPrefetchPad w=11 h=7 padSize=1
+Testing InterPrediction::xPrefetchPad w=11 h=11 padSize=1
+Testing InterPrediction::xPrefetchPad w=15 h=15 padSize=2
+Testing InterPrediction::xPrefetchPad w=15 h=23 padSize=2
+Testing InterPrediction::xPrefetchPad w=23 h=15 padSize=2
+Testing InterPrediction::xPrefetchPad w=23 h=23 padSize=2
+Running test suite: LoopFilter
+Testing LoopFilter::pelFilterLumaWeakHor bd=8
+Testing LoopFilter::pelFilterLumaStrongHor bd=8
+Testing LoopFilter::pelFilterLumaWeakVer bd=8
+Testing LoopFilter::pelFilterLumaStrongVer bd=8
+Testing LoopFilter::pelFilterLumaWeakHor bd=10
+Testing LoopFilter::pelFilterLumaStrongHor bd=10
+Testing LoopFilter::pelFilterLumaWeakVer bd=10
+Testing LoopFilter::pelFilterLumaStrongVer bd=10
+Running test suite: PelBufferOps
+Testing PelBufferOps::addAvg(strided) w=4 h=4
+Testing PelBufferOps::addAvg(strided) w=8 h=4
+Testing PelBufferOps::addAvg(strided) w=12 h=4
+Testing PelBufferOps::addAvg(strided) w=16 h=4
+Testing PelBufferOps::addAvg(strided) w=20 h=4
+Testing PelBufferOps::addAvg(strided) w=24 h=4
+Testing PelBufferOps::addAvg(strided) w=32 h=4
+Testing PelBufferOps::addAvg(strided) w=40 h=4
+Testing PelBufferOps::addAvg(strided) w=48 h=4
+Testing PelBufferOps::addAvg(strided) w=64 h=4
+Testing PelBufferOps::addAvg(strided) w=4 h=8
+Testing PelBufferOps::addAvg(strided) w=8 h=8
+Testing PelBufferOps::addAvg(strided) w=12 h=8
+Testing PelBufferOps::addAvg(strided) w=16 h=8
+Testing PelBufferOps::addAvg(strided) w=20 h=8
+Testing PelBufferOps::addAvg(strided) w=24 h=8
+Testing PelBufferOps::addAvg(strided) w=32 h=8
+Testing PelBufferOps::addAvg(strided) w=40 h=8
+Testing PelBufferOps::addAvg(strided) w=48 h=8
+Testing PelBufferOps::addAvg(strided) w=64 h=8
+Testing PelBufferOps::addAvg(strided) w=4 h=16
+Testing PelBufferOps::addAvg(strided) w=8 h=16
+Testing PelBufferOps::addAvg(strided) w=12 h=16
+Testing PelBufferOps::addAvg(strided) w=16 h=16
+Testing PelBufferOps::addAvg(strided) w=20 h=16
+Testing PelBufferOps::addAvg(strided) w=24 h=16
+Testing PelBufferOps::addAvg(strided) w=32 h=16
+Testing PelBufferOps::addAvg(strided) w=40 h=16
+Testing PelBufferOps::addAvg(strided) w=48 h=16
+Testing PelBufferOps::addAvg(strided) w=64 h=16
+Testing PelBufferOps::addAvg(strided) w=4 h=24
+Testing PelBufferOps::addAvg(strided) w=8 h=24
+Testing PelBufferOps::addAvg(strided) w=12 h=24
+Testing PelBufferOps::addAvg(strided) w=16 h=24
+Testing PelBufferOps::addAvg(strided) w=20 h=24
+Testing PelBufferOps::addAvg(strided) w=24 h=24
+Testing PelBufferOps::addAvg(strided) w=32 h=24
+Testing PelBufferOps::addAvg(strided) w=40 h=24
+Testing PelBufferOps::addAvg(strided) w=48 h=24
+Testing PelBufferOps::addAvg(strided) w=64 h=24
+Testing PelBufferOps::addAvg(strided) w=4 h=32
+Testing PelBufferOps::addAvg(strided) w=8 h=32
+Testing PelBufferOps::addAvg(strided) w=12 h=32
+Testing PelBufferOps::addAvg(strided) w=16 h=32
+Testing PelBufferOps::addAvg(strided) w=20 h=32
+Testing PelBufferOps::addAvg(strided) w=24 h=32
+Testing PelBufferOps::addAvg(strided) w=32 h=32
+Testing PelBufferOps::addAvg(strided) w=40 h=32
+Testing PelBufferOps::addAvg(strided) w=48 h=32
+Testing PelBufferOps::addAvg(strided) w=64 h=32
+Testing PelBufferOps::addAvg(strided) w=4 h=64
+Testing PelBufferOps::addAvg(strided) w=8 h=64
+Testing PelBufferOps::addAvg(strided) w=12 h=64
+Testing PelBufferOps::addAvg(strided) w=16 h=64
+Testing PelBufferOps::addAvg(strided) w=20 h=64
+Testing PelBufferOps::addAvg(strided) w=24 h=64
+Testing PelBufferOps::addAvg(strided) w=32 h=64
+Testing PelBufferOps::addAvg(strided) w=40 h=64
+Testing PelBufferOps::addAvg(strided) w=48 h=64
+Testing PelBufferOps::addAvg(strided) w=64 h=64
+Testing PelBufferOps::reco bd=8 w=4 h=1
+Testing PelBufferOps::reco bd=8 w=8 h=1
+Testing PelBufferOps::reco bd=8 w=16 h=1
+Testing PelBufferOps::reco bd=8 w=32 h=1
+Testing PelBufferOps::reco bd=8 w=64 h=1
+Testing PelBufferOps::reco bd=8 w=4 h=2
+Testing PelBufferOps::reco bd=8 w=8 h=2
+Testing PelBufferOps::reco bd=8 w=16 h=2
+Testing PelBufferOps::reco bd=8 w=32 h=2
+Testing PelBufferOps::reco bd=8 w=64 h=2
+Testing PelBufferOps::reco bd=8 w=4 h=4
+Testing PelBufferOps::reco bd=8 w=8 h=4
+Testing PelBufferOps::reco bd=8 w=16 h=4
+Testing PelBufferOps::reco bd=8 w=32 h=4
+Testing PelBufferOps::reco bd=8 w=64 h=4
+Testing PelBufferOps::reco bd=8 w=4 h=8
+Testing PelBufferOps::reco bd=8 w=8 h=8
+Testing PelBufferOps::reco bd=8 w=16 h=8
+Testing PelBufferOps::reco bd=8 w=32 h=8
+Testing PelBufferOps::reco bd=8 w=64 h=8
+Testing PelBufferOps::reco bd=8 w=4 h=16
+Testing PelBufferOps::reco bd=8 w=8 h=16
+Testing PelBufferOps::reco bd=8 w=16 h=16
+Testing PelBufferOps::reco bd=8 w=32 h=16
+Testing PelBufferOps::reco bd=8 w=64 h=16
+Testing PelBufferOps::reco bd=8 w=4 h=32
+Testing PelBufferOps::reco bd=8 w=8 h=32
+Testing PelBufferOps::reco bd=8 w=16 h=32
+Testing PelBufferOps::reco bd=8 w=32 h=32
+Testing PelBufferOps::reco bd=8 w=64 h=32
+Testing PelBufferOps::reco bd=8 w=4 h=64
+Testing PelBufferOps::reco bd=8 w=8 h=64
+Testing PelBufferOps::reco bd=8 w=16 h=64
+Testing PelBufferOps::reco bd=8 w=32 h=64
+Testing PelBufferOps::reco bd=8 w=64 h=64
+Testing PelBufferOps::reco bd=10 w=4 h=1
+Testing PelBufferOps::reco bd=10 w=8 h=1
+Testing PelBufferOps::reco bd=10 w=16 h=1
+Testing PelBufferOps::reco bd=10 w=32 h=1
+Testing PelBufferOps::reco bd=10 w=64 h=1
+Testing PelBufferOps::reco bd=10 w=4 h=2
+Testing PelBufferOps::reco bd=10 w=8 h=2
+Testing PelBufferOps::reco bd=10 w=16 h=2
+Testing PelBufferOps::reco bd=10 w=32 h=2
+Testing PelBufferOps::reco bd=10 w=64 h=2
+Testing PelBufferOps::reco bd=10 w=4 h=4
+Testing PelBufferOps::reco bd=10 w=8 h=4
+Testing PelBufferOps::reco bd=10 w=16 h=4
+Testing PelBufferOps::reco bd=10 w=32 h=4
+Testing PelBufferOps::reco bd=10 w=64 h=4
+Testing PelBufferOps::reco bd=10 w=4 h=8
+Testing PelBufferOps::reco bd=10 w=8 h=8
+Testing PelBufferOps::reco bd=10 w=16 h=8
+Testing PelBufferOps::reco bd=10 w=32 h=8
+Testing PelBufferOps::reco bd=10 w=64 h=8
+Testing PelBufferOps::reco bd=10 w=4 h=16
+Testing PelBufferOps::reco bd=10 w=8 h=16
+Testing PelBufferOps::reco bd=10 w=16 h=16
+Testing PelBufferOps::reco bd=10 w=32 h=16
+Testing PelBufferOps::reco bd=10 w=64 h=16
+Testing PelBufferOps::reco bd=10 w=4 h=32
+Testing PelBufferOps::reco bd=10 w=8 h=32
+Testing PelBufferOps::reco bd=10 w=16 h=32
+Testing PelBufferOps::reco bd=10 w=32 h=32
+Testing PelBufferOps::reco bd=10 w=64 h=32
+Testing PelBufferOps::reco bd=10 w=4 h=64
+Testing PelBufferOps::reco bd=10 w=8 h=64
+Testing PelBufferOps::reco bd=10 w=16 h=64
+Testing PelBufferOps::reco bd=10 w=32 h=64
+Testing PelBufferOps::reco bd=10 w=64 h=64
+Testing rspFwdCore w=4 h=4 bd=8
+Testing rspFwdCore w=4 h=4 bd=10
+Testing rspFwdCore w=8 h=4 bd=8
+Testing rspFwdCore w=8 h=4 bd=10
+Testing rspFwdCore w=16 h=4 bd=8
+Testing rspFwdCore w=16 h=4 bd=10
+Testing rspFwdCore w=32 h=4 bd=8
+Testing rspFwdCore w=32 h=4 bd=10
+Testing rspFwdCore w=64 h=4 bd=8
+Testing rspFwdCore w=64 h=4 bd=10
+Testing rspFwdCore w=128 h=4 bd=8
+Testing rspFwdCore w=128 h=4 bd=10
+Testing rspFwdCore w=4 h=8 bd=8
+Testing rspFwdCore w=4 h=8 bd=10
+Testing rspFwdCore w=8 h=8 bd=8
+Testing rspFwdCore w=8 h=8 bd=10
+Testing rspFwdCore w=16 h=8 bd=8
+Testing rspFwdCore w=16 h=8 bd=10
+Testing rspFwdCore w=32 h=8 bd=8
+Testing rspFwdCore w=32 h=8 bd=10
+Testing rspFwdCore w=64 h=8 bd=8
+Testing rspFwdCore w=64 h=8 bd=10
+Testing rspFwdCore w=128 h=8 bd=8
+Testing rspFwdCore w=128 h=8 bd=10
+Testing rspFwdCore w=4 h=16 bd=8
+Testing rspFwdCore w=4 h=16 bd=10
+Testing rspFwdCore w=8 h=16 bd=8
+Testing rspFwdCore w=8 h=16 bd=10
+Testing rspFwdCore w=16 h=16 bd=8
+Testing rspFwdCore w=16 h=16 bd=10
+Testing rspFwdCore w=32 h=16 bd=8
+Testing rspFwdCore w=32 h=16 bd=10
+Testing rspFwdCore w=64 h=16 bd=8
+Testing rspFwdCore w=64 h=16 bd=10
+Testing rspFwdCore w=128 h=16 bd=8
+Testing rspFwdCore w=128 h=16 bd=10
+Testing rspFwdCore w=4 h=32 bd=8
+Testing rspFwdCore w=4 h=32 bd=10
+Testing rspFwdCore w=8 h=32 bd=8
+Testing rspFwdCore w=8 h=32 bd=10
+Testing rspFwdCore w=16 h=32 bd=8
+Testing rspFwdCore w=16 h=32 bd=10
+Testing rspFwdCore w=32 h=32 bd=8
+Testing rspFwdCore w=32 h=32 bd=10
+Testing rspFwdCore w=64 h=32 bd=8
+Testing rspFwdCore w=64 h=32 bd=10
+Testing rspFwdCore w=128 h=32 bd=8
+Testing rspFwdCore w=128 h=32 bd=10
+Testing rspFwdCore w=4 h=64 bd=8
+Testing rspFwdCore w=4 h=64 bd=10
+Testing rspFwdCore w=8 h=64 bd=8
+Testing rspFwdCore w=8 h=64 bd=10
+Testing rspFwdCore w=16 h=64 bd=8
+Testing rspFwdCore w=16 h=64 bd=10
+Testing rspFwdCore w=32 h=64 bd=8
+Testing rspFwdCore w=32 h=64 bd=10
+Testing rspFwdCore w=64 h=64 bd=8
+Testing rspFwdCore w=64 h=64 bd=10
+Testing rspFwdCore w=128 h=64 bd=8
+Testing rspFwdCore w=128 h=64 bd=10
+Testing rspFwdCore w=4 h=128 bd=8
+Testing rspFwdCore w=4 h=128 bd=10
+Testing rspFwdCore w=8 h=128 bd=8
+Testing rspFwdCore w=8 h=128 bd=10
+Testing rspFwdCore w=16 h=128 bd=8
+Testing rspFwdCore w=16 h=128 bd=10
+Testing rspFwdCore w=32 h=128 bd=8
+Testing rspFwdCore w=32 h=128 bd=10
+Testing rspFwdCore w=64 h=128 bd=8
+Testing rspFwdCore w=64 h=128 bd=10
+Testing rspFwdCore w=128 h=128 bd=8
+Testing rspFwdCore w=128 h=128 bd=10
+Testing PelBufferOps::applyLut=8 h=8
+Testing PelBufferOps::applyLut=8 h=16
+Testing PelBufferOps::applyLut=8 h=32
+Testing PelBufferOps::applyLut=8 h=64
+Testing PelBufferOps::applyLut=8 h=80
+Testing PelBufferOps::applyLut=8 h=96
+Testing PelBufferOps::applyLut=8 h=112
+Testing PelBufferOps::applyLut=8 h=128
+Testing PelBufferOps::applyLut=16 h=8
+Testing PelBufferOps::applyLut=16 h=16
+Testing PelBufferOps::applyLut=16 h=32
+Testing PelBufferOps::applyLut=16 h=64
+Testing PelBufferOps::applyLut=16 h=80
+Testing PelBufferOps::applyLut=16 h=96
+Testing PelBufferOps::applyLut=16 h=112
+Testing PelBufferOps::applyLut=16 h=128
+Testing PelBufferOps::applyLut=32 h=8
+Testing PelBufferOps::applyLut=32 h=16
+Testing PelBufferOps::applyLut=32 h=32
+Testing PelBufferOps::applyLut=32 h=64
+Testing PelBufferOps::applyLut=32 h=80
+Testing PelBufferOps::applyLut=32 h=96
+Testing PelBufferOps::applyLut=32 h=112
+Testing PelBufferOps::applyLut=32 h=128
+Testing PelBufferOps::applyLut=64 h=8
+Testing PelBufferOps::applyLut=64 h=16
+Testing PelBufferOps::applyLut=64 h=32
+Testing PelBufferOps::applyLut=64 h=64
+Testing PelBufferOps::applyLut=64 h=80
+Testing PelBufferOps::applyLut=64 h=96
+Testing PelBufferOps::applyLut=64 h=112
+Testing PelBufferOps::applyLut=64 h=128
+Testing PelBufferOps::applyLut=128 h=8
+Testing PelBufferOps::applyLut=128 h=16
+Testing PelBufferOps::applyLut=128 h=32
+Testing PelBufferOps::applyLut=128 h=64
+Testing PelBufferOps::applyLut=128 h=80
+Testing PelBufferOps::applyLut=128 h=96
+Testing PelBufferOps::applyLut=128 h=112
+Testing PelBufferOps::applyLut=128 h=128
+Running test suite: Picture
+Testing Picture::paddPicBorderBottom
+Testing Picture::paddPicBorderTop
+Testing Picture::paddPicBorderLeftRight
+Running test suite: RdCost
+Testing RdCost::xGetSAD8 w=8 h=8
+Testing RdCost::xGetSAD8X5 w=8 h=8 isCalCentrePos=true
+Testing RdCost::xGetSAD8X5 w=8 h=8 isCalCentrePos=false
+Testing RdCost::xGetSAD16 w=16 h=8
+Testing RdCost::xGetSAD16X5 w=16 h=8 isCalCentrePos=true
+Testing RdCost::xGetSAD16X5 w=16 h=8 isCalCentrePos=false
+Testing RdCost::xGetSAD8 w=8 h=16
+Testing RdCost::xGetSAD8X5 w=8 h=16 isCalCentrePos=true
+Testing RdCost::xGetSAD8X5 w=8 h=16 isCalCentrePos=false
+Testing RdCost::xGetSAD16 w=16 h=16
+Testing RdCost::xGetSAD16X5 w=16 h=16 isCalCentrePos=true
+Testing RdCost::xGetSAD16X5 w=16 h=16 isCalCentrePos=false
+Running test suite: SAO
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=8 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=16 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=24 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=32 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=40 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=44 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=64 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=72 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=128 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=8 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=16 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=24 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=32 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=40 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=44 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=64 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=72 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=128 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=8 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=16 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=24 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=32 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=40 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=44 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=64 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=72 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=128 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=8 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=16 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=24 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=32 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=40 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=44 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=64 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=72 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=128 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=8 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=16 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=24 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=32 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=40 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=44 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=64 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=72 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=128 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=8 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=16 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=24 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=32 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=40 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=44 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=64 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=72 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_0 w=128 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=8 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=16 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=24 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=32 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=40 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=44 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=64 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=72 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=128 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=8 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=16 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=24 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=32 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=40 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=44 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=64 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=72 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=128 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=8 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=16 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=24 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=32 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=40 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=44 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=64 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=72 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=128 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=8 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=16 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=24 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=32 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=40 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=44 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=64 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=72 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=128 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=8 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=16 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=24 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=32 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=40 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=44 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=64 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=72 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=128 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=8 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=16 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=24 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=32 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=40 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=44 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=64 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=72 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_90 w=128 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=8 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=16 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=24 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=32 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=40 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=44 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=64 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=72 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=128 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=8 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=16 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=24 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=32 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=40 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=44 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=64 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=72 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=128 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=8 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=16 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=24 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=32 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=40 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=44 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=64 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=72 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=128 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=8 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=16 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=24 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=32 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=40 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=44 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=64 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=72 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=128 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=8 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=16 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=24 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=32 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=40 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=44 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=64 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=72 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=128 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=8 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=16 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=24 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=32 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=40 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=44 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=64 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=72 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_135 w=128 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=8 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=16 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=24 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=32 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=40 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=44 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=64 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=72 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=128 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=8 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=16 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=24 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=32 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=40 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=44 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=64 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=72 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=128 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=8 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=16 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=24 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=32 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=40 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=44 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=64 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=72 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=128 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=8 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=16 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=24 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=32 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=40 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=44 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=64 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=72 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=128 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=8 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=16 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=24 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=32 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=40 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=44 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=64 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=72 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=128 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=8 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=16 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=24 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=32 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=40 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=44 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=64 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=72 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=EO_45 w=128 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=8 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=16 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=24 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=32 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=40 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=44 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=64 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=72 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=128 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=8 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=16 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=24 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=32 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=40 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=44 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=64 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=72 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=128 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=8 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=16 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=24 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=32 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=40 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=44 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=64 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=72 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=128 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=8 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=16 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=24 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=32 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=40 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=44 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=64 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=72 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=128 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=8 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=16 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=24 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=32 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=40 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=44 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=64 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=72 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=128 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=8 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=16 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=24 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=32 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=40 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=44 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=64 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=72 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=8 typeIdx=BO w=128 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=8 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=16 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=24 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=32 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=40 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=44 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=64 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=72 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=128 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=8 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=16 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=24 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=32 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=40 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=44 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=64 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=72 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=128 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=8 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=16 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=24 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=32 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=40 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=44 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=64 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=72 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=128 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=8 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=16 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=24 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=32 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=40 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=44 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=64 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=72 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=128 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=8 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=16 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=24 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=32 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=40 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=44 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=64 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=72 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=128 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=8 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=16 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=24 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=32 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=40 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=44 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=64 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=72 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_0 w=128 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=8 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=16 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=24 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=32 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=40 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=44 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=64 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=72 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=128 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=8 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=16 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=24 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=32 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=40 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=44 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=64 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=72 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=128 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=8 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=16 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=24 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=32 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=40 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=44 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=64 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=72 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=128 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=8 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=16 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=24 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=32 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=40 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=44 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=64 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=72 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=128 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=8 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=16 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=24 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=32 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=40 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=44 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=64 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=72 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=128 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=8 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=16 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=24 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=32 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=40 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=44 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=64 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=72 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_90 w=128 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=8 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=16 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=24 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=32 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=40 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=44 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=64 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=72 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=128 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=8 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=16 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=24 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=32 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=40 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=44 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=64 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=72 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=128 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=8 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=16 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=24 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=32 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=40 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=44 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=64 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=72 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=128 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=8 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=16 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=24 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=32 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=40 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=44 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=64 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=72 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=128 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=8 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=16 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=24 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=32 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=40 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=44 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=64 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=72 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=128 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=8 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=16 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=24 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=32 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=40 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=44 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=64 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=72 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_135 w=128 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=8 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=16 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=24 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=32 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=40 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=44 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=64 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=72 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=128 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=8 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=16 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=24 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=32 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=40 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=44 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=64 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=72 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=128 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=8 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=16 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=24 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=32 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=40 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=44 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=64 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=72 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=128 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=8 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=16 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=24 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=32 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=40 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=44 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=64 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=72 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=128 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=8 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=16 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=24 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=32 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=40 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=44 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=64 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=72 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=128 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=8 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=16 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=24 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=32 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=40 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=44 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=64 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=72 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=EO_45 w=128 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=8 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=16 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=24 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=32 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=40 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=44 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=64 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=72 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=128 h=8
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=8 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=16 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=24 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=32 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=40 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=44 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=64 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=72 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=128 h=16
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=8 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=16 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=24 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=32 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=40 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=44 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=64 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=72 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=128 h=32
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=8 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=16 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=24 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=32 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=40 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=44 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=64 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=72 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=128 h=48
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=8 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=16 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=24 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=32 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=40 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=44 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=64 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=72 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=128 h=64
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=8 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=16 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=24 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=32 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=40 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=44 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=64 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=72 h=128
+Testing SampleAdaptiveOffset::offsetBlock bd=10 typeIdx=BO w=128 h=128
+Running test suite: TCoeffOps
+Testing TCoeffOps::fastInvCore trSize=4
+Testing TCoeffOps::fastInvCore trSize=8
+Testing TCoeffOps::fastInvCore trSize=16
+Testing TCoeffOps::fastInvCore trSize=32
+Testing TCoeffOps::fastInvCore trSize=64
+Running test suite: InvLfnst
+
+success: all tests passed!
+
+exit code: 0

@@ -1,0 +1,74 @@
+﻿{
+ "n_configs_measured": 64,
+ "missing_configs": [],
+ "runs_total": 94,
+ "runs_ok": 93,
+ "runs_check": 1,
+ "runs_failed": [],
+ "max_psnr_check_diff": 0.0,
+ "all_frames_ok": true,
+ "all_configs_deterministic": true,
+ "qp_step": {
+  "ratio_min": 1.882808367796561,
+  "ratio_max": 2.183297823802966,
+  "ratio_median": 2.0609717974423782,
+  "drop_min": 1.5008000000000052,
+  "drop_max": 3.7744,
+  "drop_median": 2.6563999999999997,
+  "n": 48
+ },
+ "preset_vs_medium": {
+  "faster": {
+   "time_ratio_min": 0.08094495923184476,
+   "time_ratio_max": 0.15881976016843133,
+   "size_pct_min": 3.959834947845642,
+   "size_pct_max": 16.721258297201814,
+   "dy_min": -0.7052000000000014,
+   "dy_max": -0.22509999999999764,
+   "n": 16
+  },
+  "fast": {
+   "time_ratio_min": 0.24708865780749723,
+   "time_ratio_max": 0.38271819831158665,
+   "size_pct_min": -1.5885384383799384,
+   "size_pct_max": 7.036580345729626,
+   "dy_min": -0.46750000000000114,
+   "dy_max": -0.13449999999999562,
+   "n": 16
+  },
+  "slow": {
+   "time_ratio_min": 2.337030036663403,
+   "time_ratio_max": 3.84671254629597,
+   "size_pct_min": -3.7856490152819333,
+   "size_pct_max": -0.7036729058474633,
+   "dy_min": 0.0654000000000039,
+   "dy_max": 0.20660000000000167,
+   "n": 16
+  }
+ },
+ "enc_dec_ratio": {
+  "min": 21.87762237762238,
+  "max": 1173.8885448916408
+ },
+ "timing": {
+  "n_configs": 9,
+  "spread_median_pct": 4.6,
+  "cv_median_pct": 2.1,
+  "configs_with_outliers": [
+   "BlowingBubbles QP34 fast",
+   "BlowingBubbles QP24 medium"
+  ]
+ }
+}
+{'sequence': 'BasketballPass', 'resolution': '416×240', 'test': 'faster', 'anchor': 'medium', 'bdrate_Y_pchip_pct': 25.14, 'bdrate_Y_poly_pct': np.float64(25.16), 'overlap_Y': 0.96, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': 26.23, 'bdrate_YUV611_poly_pct': np.float64(26.24), 'overlap_YUV611': 0.95, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(-0.983), 'time_ratio_vs_medium_geomean': 0.126, 'status': 'ok'}
+{'sequence': 'BasketballPass', 'resolution': '416×240', 'test': 'fast', 'anchor': 'medium', 'bdrate_Y_pchip_pct': 10.62, 'bdrate_Y_poly_pct': np.float64(10.65), 'overlap_Y': 0.98, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': 12.23, 'bdrate_YUV611_poly_pct': np.float64(12.25), 'overlap_YUV611': 0.98, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(-0.445), 'time_ratio_vs_medium_geomean': 0.311, 'status': 'ok'}
+{'sequence': 'BasketballPass', 'resolution': '416×240', 'test': 'slow', 'anchor': 'medium', 'bdrate_Y_pchip_pct': -5.88, 'bdrate_Y_poly_pct': np.float64(-5.87), 'overlap_Y': 0.98, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': -6.4, 'bdrate_YUV611_poly_pct': np.float64(-6.39), 'overlap_YUV611': 0.98, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(0.27), 'time_ratio_vs_medium_geomean': 3.505, 'status': 'ok'}
+{'sequence': 'BlowingBubbles', 'resolution': '416×240', 'test': 'faster', 'anchor': 'medium', 'bdrate_Y_pchip_pct': 27.75, 'bdrate_Y_poly_pct': np.float64(27.75), 'overlap_Y': 0.93, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': 27.13, 'bdrate_YUV611_poly_pct': np.float64(27.11), 'overlap_YUV611': 0.93, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(-0.912), 'time_ratio_vs_medium_geomean': 0.095, 'status': 'ok'}
+{'sequence': 'BlowingBubbles', 'resolution': '416×240', 'test': 'fast', 'anchor': 'medium', 'bdrate_Y_pchip_pct': 11.61, 'bdrate_Y_poly_pct': np.float64(11.59), 'overlap_Y': 0.96, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': 11.15, 'bdrate_YUV611_poly_pct': np.float64(11.12), 'overlap_YUV611': 0.96, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(-0.413), 'time_ratio_vs_medium_geomean': 0.268, 'status': 'ok'}
+{'sequence': 'BlowingBubbles', 'resolution': '416×240', 'test': 'slow', 'anchor': 'medium', 'bdrate_Y_pchip_pct': -4.92, 'bdrate_Y_poly_pct': np.float64(-4.92), 'overlap_Y': 0.99, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': -5.12, 'bdrate_YUV611_poly_pct': np.float64(-5.12), 'overlap_YUV611': 0.99, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(0.194), 'time_ratio_vs_medium_geomean': 2.943, 'status': 'ok'}
+{'sequence': 'BQMall', 'resolution': '832×480', 'test': 'faster', 'anchor': 'medium', 'bdrate_Y_pchip_pct': 31.89, 'bdrate_Y_poly_pct': np.float64(31.86), 'overlap_Y': 0.94, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': 33.07, 'bdrate_YUV611_poly_pct': np.float64(33.04), 'overlap_YUV611': 0.94, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(-1.073), 'time_ratio_vs_medium_geomean': 0.114, 'status': 'ok'}
+{'sequence': 'BQMall', 'resolution': '832×480', 'test': 'fast', 'anchor': 'medium', 'bdrate_Y_pchip_pct': 15.02, 'bdrate_Y_poly_pct': np.float64(15.0), 'overlap_Y': 0.97, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': 15.8, 'bdrate_YUV611_poly_pct': np.float64(15.79), 'overlap_YUV611': 0.96, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(-0.541), 'time_ratio_vs_medium_geomean': 0.315, 'status': 'ok'}
+{'sequence': 'BQMall', 'resolution': '832×480', 'test': 'slow', 'anchor': 'medium', 'bdrate_Y_pchip_pct': -6.6, 'bdrate_Y_poly_pct': np.float64(-6.59), 'overlap_Y': 0.99, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': -7.06, 'bdrate_YUV611_poly_pct': np.float64(-7.05), 'overlap_YUV611': 0.99, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(0.264), 'time_ratio_vs_medium_geomean': 3.065, 'status': 'ok'}
+{'sequence': 'BasketballDrive', 'resolution': '1920×1080', 'test': 'faster', 'anchor': 'medium', 'bdrate_Y_pchip_pct': 33.6, 'bdrate_Y_poly_pct': np.float64(33.46), 'overlap_Y': 0.96, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': 34.15, 'bdrate_YUV611_poly_pct': np.float64(34.06), 'overlap_YUV611': 0.95, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(-0.758), 'time_ratio_vs_medium_geomean': 0.126, 'status': 'ok'}
+{'sequence': 'BasketballDrive', 'resolution': '1920×1080', 'test': 'fast', 'anchor': 'medium', 'bdrate_Y_pchip_pct': 15.03, 'bdrate_Y_poly_pct': np.float64(14.98), 'overlap_Y': 0.98, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': 16.71, 'bdrate_YUV611_poly_pct': np.float64(16.67), 'overlap_YUV611': 0.97, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(-0.364), 'time_ratio_vs_medium_geomean': 0.283, 'status': 'ok'}
+{'sequence': 'BasketballDrive', 'resolution': '1920×1080', 'test': 'slow', 'anchor': 'medium', 'bdrate_Y_pchip_pct': -6.88, 'bdrate_Y_poly_pct': np.float64(-6.86), 'overlap_Y': 0.99, 'status_Y': 'ok', 'bdrate_YUV611_pchip_pct': -7.3, 'bdrate_YUV611_poly_pct': np.float64(-7.28), 'overlap_YUV611': 0.99, 'status_YUV611': 'ok', 'bdpsnr_Y_db': np.float64(0.181), 'time_ratio_vs_medium_geomean': 3.463, 'status': 'ok'}

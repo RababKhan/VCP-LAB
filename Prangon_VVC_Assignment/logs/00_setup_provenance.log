@@ -1,0 +1,24 @@
+﻿=== Setup and provenance - 2026-11-11 11:13:59 +06:00
+Executed by: Claude (AI assistant) on this computer, at the request of the user; commands automated.
+INPUT BlowingBubbles_416_240_50_10_420.yuv : copied from provided dataset folder (D:\Korea\VVC_Assignment\dataset, input only, unmodified). size 150059520 sha256 FFE4039FC7CFC034E54258302ADCAFD6F02A3D77028E566A0F82313A54D180E2 match=True
+INPUT BQMall_832_480_60_10_420.yuv : copied from provided dataset folder (D:\Korea\VVC_Assignment\dataset, input only, unmodified). size 720046080 sha256 02490741EED0EF8D50016D236E7E98EFDF5E3DEB9A7CC60AA61C0D55C4E61B52 match=True
+TOOL cmake: copied portable CMake from D:\Korea\VVC_Assignment\tools\cmake -> cmake version 4.4.4
+TOOL YUView: copied portable YUView folder from D:\Korea\VVC_Assignment\tools\YUView; exe present=True
+TOOL python: Python 3.12.10; numpy: Traceback (most recent call last):   File "<string>", line 1, in <module> ModuleNotFoundError: No module named 'numpy'
+numpy 2.5.4 python-pptx 1.0.2 matplotlib 3.11.2
+Full run started 2026-11-11 11:21:56 +06:00 (automated by Claude); WSL distro terminated before start to reduce background load
+YUView opened for Sadab's inspection 2026-11-11 11:54:02 +06:00 with BQMall original + QP24/29/34/39 medium (no inspection performed by Claude in YUView)
+=== Phase 2 inputs 2026-11-11 12:54:56 +06:00 (automated by Claude)
+INPUT BasketballPass_416_240_50_10_420.yuv : copied from provided dataset folder (D:\Korea\VVC_Assignment\dataset, input only, unmodified). size 150059520 sha256 DE0DCC61E9BA4D22312EFFAD81517FB3A24ECD883738EC3C66F490F7593ED698 match=True
+INPUT BasketballDrive_1920_1080_50_10_420.yuv : copied from provided dataset folder (D:\Korea\VVC_Assignment\dataset, input only, unmodified). size 3116620800 sha256 1C4CECEBC10EFB18471DDCB43AA2680C61C6525A8F53B84267A1A04F73EB6334 match=True
+TOOL ffmpeg: copied from D:\Korea\VVC_Assignment\tools\ffmpeg (tool only, used to cross-check SSIM): ffmpeg version n9.0.2-36-g6882969ce9-20261026 Copyright (c) 2000-2026 the FFmpeg developers
+TOOL scipy: 1.18.1
+=== Phase 2 runtime estimate 2026-11-11 13:03:21 +06:00 (automated by Claude)
+Pilot: 32-frame encodes at QP 29 (logs/phase2/pilot.log, console logs/21_pilot_console.log); extrapolated to 500 frames.
+Block A (53 runs: BasketballPass x16, BlowingBubbles/BQMall faster+slow x16, 21 timing repeats) ~ 1.7 h incl. decode/PSNR.
+Block B (22 runs: BasketballDrive x16 + 6 repeats) ~ 3 h incl. decode/PSNR (slow preset ~1,400 s per encode at QP 29).
+Disk: ~10 GB needed (small reconstructions kept, 1080p/480p repeats use one scratch file per sequence); D: free 24.9 GB.
+Power: on AC at start; runner waits for AC before every run.
+Phase 2 attempt 1 aborted 2026-11-11 13:04:54 +06:00: runner bug (int argument passed to subprocess for the PSNR check) after the A001 encode+decode; no CSV row written. Logs kept as *_aborted.log; fixed and restarted.
+Phase 2 attempt 2 started 2026-11-11 13:05:28 +06:00
+Supplementary run C001 (repeat of B022 config on AC) started 2026-11-11 18:01:37 +06:00

@@ -1,0 +1,5 @@
+A018 BasketballPass BasketballPass_416_240_50_10_420.yuv 416 240 50 500 24 slow
+A020 BasketballPass BasketballPass_416_240_50_10_420.yuv 416 240 50 500 39 faster
+A021 BlowingBubbles BlowingBubbles_416_240_50_10_420.yuv 416 240 50 500 29 slow
+A025 BQMall BQMall_832_480_60_10_420.yuv 832 480 60 600 34 faster
+B019 BasketballDrive BasketballDrive_1920_1080_50_10_420.yuv 1920 1080 50 500 39 faster

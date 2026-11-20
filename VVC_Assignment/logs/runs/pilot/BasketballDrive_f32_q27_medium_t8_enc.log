@@ -1,0 +1,88 @@
+Command: D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\VVC_Assignment\dataset\BasketballDrive_1920_1080_50_10_420.yuv -s 1920x1080 -c yuv420_10 --fps 50 -f 32 -q 27 --preset medium --qpa 0 -t 8 -v 4 --refreshtype cra --refreshsec 1 -o D:\Korea\VVC_Assignment\bitstreams\pilot\BasketballDrive_f32_q27_medium_t8.266
+Started: 2026-10-27T20:06:47.249+06:00
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Windows][VS 1944][64 bit][SIMD=AVX2]
+vvenc [notice]: Input File                             : D:\Korea\VVC_Assignment\dataset\BasketballDrive_1920_1080_50_10_420.yuv
+vvenc [notice]: Bitstream File                         : D:\Korea\VVC_Assignment\bitstreams\pilot\BasketballDrive_f32_q27_medium_t8.266
+vvenc [notice]: Real Format                            : 1920x1080  yuv420p10  50 Hz  SDR  501 frames
+vvenc [notice]: Frames                                 : encode 32 frames 
+vvenc [notice]: Internal format                        : 1920x1080  50 Hz  SDR
+vvenc [notice]: Threads                                : 8  (parallel frames: 4)
+vvenc [notice]: Rate control                           : QP 27
+vvenc [notice]: Perceptual optimization                : Disabled
+vvenc [notice]: Intra period (keyframe)                : 48
+vvenc [notice]: Decoding refresh type                  : CRA
+vvenc [notice]: Sequence PSNR output                   : Linear average only
+vvenc [notice]: Hexadecimal PSNR output                : Disabled
+vvenc [notice]: Sequence MSE output                    : Disabled
+vvenc [notice]: Frame MSE output                       : Disabled
+vvenc [notice]: Cabac-zero-word-padding                : Enabled
+vvenc [notice]: Frame index                            : 32 frames
+vvenc [notice]: Profile                                : main_10
+vvenc [notice]: Level                                  : 4.1
+vvenc [notice]: CU size                                : 128
+vvenc [notice]: Max TB size                            : 64
+vvenc [notice]: Min CB size                            : 4
+vvenc [notice]: Motion search range                    : 384
+vvenc [notice]: QP                                     : 27
+vvenc [notice]: Max dQP signaling subdiv               : 0
+vvenc [notice]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [notice]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [notice]: GOP size                               : 32
+vvenc [notice]: PicReordering                          : 1
+vvenc [notice]: Input bit depth                        : (Y:10, C:10)
+vvenc [notice]: MSB-extended bit depth                 : (Y:10, C:10)
+vvenc [notice]: Internal bit depth                     : (Y:10, C:10)
+vvenc [notice]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [notice]: log2_sao_offset_scale_luma             : 0
+vvenc [notice]: log2_sao_offset_scale_chroma           : 0
+vvenc [notice]: Cost function                          : Lossy coding
+vvenc [notice]: Film grain analysis                    : 0
+
+vvencapp [notice]: started @ Tue Oct 27 20:06:47 2026
+POC    15 TId: 0 (IDR_W_RADL, I-SLICE, QP 23, TF 3)     417072 bits [Y 39.7492 dB    U 45.1743 dB    V 46.7639 dB] [ET    11 ] [L0 ] [L1 ]
+POC     7 TId: 2 (      RADL, B-SLICE, QP 29, TF 1)     137736 bits [Y 38.9198 dB    U 44.2216 dB    V 44.9778 dB] [ET     5 ] [L0 15 ] [L1 15 ]
+POC     3 TId: 3 (      RADL, B-SLICE, QP 32, TF 0)      84064 bits [Y 38.4868 dB    U 43.6231 dB    V 44.0505 dB] [ET     5 ] [L0 7 15 ] [L1 7 15 ]
+POC     1 TId: 4 (      RADL, B-SLICE, QP 34)            61744 bits [Y 38.2450 dB    U 43.3562 dB    V 43.6071 dB] [ET     5 ] [L0 3 7 ] [L1 3 7 ]
+POC     0 TId: 5 (      RADL, B-SLICE, QP 36)            37536 bits [Y 37.7176 dB    U 43.0437 dB    V 43.1703 dB] [ET     3 ] [L0 1 ] [L1 1 ]
+POC     2 TId: 5 (      RADL, B-SLICE, QP 36)            25696 bits [Y 38.1586 dB    U 43.4000 dB    V 43.7337 dB] [ET     3 ] [L0 1 ] [L1 3 ]
+POC     5 TId: 4 (      RADL, B-SLICE, QP 34)            48184 bits [Y 38.4201 dB    U 43.7403 dB    V 43.9160 dB] [ET     5 ] [L0 3 7 ] [L1 7 15 ]
+POC     4 TId: 5 (      RADL, B-SLICE, QP 36)            25888 bits [Y 38.1952 dB    U 43.5489 dB    V 43.8351 dB] [ET     4 ] [L0 3 ] [L1 5 ]
+POC     6 TId: 5 (      RADL, B-SLICE, QP 36)            27208 bits [Y 38.2625 dB    U 43.8236 dB    V 43.9783 dB] [ET     3 ] [L0 5 ] [L1 7 ]
+POC    11 TId: 3 (      RADL, B-SLICE, QP 32, TF 0)      61152 bits [Y 38.7384 dB    U 44.0994 dB    V 44.5564 dB] [ET     4 ] [L0 7 15 ] [L1 15 7 ]
+POC     9 TId: 4 (      RADL, B-SLICE, QP 34)            48144 bits [Y 38.6149 dB    U 44.0429 dB    V 44.3239 dB] [ET     5 ] [L0 7 11 ] [L1 11 15 ]
+POC     8 TId: 5 (      RADL, B-SLICE, QP 36)            25640 bits [Y 38.3684 dB    U 44.0209 dB    V 44.2311 dB] [ET     2 ] [L0 7 ] [L1 9 ]
+POC    10 TId: 5 (      RADL, B-SLICE, QP 36)            22136 bits [Y 38.4139 dB    U 44.0222 dB    V 44.2936 dB] [ET     2 ] [L0 9 ] [L1 11 ]
+POC    13 TId: 4 (      RADL, B-SLICE, QP 34)            35984 bits [Y 38.9322 dB    U 44.3790 dB    V 45.1564 dB] [ET     4 ] [L0 11 7 ] [L1 15 11 ]
+POC    12 TId: 5 (      RADL, B-SLICE, QP 36)            18872 bits [Y 38.5934 dB    U 44.1657 dB    V 44.5986 dB] [ET     2 ] [L0 11 ] [L1 13 ]
+POC    14 TId: 5 (      RADL, B-SLICE, QP 36)            17112 bits [Y 38.8973 dB    U 44.5970 dB    V 45.5203 dB] [ET     2 ] [L0 13 ] [L1 15 ]
+POC    31 TId: 1 (      STSA, B-SLICE, QP 28, TF 2)     218880 bits [Y 38.9066 dB    U 43.6854 dB    V 44.5761 dB] [ET     9 ] [L0 15 ] [L1 15 ]
+POC    23 TId: 2 (      STSA, B-SLICE, QP 29, TF 1)     127864 bits [Y 39.1917 dB    U 44.1079 dB    V 45.1617 dB] [ET     7 ] [L0 15 31 ] [L1 31 15 ]
+POC    19 TId: 3 (      STSA, B-SLICE, QP 32, TF 0)      60632 bits [Y 38.9701 dB    U 44.1567 dB    V 44.9182 dB] [ET     4 ] [L0 15 23 ] [L1 23 31 ]
+POC    17 TId: 4 (      STSA, B-SLICE, QP 34)            35592 bits [Y 39.0149 dB    U 44.3424 dB    V 45.0531 dB] [ET     3 ] [L0 15 19 ] [L1 19 23 ]
+POC    16 TId: 5 (      STSA, B-SLICE, QP 36)            15808 bits [Y 38.9223 dB    U 44.6103 dB    V 45.3893 dB] [ET     2 ] [L0 15 ] [L1 17 ]
+POC    18 TId: 5 (      STSA, B-SLICE, QP 36)            16408 bits [Y 38.6985 dB    U 44.1353 dB    V 44.7772 dB] [ET     2 ] [L0 17 ] [L1 19 ]
+POC    21 TId: 4 (      STSA, B-SLICE, QP 34)            40664 bits [Y 38.8421 dB    U 43.8911 dB    V 44.7138 dB] [ET     4 ] [L0 19 15 ] [L1 23 31 ]
+POC    20 TId: 5 (      STSA, B-SLICE, QP 36)            18528 bits [Y 38.6458 dB    U 44.0079 dB    V 44.7227 dB] [ET     2 ] [L0 19 ] [L1 21 ]
+POC    22 TId: 5 (      STSA, B-SLICE, QP 36)            19872 bits [Y 38.6645 dB    U 43.9453 dB    V 44.6433 dB] [ET     2 ] [L0 21 ] [L1 23 ]
+POC    27 TId: 3 (      STSA, B-SLICE, QP 32, TF 0)      84592 bits [Y 38.4257 dB    U 43.3000 dB    V 43.9115 dB] [ET     5 ] [L0 23 15 ] [L1 31 23 ]
+POC    25 TId: 4 (      STSA, B-SLICE, QP 34)            50384 bits [Y 38.5791 dB    U 43.5941 dB    V 44.2766 dB] [ET     5 ] [L0 23 15 ] [L1 27 31 ]
+POC    24 TId: 5 (      STSA, B-SLICE, QP 36)            23128 bits [Y 38.4763 dB    U 43.7385 dB    V 44.3786 dB] [ET     2 ] [L0 23 ] [L1 25 ]
+POC    26 TId: 5 (      STSA, B-SLICE, QP 36)            24408 bits [Y 38.1279 dB    U 43.3649 dB    V 44.0019 dB] [ET     2 ] [L0 25 ] [L1 27 ]
+POC    29 TId: 4 (      STSA, B-SLICE, QP 34)            53128 bits [Y 38.3102 dB    U 43.3147 dB    V 43.8093 dB] [ET     4 ] [L0 27 23 ] [L1 31 27 ]
+POC    28 TId: 5 (      STSA, B-SLICE, QP 36)            24720 bits [Y 37.9849 dB    U 43.2072 dB    V 43.7062 dB] [ET     2 ] [L0 27 ] [L1 29 ]
+POC    30 TId: 5 (      STSA, B-SLICE, QP 36)            22552 bits [Y 38.1895 dB    U 43.4595 dB    V 44.0845 dB] [ET     1 ] [L0 29 ] [L1 31 ]
+vvenc [info]: stats: 100.0% frame= 32/32 fps=   0.6 avg_fps=   0.6 bitrate=  3017.70 kbps avg_bitrate=  3017.70 kbps elapsed= 00h:00m:51s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 0.6 avg_bitrate= 3017.70 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 20853.60, AvgQP: 23.00
+vvenc [info]: stats summary: frame P:  0, kbps:      nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 31, kbps:  2442.35, AvgQP: 34.26
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a    3017.7000   38.5832   43.8788   44.4637   39.7611
+vvencapp [notice]: finished @ Tue Oct 27 20:07:38 2026
+vvencapp [info]: Total Time: 50.669 sec. Fps(avg): 0.632 encoded Frames 32
+
+Exit code: 0
+Wall time (s): 50.946

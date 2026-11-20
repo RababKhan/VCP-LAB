@@ -1,0 +1,13 @@
+﻿Download YUView + FFmpeg - 2026-10-27 14:40:39 +06:00
+YUView source: https://github.com/IENT/YUView/releases/download/v2.14/YUView-Win.zip
+YUView-Win.zip SHA256 (no upstream checksum published; recorded for reproducibility): 34D1F04B4930E83C3D0845F523CB5955E79C1684B641EF2AFD3D9B051997F353
+FFmpeg source: https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n9.0-latest-win64-gpl-9.0.zip
+FFmpeg expected SHA256: 63fef8ed1352ed2e2c6d4acb86a6e6aed62309c36a23586840da31c057346ff1
+FFmpeg actual   SHA256: 63fef8ed1352ed2e2c6d4acb86a6e6aed62309c36a23586840da31c057346ff1
+FFmpeg checksum match: True
+Extracted YUView files:
+D:\Korea\VVC_Assignment\tools\YUView\YUView.exe
+Extracted FFmpeg exes:
+D:\Korea\VVC_Assignment\tools\ffmpeg\ffmpeg-n9.0-latest-win64-gpl-9.0\bin\ffmpeg.exe
+D:\Korea\VVC_Assignment\tools\ffmpeg\ffmpeg-n9.0-latest-win64-gpl-9.0\bin\ffplay.exe
+D:\Korea\VVC_Assignment\tools\ffmpeg\ffmpeg-n9.0-latest-win64-gpl-9.0\bin\ffprobe.exe

@@ -1,0 +1,22 @@
+PREFLIGHT
+  PASS  ac_power: AC=True, battery 95%, battery saver off
+  PASS  power_mode_best_performance: Best performance
+  PASS  full_manifest_unchanged: f96b1ebf3fae61bccb5ada1ad8355b85e5960ea37fcb51d7be4868702199b02b
+  PASS  vvencapp_sha256: c74f3b63e331805f3cac74ab1e0849f0c7877fa885de44d32119927425b3160b
+  PASS  vvdecapp_sha256: 3f46677abee5bef1c2c272752d6b04222c06a48eaa983b848f623d8dbc2499b6
+  PASS  dataset_BQMall_sha256: 02490741eed0ef8d50016d236e7e98efdf5e3deb9a7cc60aa61c0d55c4e61b52
+  PASS  dataset_BasketballDrive_sha256: 1c4cecebc10efb18471ddcb43aa2680c61c6525a8f53b84267a1a04f73eb6334
+  PASS  dataset_BasketballPass_sha256: de0dcc61e9ba4d22312effad81517fb3a24ecd883738ec3c66f490f7593ed698
+  PASS  disk_free: 49.86 GiB free (need >= 15)
+  PASS  results_full_fingerprint: 44eb11e4324f2fed407c9074aea6e1ef934857bfb94e51dcfd121e7655182c47 (136 files)
+LAUNCH warmup_BasketballPass_f64_q32_faster_suppAC (AC, Best performance)
+DONE warmup_BasketballPass_f64_q32_faster_suppAC: COMPLETED, timing valid = True (1 power samples)
+LAUNCH BQMall_f600_q32_faster_t8_suppAC (AC, Best performance)
+DONE BQMall_f600_q32_faster_t8_suppAC: COMPLETED, timing valid = True (9 power samples)
+LAUNCH BasketballDrive_f500_q32_fast_t8_suppAC (AC, Best performance)
+DONE BasketballDrive_f500_q32_fast_t8_suppAC: COMPLETED, timing valid = True (68 power samples)
+LAUNCH BQMall_f600_q22_medium_t8_suppAC (AC, Best performance)
+DONE BQMall_f600_q22_medium_t8_suppAC: COMPLETED, timing valid = True (125 power samples)
+LAUNCH BasketballDrive_f500_q32_slower_t8_suppAC (AC, Best performance)
+DONE BasketballDrive_f500_q32_slower_t8_suppAC: COMPLETED, timing valid = True (3380 power samples)
+SUMMARY: 5/5 runs with valid AC timing; results/full unchanged = True; stopped_reason = None

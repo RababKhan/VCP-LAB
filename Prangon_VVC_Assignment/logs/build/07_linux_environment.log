@@ -1,0 +1,10 @@
+=== Linux environment 2026-11-11 11:19:39 +0600
+OS: Ubuntu 24.04.5 LTS / kernel 6.18.58.1-microsoft-standard-WSL2
+Compiler: g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+CMake: cmake version 3.28.3
+VVenC commit: 9428ea8636ae7f443ecde89999d16b2dfc421524  (grafted, HEAD, tag: v1.14.0)
+VVdeC commit: cb1a3efd88b2ebd1141f1a9ca87c774f05de9249  (grafted, HEAD, tag: v3.2.1)
+vvencapp version 1.14.0
+vvdecapp version 3.2.1
+sha256 vvencapp e05058ceea10eb9bd3231b4f1666ab7904b97cc6a03aa43015327aca802e7ac5
+sha256 vvdecapp db6c97a04a8a9a11e1ef97c501bf65f8cb418876dc35fd0c60672bcf2d2d26f7

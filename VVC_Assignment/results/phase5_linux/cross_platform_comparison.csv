@@ -1,0 +1,20 @@
+metric,windows,linux_run1
+Encode exit code,0,0
+Decode exit code,0,0
+Encoder pictures,16,16
+Decoded frames (decoder log),16,16
+Recon bytes,4792320,4792320
+"Recon frames (bytes / 299,520)",16.0,16.0
+Bitstream bytes,10069,10069
+Bitstream SHA256,5037d0750588ac5fe0b02a7aa4fa038709ea4fd4364b6b27adf5b7890a20e1bb,5037d0750588ac5fe0b02a7aa4fa038709ea4fd4364b6b27adf5b7890a20e1bb
+Recon SHA256,17dda8aee3708c15df5cc7134bb613371fdcf70c2aa9db931f923c6ef3c699cb,17dda8aee3708c15df5cc7134bb613371fdcf70c2aa9db931f923c6ef3c699cb
+"Y-PSNR (dB, peak 1020)",34.253519576085466,34.253519576085466
+U-PSNR (dB),39.708370680927395,39.708370680927395
+V-PSNR (dB),38.527919730098716,38.527919730098716
+"YUV-PSNR (dB, 4:1:1 MSE)",35.1826058381694,35.1826058381694
+Encoder-reported kbps,251.725,251.725
+Intra pictures (POC:type),"[[15, 'IDR_W_RADL']]","[[15, 'IDR_W_RADL']]"
+Encode wall time (s),0.452,0.251
+Encode reported time (s),0.345,0.196
+Decode wall time (s),0.055,0.025
+Decode reported time (s),0.026,0.012

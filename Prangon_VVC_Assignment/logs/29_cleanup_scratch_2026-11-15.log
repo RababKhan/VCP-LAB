@@ -1,0 +1,6 @@
+﻿Cleanup 2026-11-15 (approved by user: Option 1). Deleted temporary decoder reconstructions; each SHA-256 matched recon_sha256 of its last-writing run in results/results_phase2.csv and is regenerable from that run's bitstream.
+D:\Korea\Prangon_VVC_Assignment\out\phase2\_scratch_BasketballDrive_rec_1920x1080_50fps_10bit_420.yuv  3110400000 bytes
+D:\Korea\Prangon_VVC_Assignment\out\phase2\_scratch_BasketballPass_rec_416x240_50fps_10bit_420.yuv  149760000 bytes
+D:\Korea\Prangon_VVC_Assignment\out\phase2\_scratch_BlowingBubbles_rec_416x240_50fps_10bit_420.yuv  149760000 bytes
+D:\Korea\Prangon_VVC_Assignment\out\phase2\_scratch_BQMall_rec_832x480_60fps_10bit_420.yuv  718848000 bytes
+D: free before 5.95 GB, after 9.80 GB

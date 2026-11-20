@@ -1,0 +1,39 @@
+﻿=== git clone 2026-11-11 11:14:37 +06:00
+Cloning into 'vvenc'...
+Note: switching to '9428ea8636ae7f443ecde89999d16b2dfc421524'.
+System.Management.Automation.RemoteException
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+System.Management.Automation.RemoteException
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+System.Management.Automation.RemoteException
+  git switch -c <new-branch-name>
+System.Management.Automation.RemoteException
+Or undo this operation with:
+System.Management.Automation.RemoteException
+  git switch -
+System.Management.Automation.RemoteException
+Turn off this advice by setting config variable advice.detachedHead to false
+System.Management.Automation.RemoteException
+Cloning into 'vvdec'...
+Note: switching to 'cb1a3efd88b2ebd1141f1a9ca87c774f05de9249'.
+System.Management.Automation.RemoteException
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+System.Management.Automation.RemoteException
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+System.Management.Automation.RemoteException
+  git switch -c <new-branch-name>
+System.Management.Automation.RemoteException
+Or undo this operation with:
+System.Management.Automation.RemoteException
+  git switch -
+System.Management.Automation.RemoteException
+Turn off this advice by setting config variable advice.detachedHead to false
+System.Management.Automation.RemoteException
+vvenc: 9428ea8636ae7f443ecde89999d16b2dfc421524  (grafted, HEAD, tag: v1.14.0)
+vvdec: cb1a3efd88b2ebd1141f1a9ca87c774f05de9249  (grafted, HEAD, tag: v3.2.1)

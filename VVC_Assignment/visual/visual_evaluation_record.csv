@@ -1,0 +1,31 @@
+sequence,frame_index,frame_rule,qp,preset,frame_y_psnr_db,sequence_y_psnr_db,sequence_yuv_psnr_db,bitstream_bytes,bitrate_kbps,crop_xywh_zoom,claude_preliminary_observation,user_confirmed_observation,status
+BasketballPass,15,intra_first_idr,22,medium,45.4448,40.5448,41.0519,1430459,1144.3672,"232,88,104,80,4x",Very close to the original; wood-panel grain only slightly smoother.,,pending user confirmation
+BasketballPass,15,intra_first_idr,32,medium,38.8546,33.3048,34.133,325445,260.356,"232,88,104,80,4x",Wood-panel grain largely smoothed; jersey stripes and '18' still sharp.,,pending user confirmation
+BasketballPass,15,intra_first_idr,37,medium,35.5952,30.5388,31.4862,166829,133.4632,"232,88,104,80,4x",Wood texture flattened; stripes softer; smear near lower edge of the shorts; '18' still legible.,,pending user confirmation
+BasketballPass,15,intra_first_idr,32,faster,38.101,32.8365,33.6819,366257,293.0056,"232,88,104,80,4x",Hard to distinguish from medium/slower at 4x zoom.,,pending user confirmation
+BasketballPass,15,intra_first_idr,32,slower,38.998,33.6795,34.534,318273,254.6184,"232,88,104,80,4x",Hard to distinguish from medium/faster at 4x zoom.,,pending user confirmation
+BasketballPass,133,typical_qp32_medium,22,medium,40.7928,40.5448,41.0519,1430459,1144.3672,"176,88,104,80,4x",Close to original; slight softening of the ball lettering.,,pending user confirmation
+BasketballPass,133,typical_qp32_medium,32,medium,33.2822,33.3048,34.133,325445,260.356,"176,88,104,80,4x",Ball and shorts number blurred/smeared; arm edges soft; jacket texture lost.,,pending user confirmation
+BasketballPass,133,typical_qp32_medium,37,medium,30.5533,30.5388,31.4862,166829,133.4632,"176,88,104,80,4x","Strong degradation: ball shape smeared, shorts number nearly lost, blotchy smeared patches in the moving leg region.",,pending user confirmation
+BasketballPass,133,typical_qp32_medium,32,faster,32.7463,32.8365,33.6819,366257,293.0056,"176,88,104,80,4x",Ball shows more distortion/colour smear than medium and slower.,,pending user confirmation
+BasketballPass,133,typical_qp32_medium,32,slower,33.8685,33.6795,34.534,318273,254.6184,"176,88,104,80,4x",Similar to medium; ball possibly slightly cleaner (uncertain).,,pending user confirmation
+BasketballPass,370,worst_qp37_medium,22,medium,37.6187,40.5448,41.0519,1430459,1144.3672,"312,104,104,80,4x",Thin vertical line and small grey object on the wall still visible but softened.,,pending user confirmation
+BasketballPass,370,worst_qp37_medium,32,medium,30.4144,33.3048,34.133,325445,260.356,"312,104,104,80,4x",Thin line and small grey object lost; wood texture smoothed; jersey lettering softened.,,pending user confirmation
+BasketballPass,370,worst_qp37_medium,37,medium,27.6821,30.5388,31.4862,166829,133.4632,"312,104,104,80,4x",Jersey lettering heavily distorted with colour bleeding; arm and background blurred.,,pending user confirmation
+BasketballPass,370,worst_qp37_medium,32,faster,30.5505,32.8365,33.6819,366257,293.0056,"312,104,104,80,4x",Thin line/grey object lost (as medium); slightly more mottled texture on the arm/background.,,pending user confirmation
+BasketballPass,370,worst_qp37_medium,32,slower,30.7858,33.6795,34.534,318273,254.6184,"312,104,104,80,4x",Thin line/grey object lost; no clear visible difference from medium. Note: frame PSNR faster > medium here.,,pending user confirmation
+BQMall,31,intra_first_idr,22,medium,41.5337,40.3348,41.3183,3246923,2597.5384,"504,240,160,120,3x",Very close to the original.,,pending user confirmation
+BQMall,31,intra_first_idr,32,medium,36.737,35.1603,36.1812,760913,608.7304,"504,240,160,120,3x",Hair and face texture of the woman smoothed; poster texture smoothed; glasses still visible.,,pending user confirmation
+BQMall,31,intra_first_idr,37,medium,33.6062,32.5194,33.5816,397582,318.0656,"504,240,160,120,3x","Face features blurred, glasses barely visible, poster detail mostly lost; dark pillar area blotchy.",,pending user confirmation
+BQMall,31,intra_first_idr,32,faster,36.4801,34.5098,35.5225,853056,682.4448,"504,240,160,120,3x",Hard to distinguish from medium/slower at 3x zoom.,,pending user confirmation
+BQMall,31,intra_first_idr,32,slower,36.9011,35.4883,36.5226,728106,582.4848,"504,240,160,120,3x",Hard to distinguish from medium/faster at 3x zoom.,,pending user confirmation
+BQMall,441,typical_qp32_medium,22,medium,40.6667,40.3348,41.3183,3246923,2597.5384,"376,200,160,120,3x",Knit texture of the dark jacket mostly retained.,,pending user confirmation
+BQMall,441,typical_qp32_medium,32,medium,35.1726,35.1603,36.1812,760913,608.7304,"376,200,160,120,3x",Knit texture replaced by a smooth surface with streaks.,,pending user confirmation
+BQMall,441,typical_qp32_medium,37,medium,32.5537,32.5194,33.5816,397582,318.0656,"376,200,160,120,3x",Knit and red-sweater texture gone (flat); hand blurred.,,pending user confirmation
+BQMall,441,typical_qp32_medium,32,faster,34.7842,34.5098,35.5225,853056,682.4448,"376,200,160,120,3x",Knit texture lost as in medium; slightly more smear on hand/face.,,pending user confirmation
+BQMall,441,typical_qp32_medium,32,slower,35.4826,35.4883,36.5226,728106,582.4848,"376,200,160,120,3x",Knit texture lost as in medium; differences small.,,pending user confirmation
+BQMall,42,worst_qp37_medium,22,medium,38.2779,40.3348,41.3183,3246923,2597.5384,"56,232,160,120,3x",Close to original; slight softening of the moving woman's bag pattern.,,pending user confirmation
+BQMall,42,worst_qp37_medium,32,medium,32.3121,35.1603,36.1812,760913,608.7304,"56,232,160,120,3x",Moving woman smeared at bag/arm (ghost-like blob at the arm); handbag pattern lost.,,pending user confirmation
+BQMall,42,worst_qp37_medium,37,medium,29.5845,32.5194,33.5816,397582,318.0656,"56,232,160,120,3x",Strong smearing of the moving woman; boy's face edge blurred; striped shirt partly preserved.,,pending user confirmation
+BQMall,42,worst_qp37_medium,32,faster,31.5054,34.5098,35.5225,853056,682.4448,"56,232,160,120,3x",More smearing near the woman's arm; striped shirt slightly distorted.,,pending user confirmation
+BQMall,42,worst_qp37_medium,32,slower,32.817,35.4883,36.5226,728106,582.4848,"56,232,160,120,3x",Arm region looks somewhat cleaner than faster/medium (tentative).,,pending user confirmation

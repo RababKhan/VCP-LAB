@@ -1,0 +1,138 @@
+﻿=== vvdec Windows build 2026-11-11 11:17:03 +06:00
+Commit: cb1a3efd88b2ebd1141f1a9ca87c774f05de9249
+cmake version 4.4.4
+Generator: Visual Studio 17 2022, x64, Release (other options = upstream defaults)
+--- configure: cmake -S vvdec -B vvdec\build -G "Visual Studio 17 2022" -A x64
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The C compiler identification is MSVC 19.44.35229.0
+-- The CXX compiler identification is MSVC 19.44.35229.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_MODULE_PATH: updating module path to: D:/Korea/Prangon_VVC_Assignment/vvdec/cmake/modules
+-- normalized target architecture: X86
+-- x86 SIMD intrinsics enabled (using SIMDE for non-x86 targets)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Some bitstream files are missing.
+--   If you want to run tests, reconfigure with -DVVDEC_ENABLE_BITSTREAM_DOWNLOAD=ON
+--   (or using top level Makefile: make test enable-bitstream-download=1)
+-- Configuring done (8.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/Korea/Prangon_VVC_Assignment/vvdec/build
+configure exit: 0
+--- build: cmake --build vvdec\build --config Release --parallel
+MSBuild version 17.14.60+43b635718 for .NET Framework
+
+  Checking File Globs
+  1>Checking Build System
+  Building Custom Rule D:/Korea/Prangon_VVC_Assignment/vvdec/source/Lib/vvdec/CMakeLists.txt
+  AdaptiveLoopFilter_sse41.cpp
+  Buffer_sse41.cpp
+  InterPred_sse41.cpp
+  InterpolationFilter_sse41.cpp
+  IntraPred_sse41.cpp
+  LoopFilter_sse41.cpp
+  Picture_sse41.cpp
+  Quant_sse41.cpp
+  RdCost_sse41.cpp
+  SampleAdaptiveOffset_sse41.cpp
+  Trafo_sse41.cpp
+  FilmGrainImpl_sse41.cpp
+  AdaptiveLoopFilter_avx2.cpp
+  Buffer_avx2.cpp
+  InterPred_avx2.cpp
+  InterpolationFilter_avx2.cpp
+  IntraPred_avx2.cpp
+  LoopFilter_avx2.cpp
+  Picture_avx2.cpp
+  Quant_avx2.cpp
+  RdCost_avx2.cpp
+  SampleAdaptiveOffset_avx2.cpp
+  Trafo_avx2.cpp
+  FilmGrainImpl_avx2.cpp
+  vvdec_x86_simd.vcxproj -> D:\Korea\Prangon_VVC_Assignment\vvdec\build\source\Lib\vvdec\vvdec_x86_simd.dir\Release\vvdec_x86_simd.lib
+  Building Custom Rule D:/Korea/Prangon_VVC_Assignment/vvdec/source/Lib/vvdec/CMakeLists.txt
+  AdaptiveLoopFilter.cpp
+  BitStream.cpp
+  Buffer.cpp
+  ChromaFormat.cpp
+  CodingStructure.cpp
+  ContextModelling.cpp
+  Contexts.cpp
+  InterPrediction.cpp
+  InterpolationFilter.cpp
+  IntraPrediction.cpp
+  LoopFilter.cpp
+  MatrixIntraPrediction.cpp
+  Mv.cpp
+  ParameterSetManager.cpp
+  PicListManager.cpp
+  PicYuvMD5.cpp
+  Picture.cpp
+  Quant.cpp
+  RdCost.cpp
+  Reshape.cpp
+  Rom.cpp
+  RomLFNST.cpp
+  RomTr.cpp
+  SEI_internal.cpp
+  SampleAdaptiveOffset.cpp
+  Slice.cpp
+  StatCounter.cpp
+  TrQuant.cpp
+  TrQuant_EMT.cpp
+  Unit.cpp
+  UnitPartitioner.cpp
+  UnitTools.cpp
+  WeightPrediction.cpp
+  dtrace.cpp
+  AnnexBread.cpp
+  BinDecoder.cpp
+  CABACReader.cpp
+  DecCu.cpp
+  DecLib.cpp
+  DecLibParser.cpp
+  DecLibRecon.cpp
+  DecSlice.cpp
+  HLSyntaxReader.cpp
+  NALread.cpp
+  SEIread.cpp
+  VLCReader.cpp
+  ThreadPool.cpp
+  vvdec.cpp
+  vvdecimpl.cpp
+  wasm_bindings.cpp
+  CommonDefX86.cpp
+  InitX86.cpp
+  FilmGrain.cpp
+  FilmGrainImpl.cpp
+  vvdec.vcxproj -> D:\Korea\Prangon_VVC_Assignment\vvdec\lib\release-static\vvdec.lib
+  Building Custom Rule D:/Korea/Prangon_VVC_Assignment/vvdec/source/App/vvdecapp/CMakeLists.txt
+  Building Custom Rule D:/Korea/Prangon_VVC_Assignment/vvdec/tests/vvdec_unit_test/CMakeLists.txt
+  vvdecapp.cpp
+  vvdec_unit_test.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1560 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  All 8672 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  vvdec_unit_test.vcxproj -> D:\Korea\Prangon_VVC_Assignment\vvdec\bin\release-static\vvdec_unit_test.exe
+  vvdecapp.vcxproj -> D:\Korea\Prangon_VVC_Assignment\vvdec\bin\release-static\vvdecapp.exe
+  Building Custom Rule D:/Korea/Prangon_VVC_Assignment/vvdec/CMakeLists.txt
+build exit: 0; build wall time 45 s

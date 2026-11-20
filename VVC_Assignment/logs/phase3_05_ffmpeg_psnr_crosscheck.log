@@ -1,0 +1,26 @@
+﻿FFmpeg PSNR cross-check - 2026-10-27 19:37:57 +06:00
+Command: ffmpeg -hide_banner -nostats -f rawvideo -pix_fmt yuv420p10le -s 416x240 -r 50 -i D:\Korea\VVC_Assignment\recon\smoke\BasketballPass_f16_QP32_faster_qpa0_t4_rec.yuv -f rawvideo -pix_fmt yuv420p10le -s 416x240 -r 50 -i D:\Korea\VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv -frames:v 16 -lavfi [0:v][1:v]psnr=stats_file=BasketballPass_f16_QP32_faster_qpa0_t4_ffmpeg_psnr_per_frame.log -f null -
+[in#0/rawvideo @ 000002945b778740] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'D:\Korea\VVC_Assignment\recon\smoke\BasketballPass_f16_QP32_faster_qpa0_t4_rec.yuv':
+  Duration: 00:00:00.32, start: 0.000000, bitrate: 119808 kb/s
+  Stream #0:0: Video: rawvideo (Y3[11][10] / 0xA0B3359), yuv420p10le, 416x240, 119808 kb/s, 50 tbr, 50 tbn
+[in#1/rawvideo @ 000002945d579680] Estimating duration from bitrate, this may be inaccurate
+Input #1, rawvideo, from 'D:\Korea\VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv':
+  Duration: 00:00:10.02, start: 0.000000, bitrate: 119808 kb/s
+  Stream #1:0: Video: rawvideo (Y3[11][10] / 0xA0B3359), yuv420p10le, 416x240, 119808 kb/s, 50 tbr, 50 tbn
+Stream mapping:
+  Stream #0:0 (rawvideo) -> psnr
+  Stream #1:0 (rawvideo) -> psnr
+  psnr:default -> Stream #0:0 (wrapped_avframe)
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: wrapped_avframe, yuv420p10le(progressive), 416x240, q=2-31, 200 kb/s, 50 fps, 50 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 wrapped_avframe
+[Parsed_psnr_0 @ 000002945b7b8d00] PSNR y:34.096549 u:39.672361 v:38.436486 average:35.208115 min:33.491894 max:38.588599
+[out#0/null @ 000002945b723c00] video:7KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=   16 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.32 bitrate=N/A speed=  48x elapsed=0:00:00.00    
+exit: 0
+per-frame lines: 16

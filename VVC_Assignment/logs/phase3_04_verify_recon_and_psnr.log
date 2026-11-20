@@ -1,0 +1,141 @@
+﻿Verify recon + PSNR - 2026-10-27 19:37:40 +06:00
+=== [1] recon format inspection
+{
+  "file": "BasketballPass_f16_QP32_faster_qpa0_t4_rec.yuv",
+  "size_bytes": 4792320,
+  "sha256": "17dda8aee3708c15df5cc7134bb613371fdcf70c2aa9db931f923c6ef3c699cb",
+  "width": 416,
+  "height": 240,
+  "layouts": {
+    "yuv420p10le": {
+      "bytes_per_frame": 299520,
+      "frames": 16,
+      "trailing_bytes": 0
+    },
+    "yuv420p (8-bit)": {
+      "bytes_per_frame": 149760,
+      "frames": 32,
+      "trailing_bytes": 0
+    },
+    "yuv444p (8-bit)": {
+      "bytes_per_frame": 299520,
+      "frames": 16,
+      "trailing_bytes": 0
+    },
+    "yuv422p10le": {
+      "bytes_per_frame": 399360,
+      "frames": 12,
+      "trailing_bytes": 0
+    }
+  },
+  "high_byte_le_3_fraction": 1.0,
+  "high_byte_max": 3,
+  "planes_10bit": {
+    "Y": {
+      "min": 0,
+      "max": 1023,
+      "mean": 458.06
+    },
+    "U": {
+      "min": 226,
+      "max": 655,
+      "mean": 423.6
+    },
+    "V": {
+      "min": 419,
+      "max": 872,
+      "mean": 600.62
+    }
+  },
+  "fraction_samples_lsb2_zero": 0.26008321647970084,
+  "frame0_mean_abs_vertical_diff": 19.53,
+  "frame0_mean_abs_horizontal_diff": 16.37,
+  "temporal_mad": {
+    "mean": 11.001,
+    "min": 8.828,
+    "min_at_pair": [
+      13,
+      14
+    ],
+    "max": 12.283,
+    "max_at_pair": [
+      6,
+      7
+    ],
+    "zero_diff_pairs": []
+  },
+  "last_frame": {
+    "index": 15,
+    "identical_to_previous": false,
+    "identical_to_first": false,
+    "mad_vs_previous": 9.442,
+    "Y_mean": 461.53
+  }
+}
+exit: 0
+=== [2] PSNR script validation on known cases (first 16 frames of the original)
+max luma after +4: 944
+-- identical (expect Y/U/V = inf):
+>   "peak1020": {
+      "peak": 1020,
+      "avg_of_frame_psnr": {
+        "Y": Infinity,
+        "U": Infinity,
+        "V": Infinity
+      },
+-- luma +4 (expect MSE_Y=16 -> Y-PSNR = 10*log10(1020^2/16) = 48.1308 dB, U/V inf):
+>   "peak1020": {
+      "peak": 1020,
+      "avg_of_frame_psnr": {
+        "Y": 48.13080360867911,
+        "U": Infinity,
+        "V": Infinity
+      },
+=== [3] PSNR original vs recon (16 frames, 10-bit, aligned frame-by-frame)
+{
+  "ref": "D:\\Korea\\VVC_Assignment\\dataset\\BasketballPass_416_240_50_10_420.yuv",
+  "rec": "D:\\Korea\\VVC_Assignment\\recon\\smoke\\BasketballPass_f16_QP32_faster_qpa0_t4_rec.yuv",
+  "width": 416,
+  "height": 240,
+  "bitdepth": 10,
+  "frames": 16,
+  "peak1020": {
+    "peak": 1020,
+    "avg_of_frame_psnr": {
+      "Y": 34.253519576085466,
+      "U": 39.708370680927395,
+      "V": 38.527919730098716
+    },
+    "psnr_of_avg_mse": {
+      "Y": 34.07103973494279,
+      "U": 39.64685202529487,
+      "V": 38.41097658868859
+    },
+    "yuv_411_mse": 35.1826058381694,
+    "yuv_611_psnr": 35.469675983442364
+  },
+  "peak1023": {
+    "peak": 1023,
+    "avg_of_frame_psnr": {
+      "Y": 34.27902881509032,
+      "U": 39.73387991993225,
+      "V": 38.553428969103564
+    },
+    "psnr_of_avg_mse": {
+      "Y": 34.096548973947634,
+      "U": 39.67236126429972,
+      "V": 38.436485827693446
+    },
+    "yuv_411_mse": 35.20811507717425,
+    "yuv_611_psnr": 35.49518522244721
+  },
+  "alignment_check_Y_psnr_peak1020": {
+    "-2": 24.501787677465963,
+    "-1": 26.690339293179093,
+    "0": 34.253519576085466,
+    "1": 26.74073386732469,
+    "2": 24.514827791758727
+  },
+  "alignment_best_offset": 0
+}
+exit: 0

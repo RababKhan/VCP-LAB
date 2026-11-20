@@ -1,0 +1,96 @@
+﻿git clone - 2026-10-27 14:39:19 +06:00
+git version 2.55.0.windows.5
+=== clone https://github.com/fraunhoferhhi/vvenc.git
+git : Cloning into 'D:\Korea\VVC_Assignment\src\vvenc'...
+At line:7 char:5
++     git clone https://github.com/fraunhoferhhi/$r.git "D:\Korea\VVC_A ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Cloning into 'D...t\src\vvenc'...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Updating files:  75% (602/801)
+Updating files:  76% (609/801)
+Updating files:  77% (617/801)
+Updating files:  78% (625/801)
+Updating files:  79% (633/801)
+Updating files:  80% (641/801)
+Updating files:  81% (649/801)
+Updating files:  82% (657/801)
+Updating files:  83% (665/801)
+Updating files:  84% (673/801)
+Updating files:  85% (681/801)
+Updating files:  86% (689/801)
+Updating files:  87% (697/801)
+Updating files:  88% (705/801)
+Updating files:  89% (713/801)
+Updating files:  90% (721/801)
+Updating files:  91% (729/801)
+Updating files:  92% (737/801)
+Updating files:  93% (745/801)
+Updating files:  94% (753/801)
+Updating files:  95% (761/801)
+Updating files:  96% (769/801)
+Updating files:  97% (777/801)
+Updating files:  98% (785/801)
+Updating files:  99% (793/801)
+Updating files: 100% (801/801)
+Updating files: 100% (801/801), done.
+exit: 0
+HEAD 0e7508b811bbea3cd510956ddb3193f3a4c93684 2026-10-23 11:49:25 +0200 Cleanup FGA parametrization and configs (#767)
+latest tags:
+v1.14.0
+v1.14.0-rc1
+v1.13.1
+v1.13.1-rc1
+v1.13.0
+latest release tag commit:
+v1.14.0
+9428ea8636ae7f443ecde89999d16b2dfc421524 2026-01-21 14:06:22 +0100
+=== clone https://github.com/fraunhoferhhi/vvdec.git
+git : Cloning into 'D:\Korea\VVC_Assignment\src\vvdec'...
+At line:7 char:5
++     git clone https://github.com/fraunhoferhhi/$r.git "D:\Korea\VVC_A ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Cloning into 'D...t\src\vvdec'...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Updating files:  73% (537/727)
+Updating files:  74% (538/727)
+Updating files:  75% (546/727)
+Updating files:  76% (553/727)
+Updating files:  77% (560/727)
+Updating files:  78% (568/727)
+Updating files:  79% (575/727)
+Updating files:  80% (582/727)
+Updating files:  81% (589/727)
+Updating files:  82% (597/727)
+Updating files:  83% (604/727)
+Updating files:  84% (611/727)
+Updating files:  85% (618/727)
+Updating files:  86% (626/727)
+Updating files:  87% (633/727)
+Updating files:  88% (640/727)
+Updating files:  89% (648/727)
+Updating files:  90% (655/727)
+Updating files:  91% (662/727)
+Updating files:  92% (669/727)
+Updating files:  93% (677/727)
+Updating files:  94% (684/727)
+Updating files:  95% (691/727)
+Updating files:  96% (698/727)
+Updating files:  97% (706/727)
+Updating files:  98% (713/727)
+Updating files:  99% (720/727)
+Updating files: 100% (727/727)
+Updating files: 100% (727/727), done.
+exit: 0
+HEAD 6f6bb29e375b6fdfd326ff1473e19c6ada7caaf0 2026-10-20 02:38:10 +0200 Merge pull request #441 from 4KVCD/fix-affine-4x4-4tap-debug-crash
+latest tags:
+v3.2.1
+v3.2.0
+v3.1.0
+v3.0.0
+v2.3.0
+latest release tag commit:
+v3.2.0
+649f0b2fafee977c998d7e4d674f8b88d952e3a3 2026-07-28 11:46:55 +0200

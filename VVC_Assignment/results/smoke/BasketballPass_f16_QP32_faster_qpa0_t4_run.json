@@ -1,0 +1,21 @@
+﻿{
+    "tag":  "BasketballPass_f16_QP32_faster_qpa0_t4",
+    "input":  "BasketballPass_416_240_50_10_420.yuv",
+    "width":  416,
+    "height":  240,
+    "fps":  50,
+    "frames":  16,
+    "qp":  32,
+    "preset":  "faster",
+    "qpa":  0,
+    "threads":  4,
+    "encode_cmd":  "vvencapp -i D:\\Korea\\VVC_Assignment\\dataset\\BasketballPass_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 16 -q 32 --preset faster --qpa 0 -t 4 -v 4 -o D:\\Korea\\VVC_Assignment\\bitstreams\\smoke\\BasketballPass_f16_QP32_faster_qpa0_t4.266",
+    "decode_cmd":  "vvdecapp -b D:\\Korea\\VVC_Assignment\\bitstreams\\smoke\\BasketballPass_f16_QP32_faster_qpa0_t4.266 -o D:\\Korea\\VVC_Assignment\\recon\\smoke\\BasketballPass_f16_QP32_faster_qpa0_t4_rec.yuv -t 4",
+    "encode_exit":  0,
+    "decode_exit":  0,
+    "encode_wall_s":  0.452,
+    "decode_wall_s":  0.055,
+    "bitstream_bytes":  10069,
+    "recon_bytes":  4792320,
+    "bitrate_kbps":  251.725
+}

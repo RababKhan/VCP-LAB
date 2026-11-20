@@ -1,0 +1,27 @@
+﻿=== ENCODE (Linux (WSL2))
+Command: /home/vvcuser/vvc_sadab/vvenc/bin/release-static/vvencapp -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 32 -q 29 --preset medium --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\professor_demo\output\20261115_111358_short\demo.266
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Linux][GCC 13.3.0][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BasketballPass_416_240_50_10_420.yuv
+vvenc [info]: Bitstream File                         : /mnt/d/Korea/Prangon_VVC_Assignment/professor_demo/output/20261115_111358_short/demo.266
+vvenc [info]: Real Format                            : 416x240  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 32 frames 
+vvenc [info]: Internal format                        : 416x240  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 32/32 fps=   7.7 avg_fps=   7.7 bitrate=   260.86 kbps avg_bitrate=   260.86 kbps elapsed= 00h:00m:05s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 7.7 avg_bitrate= 260.86 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 3540.80, AvgQP: 24.00
+vvenc [info]: stats summary: frame P:  0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 31, kbps:  155.06, AvgQP: 36.19
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a     260.8625   37.2215   42.2963   41.1148   38.1488
+vvencapp [info]: Total Time: 4.183 sec. Fps(avg): 7.650 encoded Frames 32
+Exit code: 0
+Wall time (s): 4.573

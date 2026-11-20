@@ -1,0 +1,25 @@
+# Repository root = D:\Korea. Only the two project folders are published.
+/*
+!/.gitignore
+!/.gitmodules
+!/README.md
+!/VVC_Assignment/
+!/Prangon_VVC_Assignment/
+
+# Raw and decoded video (GBs) and the JVET test sequences (not redistributable)
+*.yuv
+/VVC_Assignment/dataset/
+/Prangon_VVC_Assignment/dataset/
+
+# Machine-specific Python environments and caches
+.venv/
+__pycache__/
+
+# Files larger than GitHub's 100 MB limit
+/VVC_Assignment/tools/ffmpeg/ffmpeg-n9.0-latest-win64-gpl-9.0/bin/ffmpeg.exe
+/VVC_Assignment/tools/ffmpeg/ffmpeg-n9.0-latest-win64-gpl-9.0/bin/ffplay.exe
+/VVC_Assignment/tools/ffmpeg/ffmpeg-n9.0-latest-win64-gpl-9.0/bin/ffprobe.exe
+/VVC_Assignment/tools/_downloads/ffmpeg-n9.0-latest-win64-gpl-9.0.zip
+/Prangon_VVC_Assignment/tools/ffmpeg/ffmpeg-n9.0-latest-win64-gpl-9.0/bin/ffmpeg.exe
+/Prangon_VVC_Assignment/tools/ffmpeg/ffmpeg-n9.0-latest-win64-gpl-9.0/bin/ffplay.exe
+/Prangon_VVC_Assignment/tools/ffmpeg/ffmpeg-n9.0-latest-win64-gpl-9.0/bin/ffprobe.exe

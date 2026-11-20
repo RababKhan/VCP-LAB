@@ -1,0 +1,14 @@
+﻿CMake portable - 2026-10-27 14:44:16 +06:00
+Source: https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-x86_64.zip
+Expected SHA256: bace36e94b31c68ab6fa295f26dfa11219e0701cf7c94b0284a7d1cb13dac536
+Actual   SHA256: bace36e94b31c68ab6fa295f26dfa11219e0701cf7c94b0284a7d1cb13dac536
+Match: True
+cmake version 4.4.4
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Generators containing Visual Studio:
+
+  Visual Studio 18 2026        = Generates Visual Studio 2026 project files.
+  Visual Studio 17 2022        = Generates Visual Studio 2022 project files.
+
+

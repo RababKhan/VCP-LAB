@@ -1,0 +1,70 @@
+{
+  "BasketballPass": {
+    "frames": {
+      "intra_first_idr": 15,
+      "typical_qp32_medium": 133,
+      "worst_qp37_medium": 370
+    },
+    "per_frame_y_psnr": {
+      "QP22_medium": {
+        "intra_first_idr": 45.4448,
+        "typical_qp32_medium": 40.7928,
+        "worst_qp37_medium": 37.6187
+      },
+      "QP32_medium": {
+        "intra_first_idr": 38.8546,
+        "typical_qp32_medium": 33.2822,
+        "worst_qp37_medium": 30.4144
+      },
+      "QP37_medium": {
+        "intra_first_idr": 35.5952,
+        "typical_qp32_medium": 30.5533,
+        "worst_qp37_medium": 27.6821
+      },
+      "QP32_faster": {
+        "intra_first_idr": 38.101,
+        "typical_qp32_medium": 32.7463,
+        "worst_qp37_medium": 30.5505
+      },
+      "QP32_slower": {
+        "intra_first_idr": 38.998,
+        "typical_qp32_medium": 33.8685,
+        "worst_qp37_medium": 30.7858
+      }
+    }
+  },
+  "BQMall": {
+    "frames": {
+      "intra_first_idr": 31,
+      "typical_qp32_medium": 441,
+      "worst_qp37_medium": 42
+    },
+    "per_frame_y_psnr": {
+      "QP22_medium": {
+        "intra_first_idr": 41.5337,
+        "typical_qp32_medium": 40.6667,
+        "worst_qp37_medium": 38.2779
+      },
+      "QP32_medium": {
+        "intra_first_idr": 36.737,
+        "typical_qp32_medium": 35.1726,
+        "worst_qp37_medium": 32.3121
+      },
+      "QP37_medium": {
+        "intra_first_idr": 33.6062,
+        "typical_qp32_medium": 32.5537,
+        "worst_qp37_medium": 29.5845
+      },
+      "QP32_faster": {
+        "intra_first_idr": 36.4801,
+        "typical_qp32_medium": 34.7842,
+        "worst_qp37_medium": 31.5054
+      },
+      "QP32_slower": {
+        "intra_first_idr": 36.9011,
+        "typical_qp32_medium": 35.4826,
+        "worst_qp37_medium": 32.817
+      }
+    }
+  }
+}

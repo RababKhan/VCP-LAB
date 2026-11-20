@@ -1,0 +1,80 @@
+=== executables 2026-11-05T09:27:36+06:00
+ebe02e98043caa1d527da03f014601edc34261a8a0f157b5391d8d05208a5389  4682408 bytes  /home/vvcuser/vvc_linux/vvenc/bin/release-static/vvencFFapp
+be4471b69360764916688acc3900c032f4ec6b90c697ea1c488ce4a4dbc25ac9  1764496 bytes  /home/vvcuser/vvc_linux/vvenc/bin/release-static/vvenc_unit_test
+a4263b67f81d529cbae59f9342b90678074d0d27deb56a8237b0755a9078d026  4652688 bytes  /home/vvcuser/vvc_linux/vvenc/bin/release-static/vvencapp
+932a82495e44206a820c8d08806c4faf31159d62180eb31ed93af0c2859ff8f1  3835880 bytes  /home/vvcuser/vvc_linux/vvenc/bin/release-static/vvencinterfacetest
+84a852f6cab600842a94f8ea32814d630cec2a06c1608a6b0d6ea5fc420361c8  4542808 bytes  /home/vvcuser/vvc_linux/vvenc/bin/release-static/vvenclibtest
+7138bbc8fb3e59dda98f61e0555a1702d61c1b831ea215e27bfad90bf5703bea  923568 bytes  /home/vvcuser/vvc_linux/vvdec/bin/release-static/vvdec_unit_test
+cbbcbb14148ba8ba21470ec1fe542b428c18f749bb0011001397cbc89ac07f6c  2453528 bytes  /home/vvcuser/vvc_linux/vvdec/bin/release-static/vvdecapp
+--- file / linkage
+/home/vvcuser/vvc_linux/vvenc/bin/release-static/vvencapp: ELF 64-bit LSB pie executable, x86-64, version 1 (GNU/Linux), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=16c87c70daf3cb9e303dd6b7653825a7fdd545e3, for GNU/Linux 3.2.0, not stripped
+/home/vvcuser/vvc_linux/vvdec/bin/release-static/vvdecapp: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=7f6b0ad6aa7693d721e5d104e53d3f79762a122c, for GNU/Linux 3.2.0, not stripped
+$ ldd vvencapp
+	linux-vdso.so.1 (0x00007e64fa391000)
+	libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007e64f9a00000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007e64fa29b000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007e64fa26d000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007e64f9600000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007e64fa393000)
+$ ldd vvdecapp
+	linux-vdso.so.1 (0x00007189d0515000)
+	libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007189cfe00000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007189d0117000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007189d04da000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007189cfa00000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007189d0517000)
+--- versions
+$ vvencapp --version
+vvencapp version 1.14.0
+exit code: 0
+$ vvdecapp --version
+vvdecapp version 3.2.1
+exit code: 0
+--- CMake cache (key options)
+[vvenc]
+BUILD_SHARED_LIBS:BOOL=OFF
+CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+VVENC_ENABLE_ARM_SIMD:BOOL=
+VVENC_ENABLE_ARM_SIMD_SVE:BOOL=
+VVENC_ENABLE_BUILD_TYPE_POSTFIX:BOOL=OFF
+VVENC_ENABLE_INSTALL:BOOL=ON
+VVENC_ENABLE_LINK_TIME_OPT:BOOL=ON
+VVENC_ENABLE_THIRDPARTY_JSON:STRING=ON
+VVENC_ENABLE_TRACING:BOOL=OFF
+VVENC_ENABLE_UNSTABLE_API:BOOL=OFF
+VVENC_ENABLE_WERROR:BOOL=ON
+VVENC_FFP_CONTRACT_OFF:BOOL=OFF
+VVENC_INSTALL_FULLFEATURE_APP:BOOL=OFF
+VVENC_LIBRARY_ONLY:BOOL=OFF
+VVENC_OPT_TARGET_ARCH:STRING=
+VVENC_TOPLEVEL_OUTPUT_DIRS:BOOL=ON
+VVENC_USE_ADDRESS_SANITIZER:BOOL=OFF
+[vvdec]
+BUILD_SHARED_LIBS:BOOL=OFF
+CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+VVDEC_ENABLE_ARM_SIMD:BOOL=
+VVDEC_ENABLE_ARM_SIMD_RDM:BOOL=
+VVDEC_ENABLE_ARM_SIMD_SVE:BOOL=
+VVDEC_ENABLE_BITSTREAM_DOWNLOAD:BOOL=OFF
+VVDEC_ENABLE_BUILD_TYPE_POSTFIX:BOOL=OFF
+VVDEC_ENABLE_ITT:BOOL=OFF
+VVDEC_ENABLE_LINK_TIME_OPT:BOOL=ON
+VVDEC_ENABLE_LOCAL_BITSTREAM_DOWNLOAD:BOOL=OFF
+VVDEC_ENABLE_TRACING:BOOL=FALSE
+VVDEC_ENABLE_UNSTABLE_API:BOOL=OFF
+VVDEC_ENABLE_WERROR:BOOL=ON
+VVDEC_FUZZING_BUILD:BOOL=OFF
+VVDEC_INSTALL_VVDECAPP:BOOL=OFF
+VVDEC_LIBRARY_ONLY:BOOL=OFF
+VVDEC_OPT_TARGET_ARCH:STRING=
+VVDEC_TESTS_DEBUGGER_COMMAND:STRING=
+VVDEC_TESTS_EXTRA_ARGS:STRING=
+VVDEC_TOPLEVEL_OUTPUT_DIRS:BOOL=ON
+VVDEC_USE_ADDRESS_SANITIZER:BOOL=OFF
+VVDEC_USE_THREAD_SANITIZER:BOOL=OFF
+VVDEC_WRITE_INPUT_BITSTREAM:BOOL=FALSE
+vvencapp --help exit code: 0
+vvencapp --fullhelp exit code: 0
+vvdecapp --help exit code: 0

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlistItems version="2.0">
+ <playlistItemRawFile>
+  <id>0</id>
+  <frameRate>24</frameRate>
+  <viewCenterOffsetView0X>0</viewCenterOffsetView0X>
+  <viewCenterOffsetView0Y>0</viewCenterOffsetView0Y>
+  <viewZoomFactorView0>1</viewZoomFactorView0>
+  <viewCenterOffsetView1X>0</viewCenterOffsetView1X>
+  <viewCenterOffsetView1Y>0</viewCenterOffsetView1Y>
+  <viewZoomFactorView1>1</viewZoomFactorView1>
+  <absolutePath>file:///Korea/Prangon_VVC_Assignment/visual/yuview/BasketballDrive_QP24_medium_1920x1080_50fps_10bit_420.yuv</absolutePath>
+  <relativePath>../../../Prangon_VVC_Assignment/visual/yuview/BasketballDrive_QP24_medium_1920x1080_50fps_10bit_420.yuv</relativePath>
+  <type>YUV</type>
+  <width>4294967295</width>
+  <height>4294967295</height>
+  <pixelFormat>YUV 4:2:0 8-bit</pixelFormat>
+  <math.luma.scale>1</math.luma.scale>
+  <math.luma.offset>125</math.luma.offset>
+  <math.luma.invert>False</math.luma.invert>
+  <math.chroma.scale>1</math.chroma.scale>
+  <math.chroma.offset>128</math.chroma.offset>
+  <math.chroma.invert>False</math.chroma.invert>
+ </playlistItemRawFile>
+ <viewStates>
+  <current>
+   <frameIdx>-1</frameIdx>
+   <itemID1>0</itemID1>
+   <centerOffsetX>0</centerOffsetX>
+   <centerOffsetY>0</centerOffsetY>
+   <viewMode>0</viewMode>
+   <zoomFactor>1</zoomFactor>
+  </current>
+ </viewStates>
+</playlistItems>

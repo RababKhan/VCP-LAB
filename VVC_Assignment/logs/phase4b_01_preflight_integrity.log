@@ -1,0 +1,19 @@
+﻿Preflight integrity - 2026-11-04 09:40:17 +06:00
+BasketballPass   exists=True size=150059520 sha256_match=True
+BlowingBubbles   exists=True size=150059520 sha256_match=True
+BQMall           exists=True size=720046080 sha256_match=True
+BasketballDrive  exists=True size=3116620800 sha256_match=True
+src\vvenc\bin\release-static\vvencapp.exe  2,797,056 B  built 2026-10-27 15:08:46  sha256 c74f3b63e331805f3cac74ab1e0849f0c7877fa885de44d32119927425b3160b
+src\vvdec\bin\release-static\vvdecapp.exe  1,563,136 B  built 2026-10-27 15:10:51  sha256 3f46677abee5bef1c2c272752d6b04222c06a48eaa983b848f623d8dbc2499b6
+vvencapp version 1.14.0
+vvdecapp.exe version 3.2.1
+fatal: cannot change to 'vvenc\src\vvenc': No such file or directory
+fatal: cannot change to 'vvenc\src\vvenc': No such file or directory
+fatal: cannot change to 'vvenc\src\vvenc': No such file or directory
+vvenc HEAD  () tracked changes: []
+fatal: cannot change to 'vvdec\src\vvdec': No such file or directory
+fatal: cannot change to 'vvdec\src\vvdec': No such file or directory
+fatal: cannot change to 'vvdec\src\vvdec': No such file or directory
+vvdec HEAD  () tracked changes: []
+vvenc HEAD 9428ea8636ae7f443ecde89999d16b2dfc421524 (v1.14.0) tracked changes: []
+vvdec HEAD cb1a3efd88b2ebd1141f1a9ca87c774f05de9249 (v3.2.1) tracked changes: []

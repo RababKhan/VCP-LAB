@@ -1,0 +1,28 @@
+| # | Report | Claim | Recomputed | Result |
+|---|---|---|---|---|
+| 1 | report/preliminary_results_report.md | 65/65 runs ok, 32/32 repeats byte-identical, PSNR diff to encoder 0.0000 | `[65, 0, "32/32", 0]` | PASS |
+| 2 | report/preliminary_results_report.md | bitrate falls by 1.91-2.35x per +5 QP (median about 2.06) | `[1.91, 2.35, 2.062]` | PASS |
+| 3 | report/preliminary_results_report.md | Y-PSNR falls 1.45-3.93 dB per +5 QP | `[1.45, 3.93]` | PASS |
+| 4 | report/preliminary_results_report.md | QP 22 takes 2.7-3.7x as long as QP 37 | `[2.71, 3.69]` | PASS |
+| 5 | report/preliminary_results_report.md | encoding 133-333x slower than decoding (medium, QP sweep) | `[133, 333]` | PASS |
+| 6 | report/preliminary_results_report.md | faster encode time vs medium 0.11-0.13x | `[0.123, 0.105, 0.115, 0.131]` | PASS |
+| 7 | report/preliminary_results_report.md | fast encode time vs medium 0.27-0.3x | `[0.289, 0.274, 0.297, 0.28]` | PASS |
+| 8 | report/preliminary_results_report.md | slow encode time vs medium 3.25-3.71x | `[3.592, 3.247, 3.434, 3.707]` | PASS |
+| 9 | report/preliminary_results_report.md | slower encode time vs medium 14.44-17.06x | `[16.758, 14.437, 15.909, 17.059]` | PASS |
+| 10 | report/preliminary_results_report.md | MEDIUM -> SLOWER: +0.24 to +0.38 dB Y-PSNR, 1.5-4.3% smaller (4 sequences, sequence level) | `{"dB": [0.3747, 0.2963, 0.328, 0.2389], "pct_smaller": [2.2, 1.51, 4.31, 3.59]}` | PASS |
+| 11 | report/preliminary_results_report.md | FASTER -> SLOWER: +0.69 to +0.98 dB, 7-15% smaller (4 sequences, sequence level) | `{"dB": [0.843, 0.9546, 0.9785, 0.6869], "pct_smaller": [13.1, 7.35, 14.65, 15.27]}` | PASS |
+| 12 | report/preliminary_results_report.md | FASTER -> MEDIUM: 7.7-9.1x time, +0.45 to +0.66 dB, 6-12% smaller | `{"time_x": [8.12, 9.51, 8.69, 7.65], "dB": [0.468, 0.658, 0.651, 0.448], "pct_smaller": [11.14, 5.93, 10.8, 12.12]}` | FAIL |
+| 13 | report/preliminary_results_report.md | encode CV median 2.4%, range 0.40-5.27% excluding the 14.1% battery outlier | `{"median": 2.44, "min": 0.4, "max_excl_outlier": 5.27, "max": 14.1}` | PASS |
+| 14 | report/preliminary_results_report.md | BlowingBubbles fast is 0.58% smaller than medium, with -0.44 dB | `[0.58, -0.438]` | PASS |
+| 15 | report/preliminary_results_report.md | battery interval 14:27:34-15:31:17; 11 runs with battery exposure | `[[["2026-11-04T14:27:34", "2026-11-04T15:31:17"]], 11]` | PASS |
+| 16 | report/preliminary_results_report.md section 9 | BQMall_f600_q32_faster_t8: encode reported diff -18.71% | `-18.71` | PASS |
+| 17 | report/preliminary_results_report.md section 9 | BasketballDrive_f500_q32_fast_t8: encode reported diff -2.39% | `-2.39` | PASS |
+| 18 | report/preliminary_results_report.md section 9 | BQMall_f600_q22_medium_t8: encode reported diff +0.87% | `0.87` | PASS |
+| 19 | report/preliminary_results_report.md section 9 | BasketballDrive_f500_q32_slower_t8: encode reported diff -2.82% | `-2.82` | PASS |
+| 20 | report/preliminary_results_report.md section 9 | all supplementary runs AC-valid and bitstream-identical | `{"warmup_BasketballPass_f64_q32_faster_suppAC": [true, true], "BQMall_f600_q32_faster_t8_suppAC": [true, true], "BasketballDrive_f500_q32_fast_t8_suppAC": [true, true], "BQMall_f600_q22_medium_t8_suppAC": [true, true], "BasketballDrive_f500_q32_slower_t8_suppAC": [true, true]}` | PASS |
+| 21 | report/phase5_linux_build_report.md | Windows and Linux smoke bitstream and recon byte-identical; PSNR identical; 16 frames | `{"bitstream_identical_windows_linux": true, "recon_identical_windows_linux": true, "psnr_identical_windows_linux": true, "decoded_frames_16_both": true, "linux_runs_deterministic_bitstream": true}` | PASS |
+| 22 | report/phase6_visual_evaluation_report.md + phase6_summary_for_prof_kiho.md | frame Y-PSNR QP22->QP37 drop 9.8-10.2 dB (BasketballPass), 7.9-8.7 dB (BQMall) | `{"BasketballPass": [9.85, 10.24], "BQMall": [7.93, 8.69]}` | PASS |
+| 23 | report/phase6_visual_evaluation_report.md + phase6_summary_for_prof_kiho.md | FRAME-level faster->slower spread 0.24-1.31 dB (6 selected frames) | `[0.42, 1.31, 0.7, 0.9, 1.12, 0.24]` | PASS |
+| 24 | report/phase6_visual_evaluation_report.md + phase6_summary_for_prof_kiho.md | SEQUENCE-level FASTER->SLOWER +0.84 to +0.98 dB and 13% / 15% smaller (BasketballPass, BQMall only) | `{"BasketballPass": [0.843, 13.1], "BQMall": [0.9785, 14.65]}` | PASS |
+| 25 | report/phase6_visual_evaluation_report.md + phase6_summary_for_prof_kiho.md | BasketballPass: medium below faster in 67 frames (13.4%), all with more bits in faster, 59 with lower slice QP | `[67, 13.4, 67, 59]` | PASS |
+| 26 | report/phase6_visual_evaluation_report.md + phase6_summary_for_prof_kiho.md | summary for Prof. Kiho: 'IDR at QP 27' for -q 32 (stated without sequence) | `{"BasketballPass": 27, "BQMall": 29}` | FAIL |

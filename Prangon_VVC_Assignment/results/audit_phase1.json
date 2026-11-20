@@ -1,0 +1,187 @@
+{
+  "n_checks": 614,
+  "n_failed": 0,
+  "problems": [],
+  "run_order_probe": [
+    {
+      "run": "R01",
+      "started": "2026-11-11 11:21:59",
+      "seq": "BQMall",
+      "qp": "39",
+      "preset": "medium",
+      "encode_s": 84.718,
+      "encode_wall_s": 84.885,
+      "decode_runs_s": "1.430;3.355;2.772"
+    },
+    {
+      "run": "R02",
+      "started": "2026-11-11 11:23:34",
+      "seq": "BQMall",
+      "qp": "34",
+      "preset": "fast",
+      "encode_s": 34.882,
+      "encode_wall_s": 35.035,
+      "decode_runs_s": "5.585;1.079;1.087"
+    },
+    {
+      "run": "R03",
+      "started": "2026-11-11 11:24:20",
+      "seq": "BlowingBubbles",
+      "qp": "24",
+      "preset": "medium",
+      "encode_s": 122.094,
+      "encode_wall_s": 122.285,
+      "decode_runs_s": "0.741;0.600;0.716"
+    },
+    {
+      "run": "R04",
+      "started": "2026-11-11 11:26:26",
+      "seq": "BlowingBubbles",
+      "qp": "34",
+      "preset": "fast",
+      "encode_s": 23.982,
+      "encode_wall_s": 24.159,
+      "decode_runs_s": "0.613;0.615;0.668"
+    },
+    {
+      "run": "R05",
+      "started": "2026-11-11 11:26:54",
+      "seq": "BQMall",
+      "qp": "34",
+      "preset": "medium",
+      "encode_s": 141.172,
+      "encode_wall_s": 141.431,
+      "decode_runs_s": "1.466;5.139;1.240"
+    },
+    {
+      "run": "R06",
+      "started": "2026-11-11 11:29:28",
+      "seq": "BQMall",
+      "qp": "29",
+      "preset": "fast",
+      "encode_s": 57.167,
+      "encode_wall_s": 57.345,
+      "decode_runs_s": "1.535;5.762;1.245"
+    },
+    {
+      "run": "R07",
+      "started": "2026-11-11 11:30:37",
+      "seq": "BQMall",
+      "qp": "24",
+      "preset": "fast",
+      "encode_s": 76.441,
+      "encode_wall_s": 76.609,
+      "decode_runs_s": "1.348;1.352;1.341"
+    },
+    {
+      "run": "R08",
+      "started": "2026-11-11 11:32:00",
+      "seq": "BlowingBubbles",
+      "qp": "39",
+      "preset": "medium",
+      "encode_s": 43.913,
+      "encode_wall_s": 44.056,
+      "decode_runs_s": "0.400;0.399;0.382"
+    },
+    {
+      "run": "R09",
+      "started": "2026-11-11 11:32:46",
+      "seq": "BQMall",
+      "qp": "39",
+      "preset": "fast",
+      "encode_s": 24.469,
+      "encode_wall_s": 24.593,
+      "decode_runs_s": "1.202;1.149;1.154"
+    },
+    {
+      "run": "R10",
+      "started": "2026-11-11 11:33:17",
+      "seq": "BlowingBubbles",
+      "qp": "29",
+      "preset": "fast",
+      "encode_s": 19.975,
+      "encode_wall_s": 20.091,
+      "decode_runs_s": "0.353;0.345;0.361"
+    },
+    {
+      "run": "R11",
+      "started": "2026-11-11 11:33:39",
+      "seq": "BlowingBubbles",
+      "qp": "24",
+      "preset": "fast",
+      "encode_s": 28.096,
+      "encode_wall_s": 28.214,
+      "decode_runs_s": "0.419;0.417;0.420"
+    },
+    {
+      "run": "R12",
+      "started": "2026-11-11 11:34:10",
+      "seq": "BlowingBubbles",
+      "qp": "39",
+      "preset": "fast",
+      "encode_s": 11.385,
+      "encode_wall_s": 11.516,
+      "decode_runs_s": "0.347;0.364;0.377"
+    },
+    {
+      "run": "R13",
+      "started": "2026-11-11 11:34:23",
+      "seq": "BlowingBubbles",
+      "qp": "29",
+      "preset": "medium",
+      "encode_s": 79.964,
+      "encode_wall_s": 80.134,
+      "decode_runs_s": "0.425;0.417;0.416"
+    },
+    {
+      "run": "R14",
+      "started": "2026-11-11 11:35:45",
+      "seq": "BQMall",
+      "qp": "24",
+      "preset": "medium",
+      "encode_s": 233.052,
+      "encode_wall_s": 233.23,
+      "decode_runs_s": "1.390;1.380;1.372"
+    },
+    {
+      "run": "R15",
+      "started": "2026-11-11 11:39:46",
+      "seq": "BQMall",
+      "qp": "29",
+      "preset": "medium",
+      "encode_s": 150.545,
+      "encode_wall_s": 150.723,
+      "decode_runs_s": "1.421;1.333;6.198"
+    },
+    {
+      "run": "R16",
+      "started": "2026-11-11 11:42:29",
+      "seq": "BlowingBubbles",
+      "qp": "34",
+      "preset": "medium",
+      "encode_s": 48.579,
+      "encode_wall_s": 48.716,
+      "decode_runs_s": "0.359;0.369;0.349"
+    },
+    {
+      "run": "R17",
+      "started": "2026-11-11 11:43:19",
+      "seq": "BlowingBubbles",
+      "qp": "34",
+      "preset": "fast",
+      "encode_s": 13.236,
+      "encode_wall_s": 13.359,
+      "decode_runs_s": "0.338;0.346;0.321"
+    },
+    {
+      "run": "R18",
+      "started": "2026-11-11 11:43:35",
+      "seq": "BlowingBubbles",
+      "qp": "34",
+      "preset": "medium",
+      "encode_s": 47.576,
+      "encode_wall_s": 47.721,
+      "decode_runs_s": "0.381;0.378;0.365"
+    }
+  ]
+}

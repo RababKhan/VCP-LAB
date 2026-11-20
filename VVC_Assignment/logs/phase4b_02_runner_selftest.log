@@ -1,0 +1,40 @@
+﻿=== pass 1
+[1/4] st_q32: encoding 8 frames (QP 32, faster) ...
+    decoding (timing pass, no output) ...
+    decoding (recon pass) + PSNR ...
+    ok: enc 0.286 s (reported 0.193), dec 0.016 s, 7504 B, Y-PSNR 34.2582
+[2/4] st_q32_rep2: encoding 8 frames (QP 32, faster) ...
+    decoding (timing pass, no output) ...
+    ok: enc 0.285 s (reported 0.189), dec 0.018 s, 7504 B, Y-PSNR None
+[3/4] st_q37: interrupted earlier; 1 partial files preserved in _interrupted/, re-running
+[3/4] st_q37: encoding 8 frames (QP 37, faster) ...
+    decoding (timing pass, no output) ...
+    decoding (recon pass) + PSNR ...
+    ok: enc 0.243 s (reported 0.14), dec 0.016 s, 3961 B, Y-PSNR 31.389
+[4/4] st_q37_bad_repeat: encoding 8 frames (QP 37, faster) ...
+    decoding (timing pass, no output) ...
+    FAILED checks: ['repeat_bitstream_identical']
+    failed: enc 0.227 s (reported 0.14), dec 0.015 s, 3961 B, Y-PSNR None
+SUMMARY: 3 ok, 1 failed, 4 in selection
+pass 1 exit: 1 (expected 1: one deliberate failure)
+=== pass 2 (resume: ok runs skipped, failed run reported, not re-run)
+[1/4] st_q32: already ok, skipping
+[2/4] st_q32_rep2: already ok, skipping
+[3/4] st_q37: already ok, skipping
+[4/4] st_q37_bad_repeat: FAILED previously (None); not re-run (use --retry-failed)
+SUMMARY: 3 ok, 1 failed, 4 in selection
+pass 2 exit: 1
+=== preserved interrupted files
+_interrupted\runner_selftest\st_q37_20261104_094220\st_q37.266 (17 B)
+=== csv
+
+run_id            status failed_checks              bitstream_bytes psnr_y  max_abs_psnr_diff_vs_encoder
+------            ------ -------------              --------------- ------  ----------------------------
+st_q32            ok                                7504            34.2582 0.0                         
+st_q32_rep2       ok                                7504                                                
+st_q37            ok                                3961            31.389  0.0                         
+st_q37_bad_repeat failed repeat_bitstream_identical 3961                                                
+
+
+
+=== leftover .tmp files: 0

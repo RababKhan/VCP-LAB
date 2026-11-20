@@ -1,0 +1,7 @@
+﻿=== Windows executables 2026-11-11 11:18:09 +06:00
+sha256 vvenc\bin\release-static\vvencapp.exe : f15352d48b988f2bf6788c86630dbb587ea45b723f9f55767609365555a66719
+exit 0 : vvencapp version 1.14.0
+sha256 vvdec\bin\release-static\vvdecapp.exe : fad26e593352d097ede9d7536b0bc5780669e0913cce26ed60f7f063dceb838e
+exit 0 : vvdecapp.exe version 3.2.1
+MSVC toolset: 14.44.35207
+-- The CXX compiler identification is MSVC 19.44.35229.0

@@ -1,0 +1,6 @@
+=== input copy 2026-11-05T09:39:55+06:00
+copied /mnt/d/Korea/VVC_Assignment/dataset/BasketballPass_416_240_50_10_420.yuv -> /home/vvcuser/vvc_linux/data/BasketballPass_416_240_50_10_420.yuv (exit 0)
+sha256: de0dcc61e9ba4d22312effad81517fb3a24ecd883738ec3c66f490f7593ed698
+expect: de0dcc61e9ba4d22312effad81517fb3a24ecd883738ec3c66f490f7593ed698
+INPUT CHECK: PASS
+size: 150059520 bytes

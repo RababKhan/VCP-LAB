@@ -1,0 +1,7 @@
+timestamp,run_id,ac_power,battery_pct,battery_saver,power_mode
+2026-11-04T17:26:03.724+06:00,selftest_BasketballPass_f64_q32_medium:prelaunch,True,94,False,Best performance
+2026-11-04T17:26:03.728+06:00,selftest_BasketballPass_f64_q32_medium,True,94,False,Best performance
+2026-11-04T17:26:05.729+06:00,selftest_BasketballPass_f64_q32_medium,True,94,False,Best performance
+2026-11-04T17:26:07.729+06:00,selftest_BasketballPass_f64_q32_medium,True,94,False,Best performance
+2026-11-04T17:26:09.730+06:00,selftest_warmup_f64_faster:prelaunch,True,94,False,Best performance
+2026-11-04T17:26:09.738+06:00,selftest_warmup_f64_faster,True,94,False,Best performance

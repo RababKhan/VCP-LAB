@@ -1,0 +1,42 @@
+=== A018_BasketballPass_QP24_slow (Linux) 2026-11-11 18:11:42 +0600
+$ /home/vvcuser/vvc_sadab/vvenc/bin/release-static/vvencapp -i /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BasketballPass_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 500 -q 24 --preset slow --qpa 0 -t 8 -o /home/vvcuser/vvc_sadab/xp/A018_BasketballPass_QP24_slow_linux.266
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Linux][GCC 13.3.0][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BasketballPass_416_240_50_10_420.yuv
+vvenc [info]: Bitstream File                         : /home/vvcuser/vvc_sadab/xp/A018_BasketballPass_QP24_slow_linux.266
+vvenc [info]: Real Format                            : 416x240  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 500 frames 
+vvenc [info]: Internal format                        : 416x240  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 24
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats:  10.0% frame=  50/500 fps=   1.5 avg_fps=   1.5 bitrate=   557.24 kbps avg_bitrate=   557.24 kbps elapsed= 00h:00m:34s left= 00h:05m:06s    
+vvenc [info]: stats:  20.0% frame= 100/500 fps=   1.3 avg_fps=   1.4 bitrate=   786.54 kbps avg_bitrate=   671.89 kbps elapsed= 00h:01m:14s left= 00h:04m:56s    
+vvenc [info]: stats:  30.0% frame= 150/500 fps=   1.3 avg_fps=   1.3 bitrate=   704.11 kbps avg_bitrate=   682.63 kbps elapsed= 00h:01m:53s left= 00h:04m:22s    
+vvenc [info]: stats:  40.0% frame= 200/500 fps=   1.0 avg_fps=   1.2 bitrate=   912.18 kbps avg_bitrate=   740.02 kbps elapsed= 00h:02m:41s left= 00h:04m:01s    
+vvenc [info]: stats:  50.0% frame= 250/500 fps=   1.0 avg_fps=   1.2 bitrate=   896.26 kbps avg_bitrate=   771.27 kbps elapsed= 00h:03m:31s left= 00h:03m:31s    
+vvenc [info]: stats:  60.0% frame= 300/500 fps=   1.1 avg_fps=   1.2 bitrate=   833.77 kbps avg_bitrate=   781.68 kbps elapsed= 00h:04m:17s left= 00h:02m:52s    
+vvenc [info]: stats:  70.0% frame= 350/500 fps=   0.9 avg_fps=   1.1 bitrate=   987.18 kbps avg_bitrate=   811.04 kbps elapsed= 00h:05m:13s left= 00h:02m:14s    
+vvenc [info]: stats:  80.0% frame= 400/500 fps=   0.8 avg_fps=   1.1 bitrate=   900.17 kbps avg_bitrate=   822.18 kbps elapsed= 00h:06m:18s left= 00h:01m:35s    
+vvenc [info]: stats:  90.0% frame= 450/500 fps=   1.1 avg_fps=   1.1 bitrate=   950.99 kbps avg_bitrate=   836.49 kbps elapsed= 00h:07m:06s left= 00h:00m:48s    
+vvenc [info]: stats: 100.0% frame= 500/500 fps=   2.1 avg_fps=   1.1 bitrate=   755.78 kbps avg_bitrate=   828.42 kbps elapsed= 00h:07m:29s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 500/500 avg_fps= 1.1 avg_bitrate= 828.42 kbps
+vvenc [info]: stats summary: frame I:  11, kbps: 4376.25, AvgQP: 21.10
+vvenc [info]: stats summary: frame P:   0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 489, kbps:  748.61, AvgQP: 30.63
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	      500    a     828.4224   39.0860   42.9970   41.5497   39.6619
+vvencapp [info]: Total Time: 448.748 sec. Fps(avg): 1.114 encoded Frames 500
+encode exit: 0
+$ /home/vvcuser/vvc_sadab/vvdec/bin/release-static/vvdecapp -b /home/vvcuser/vvc_sadab/xp/A018_BasketballPass_QP24_slow_linux.266 -o /home/vvcuser/vvc_sadab/xp/A018_BasketballPass_QP24_slow_linux_rec.yuv -t 8
+POC  498 LId:  0 TId: 5 ( B-SLICE, QP 32 ) [DT  0.001] [L0 497 495 ] [L1 499c 497 ] 
+vvdecapp [info]: 2026-Nov-11 18:19:12.163425: 500 frames decoded @ 1366.12 fps (0.366 sec)
+
+decode exit: 0
+RESULT bitstream_bytes 1035528 bitstream_sha256 4c5741f69eb3b3dccfa9839ce9b4ddf4a8eca0cdc8d1d52dc225b8c3ed1d4c0c
+RESULT recon_bytes 149760000 recon_sha256 4c8de67a294def0df9038b7a6814177dad42e4ae96c2d922d3502ba0952f8076

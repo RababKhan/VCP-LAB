@@ -1,0 +1,38 @@
+{
+  "sequence": "BQMall",
+  "frame_index_0based": 432,
+  "crop_xywh": [
+    280,
+    296,
+    208,
+    120
+  ],
+  "rule": "Phase 5 support: render the SAME frame and the SAME crop from the original and the decoded QP 24/29/34/39\n(medium preset) files, so they can be compared side by side. These are script renderings of the decoded YUV\ndata (BT.709 limited-range conversion, 10-bit -> 8-bit, for display only). They are NOT YUView screenshots.\n\nFrame choice (objective, decided before looking at the images): the frame whose QP 39 medium Y-PSNR is the median\nof all frames. Crop choice: the 208x120 window with the highest luma variance in the original frame.",
+  "tiles": [
+    {
+      "label": "Original",
+      "file": "BQMall_f432_original_crop.png",
+      "frame_y_psnr_db": null
+    },
+    {
+      "label": "QP 24 \u00b7 medium",
+      "file": "BQMall_f432_QP24_medium_crop.png",
+      "frame_y_psnr_db": 39.53
+    },
+    {
+      "label": "QP 29 \u00b7 medium",
+      "file": "BQMall_f432_QP29_medium_crop.png",
+      "frame_y_psnr_db": 36.91
+    },
+    {
+      "label": "QP 34 \u00b7 medium",
+      "file": "BQMall_f432_QP34_medium_crop.png",
+      "frame_y_psnr_db": 34.06
+    },
+    {
+      "label": "QP 39 \u00b7 medium",
+      "file": "BQMall_f432_QP39_medium_crop.png",
+      "frame_y_psnr_db": 31.29
+    }
+  ]
+}

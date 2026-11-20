@@ -1,0 +1,11 @@
+﻿Verify MSVC toolchain - 2026-10-27 15:01:35 +06:00
+Installed packages (component IDs requested):
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools
+MSVC toolset folders:
+14.44.35207
+cl.exe: C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe
+cl.exe banner:
+Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+Windows SDK versions:
+10.0.26100.0
+VS CMake component present (should be absent - we use Kitware portable CMake): False

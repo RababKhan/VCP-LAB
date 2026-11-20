@@ -1,0 +1,141 @@
+{
+  "name": "supp_ac",
+  "manifest_version": 1,
+  "purpose": "supplementary AC-powered timing verification of the battery-affected configurations of the full run; original results are not modified",
+  "derived_from": "configs/full_manifest.json",
+  "tools": {
+    "vvencapp": "src/vvenc/bin/release-static/vvencapp.exe",
+    "vvdecapp": "src/vvdec/bin/release-static/vvdecapp.exe",
+    "vvenc_tag": "v1.14.0",
+    "vvenc_commit": "9428ea8636ae7f443ecde89999d16b2dfc421524",
+    "vvdec_tag": "v3.2.1",
+    "vvdec_commit": "cb1a3efd88b2ebd1141f1a9ca87c774f05de9249"
+  },
+  "encoder_common": {
+    "format": "yuv420_10",
+    "qpa": 0,
+    "threads": 8,
+    "verbosity": 4,
+    "extra_args": [
+      "--refreshtype",
+      "cra",
+      "--refreshsec",
+      "1"
+    ],
+    "notes": "constant-QP (no rate control); GOP structure = preset default; intra refresh CRA every 1 s; POC0IDR = library default (off)"
+  },
+  "decoder_common": {
+    "threads": 8
+  },
+  "psnr_definition": {
+    "primary_peak": "1020 = 255 << (bitdepth - 8)  (HM/VTM/VVenC convention, vvenc Analyze.h)",
+    "secondary_peak": "1023 = 2^bitdepth - 1  (FFmpeg convention, also stored in per-run JSON)",
+    "bitdepth": "computed on 10-bit samples of the original file vs 10-bit decoder output",
+    "per_component_sequence_value": "arithmetic mean over frames of per-frame PSNR",
+    "yuv_combined_primary": "PSNR of 4:1:1 (pixel-count) weighted mean MSE, matches VVenC YUV-PSNR",
+    "yuv_combined_secondary": "(6*Y + U + V) / 8 of per-component PSNRs (JVET CTC style)",
+    "alignment": "frame i of reconstruction vs frame i of source starting at source frame 0"
+  },
+  "sequences": {
+    "BQMall": {
+      "file": "dataset/BQMall_832_480_60_10_420.yuv",
+      "width": 832,
+      "height": 480,
+      "fps": 60,
+      "sha256": "02490741eed0ef8d50016d236e7e98efdf5e3deb9a7cc60aa61c0d55c4e61b52",
+      "file_frames": 601,
+      "content_frames": 600,
+      "bitdepth": 10,
+      "chroma": "420",
+      "container": "yuv420p10le (16-bit little-endian words)",
+      "effective_precision_bits": 8,
+      "trailing_frame_note": "last frame is an NTT DOCOMO copyright text card; never encoded"
+    },
+    "BasketballDrive": {
+      "file": "dataset/BasketballDrive_1920_1080_50_10_420.yuv",
+      "width": 1920,
+      "height": 1080,
+      "fps": 50,
+      "sha256": "1c4cecebc10efb18471ddcb43aa2680c61c6525a8f53b84267a1a04f73eb6334",
+      "file_frames": 501,
+      "content_frames": 500,
+      "bitdepth": 10,
+      "chroma": "420",
+      "container": "yuv420p10le (16-bit little-endian words)",
+      "effective_precision_bits": 8,
+      "trailing_frame_note": "last frame is an NTT DOCOMO copyright text card; never encoded"
+    },
+    "BasketballPass": {
+      "file": "dataset/BasketballPass_416_240_50_10_420.yuv",
+      "width": 416,
+      "height": 240,
+      "fps": 50,
+      "sha256": "de0dcc61e9ba4d22312effad81517fb3a24ecd883738ec3c66f490f7593ed698",
+      "file_frames": 501,
+      "content_frames": 500,
+      "bitdepth": 10,
+      "chroma": "420",
+      "container": "yuv420p10le (16-bit little-endian words)",
+      "effective_precision_bits": 8,
+      "trailing_frame_note": "last frame is an NTT DOCOMO copyright text card; never encoded"
+    }
+  },
+  "run_order": "fixed: warm-up first, then shortest to longest",
+  "runs": [
+    {
+      "run_id": "warmup_BasketballPass_f64_q32_faster_suppAC",
+      "sequence": "BasketballPass",
+      "frames": 64,
+      "qp": 32,
+      "preset": "faster",
+      "groups": [
+        "warmup"
+      ],
+      "verifies": "warmup_BasketballPass_f64_q32_faster"
+    },
+    {
+      "run_id": "BQMall_f600_q32_faster_t8_suppAC",
+      "sequence": "BQMall",
+      "frames": 600,
+      "qp": 32,
+      "preset": "faster",
+      "groups": [
+        "preset_sweep"
+      ],
+      "verifies": "BQMall_f600_q32_faster_t8"
+    },
+    {
+      "run_id": "BasketballDrive_f500_q32_fast_t8_suppAC",
+      "sequence": "BasketballDrive",
+      "frames": 500,
+      "qp": 32,
+      "preset": "fast",
+      "groups": [
+        "preset_sweep"
+      ],
+      "verifies": "BasketballDrive_f500_q32_fast_t8"
+    },
+    {
+      "run_id": "BQMall_f600_q22_medium_t8_suppAC",
+      "sequence": "BQMall",
+      "frames": 600,
+      "qp": 22,
+      "preset": "medium",
+      "groups": [
+        "qp_sweep"
+      ],
+      "verifies": "BQMall_f600_q22_medium_t8"
+    },
+    {
+      "run_id": "BasketballDrive_f500_q32_slower_t8_suppAC",
+      "sequence": "BasketballDrive",
+      "frames": 500,
+      "qp": 32,
+      "preset": "slower",
+      "groups": [
+        "preset_sweep"
+      ],
+      "verifies": "BasketballDrive_f500_q32_slower_t8"
+    }
+  ]
+}

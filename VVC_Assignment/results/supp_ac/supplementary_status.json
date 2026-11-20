@@ -1,0 +1,125 @@
+{
+  "manifest": "configs\\supp_ac_manifest.json",
+  "manifest_sha256": "e7af8153e9c0b790ce3a836b3091f45832209e26fca558c520bdf53ee937aaf6",
+  "started": "2026-11-04T17:26:31.299+06:00",
+  "simulated_ac_loss_after": null,
+  "preflight": {
+    "ac_power": {
+      "pass": true,
+      "info": "AC=True, battery 95%, battery saver off"
+    },
+    "power_mode_best_performance": {
+      "pass": true,
+      "info": "Best performance"
+    },
+    "full_manifest_unchanged": {
+      "pass": true,
+      "info": "f96b1ebf3fae61bccb5ada1ad8355b85e5960ea37fcb51d7be4868702199b02b"
+    },
+    "vvencapp_sha256": {
+      "pass": true,
+      "info": "c74f3b63e331805f3cac74ab1e0849f0c7877fa885de44d32119927425b3160b"
+    },
+    "vvdecapp_sha256": {
+      "pass": true,
+      "info": "3f46677abee5bef1c2c272752d6b04222c06a48eaa983b848f623d8dbc2499b6"
+    },
+    "dataset_BQMall_sha256": {
+      "pass": true,
+      "info": "02490741eed0ef8d50016d236e7e98efdf5e3deb9a7cc60aa61c0d55c4e61b52"
+    },
+    "dataset_BasketballDrive_sha256": {
+      "pass": true,
+      "info": "1c4cecebc10efb18471ddcb43aa2680c61c6525a8f53b84267a1a04f73eb6334"
+    },
+    "dataset_BasketballPass_sha256": {
+      "pass": true,
+      "info": "de0dcc61e9ba4d22312effad81517fb3a24ecd883738ec3c66f490f7593ed698"
+    },
+    "disk_free": {
+      "pass": true,
+      "info": "49.86 GiB free (need >= 15)"
+    },
+    "results_full_fingerprint": {
+      "pass": true,
+      "info": "44eb11e4324f2fed407c9074aea6e1ef934857bfb94e51dcfd121e7655182c47 (136 files)"
+    }
+  },
+  "results_full_fingerprint_before": "44eb11e4324f2fed407c9074aea6e1ef934857bfb94e51dcfd121e7655182c47",
+  "logs": {
+    "power": "logs\\supp_ac_power_20261104_172627.csv",
+    "cpu": "logs\\supp_ac_cpu_20261104_172627.csv",
+    "console": "logs\\supp_ac_console_20261104_172627.log"
+  },
+  "runs": {
+    "warmup_BasketballPass_f64_q32_faster_suppAC": {
+      "verifies": "warmup_BasketballPass_f64_q32_faster",
+      "launched": "2026-11-04T17:26:31.306+06:00",
+      "finished": "2026-11-04T17:26:33.311+06:00",
+      "power_samples": 1,
+      "non_ac_samples": 0,
+      "non_best_perf_samples": 0,
+      "runner_exit": 0,
+      "runner_status": "ok",
+      "result": "COMPLETED",
+      "timing_valid": true,
+      "reason": "AC + Best performance in every power sample"
+    },
+    "BQMall_f600_q32_faster_t8_suppAC": {
+      "verifies": "BQMall_f600_q32_faster_t8",
+      "launched": "2026-11-04T17:26:33.311+06:00",
+      "finished": "2026-11-04T17:26:51.326+06:00",
+      "power_samples": 9,
+      "non_ac_samples": 0,
+      "non_best_perf_samples": 0,
+      "runner_exit": 0,
+      "runner_status": "ok",
+      "result": "COMPLETED",
+      "timing_valid": true,
+      "reason": "AC + Best performance in every power sample"
+    },
+    "BasketballDrive_f500_q32_fast_t8_suppAC": {
+      "verifies": "BasketballDrive_f500_q32_fast_t8",
+      "launched": "2026-11-04T17:26:51.326+06:00",
+      "finished": "2026-11-04T17:29:07.395+06:00",
+      "power_samples": 68,
+      "non_ac_samples": 0,
+      "non_best_perf_samples": 0,
+      "runner_exit": 0,
+      "runner_status": "ok",
+      "result": "COMPLETED",
+      "timing_valid": true,
+      "reason": "AC + Best performance in every power sample"
+    },
+    "BQMall_f600_q22_medium_t8_suppAC": {
+      "verifies": "BQMall_f600_q22_medium_t8",
+      "launched": "2026-11-04T17:29:07.404+06:00",
+      "finished": "2026-11-04T17:33:17.553+06:00",
+      "power_samples": 125,
+      "non_ac_samples": 0,
+      "non_best_perf_samples": 0,
+      "runner_exit": 0,
+      "runner_status": "ok",
+      "result": "COMPLETED",
+      "timing_valid": true,
+      "reason": "AC + Best performance in every power sample"
+    },
+    "BasketballDrive_f500_q32_slower_t8_suppAC": {
+      "verifies": "BasketballDrive_f500_q32_slower_t8",
+      "launched": "2026-11-04T17:33:17.553+06:00",
+      "finished": "2026-11-04T19:26:00.859+06:00",
+      "power_samples": 3380,
+      "non_ac_samples": 0,
+      "non_best_perf_samples": 0,
+      "runner_exit": 0,
+      "runner_status": "ok",
+      "result": "COMPLETED",
+      "timing_valid": true,
+      "reason": "AC + Best performance in every power sample"
+    }
+  },
+  "stopped_reason": null,
+  "results_full_fingerprint_after": "44eb11e4324f2fed407c9074aea6e1ef934857bfb94e51dcfd121e7655182c47",
+  "results_full_unchanged": true,
+  "ended": "2026-11-04T19:26:01.114+06:00"
+}

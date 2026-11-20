@@ -1,0 +1,158 @@
+﻿Block A: 53 runs, seed 20261111, start 2026-11-11T13:05:28+06:00
+  warm-up (discarded)
+[A001] BlowingBubbles QP24 faster (new)
+  A001 BlowingBubbles QP24 faster enc 8.076 s | dec 0.233 s | 1,131,544 B | Y 35.7351 / 35.7351 | OK
+[A002] BasketballPass QP24 faster (new)
+  A002 BasketballPass QP24 faster enc 10.332 s | dec 0.255 s | 1,219,816 B | Y 38.4868 / 38.4868 | OK
+[A003] BlowingBubbles QP34 slow (new)
+  A003 BlowingBubbles QP34 slow   enc 159.203 s | dec 0.198 s | 232,704 B | Y 30.6737 / 30.6737 | OK
+[A004] BasketballPass QP29 faster (repeat #2)
+  A004 BasketballPass QP29 faster enc 8.267 s | dec 0.175 s | 578,073 B | Y 34.8147 / 34.8147 | OK
+[A005] BasketballPass QP29 slow (repeat #1)
+  A005 BasketballPass QP29 slow   enc 260.389 s | dec 0.260 s | 494,827 B | Y 35.4413 / 35.4413 | OK
+[A006] BasketballPass QP29 slow (new)
+  A006 BasketballPass QP29 slow   enc 262.002 s | dec 0.259 s | 494,827 B | Y 35.4413 / 35.4413 | OK
+[A007] BQMall QP39 medium (repeat R01#2)
+  A007 BQMall QP39 medium enc 76.611 s | dec 0.502 s | 308,911 B | Y 31.4765 / 31.4765 | OK
+[A008] BQMall QP39 medium (repeat R01#1)
+  A008 BQMall QP39 medium enc 75.757 s | dec 0.480 s | 308,911 B | Y 31.4765 / 31.4765 | OK
+[A009] BasketballPass QP29 slow (repeat #3)
+  A009 BasketballPass QP29 slow   enc 263.521 s | dec 0.261 s | 494,827 B | Y 35.4413 / 35.4413 | OK
+[A010] BQMall QP39 slow (new)
+  A010 BQMall QP39 slow   enc 234.702 s | dec 0.480 s | 300,139 B | Y 31.6336 / 31.6336 | OK
+[A011] BQMall QP29 faster (new)
+  A011 BQMall QP29 faster enc 17.724 s | dec 0.542 s | 1,307,347 B | Y 36.1839 / 36.1839 | OK
+[A012] BlowingBubbles QP24 medium (repeat R03#1)
+  A012 BlowingBubbles QP24 medium enc 99.659 s | dec 0.327 s | 1,016,655 B | Y 36.3690 / 36.369 | OK
+[A013] BasketballPass QP24 medium (new)
+  A013 BasketballPass QP24 medium enc 105.040 s | dec 0.319 s | 1,061,581 B | Y 38.9292 / 38.9292 | OK
+[A014] BasketballPass QP24 fast (new)
+  A014 BasketballPass QP24 fast   enc 28.813 s | dec 0.260 s | 1,136,280 B | Y 38.7654 / 38.7654 | OK
+[A015] BasketballPass QP29 fast (new)
+  A015 BasketballPass QP29 fast   enc 20.383 s | dec 0.186 s | 529,622 B | Y 34.9910 / 34.991 | OK
+[A016] BasketballPass QP39 medium (new)
+  A016 BasketballPass QP39 medium enc 32.773 s | dec 0.161 s | 127,474 B | Y 29.4942 / 29.4942 | OK
+[A017] BlowingBubbles QP34 fast (repeat R04/R17#1)
+  A017 BlowingBubbles QP34 fast   enc 13.786 s | dec 0.164 s | 233,927 B | Y 30.1374 / 30.1374 | OK
+[A018] BasketballPass QP24 slow (new)
+  A018 BasketballPass QP24 slow   enc 379.166 s | dec 0.323 s | 1,035,528 B | Y 39.0860 / 39.086 | OK
+[A019] BlowingBubbles QP34 medium (repeat R16/R18#3)
+  A019 BlowingBubbles QP34 medium enc 48.797 s | dec 0.187 s | 235,433 B | Y 30.5371 / 30.5371 | OK
+[A020] BasketballPass QP39 faster (new)
+  A020 BasketballPass QP39 faster enc 5.205 s | dec 0.112 s | 139,958 B | Y 29.0720 / 29.072 | OK
+[A021] BlowingBubbles QP29 slow (new)
+  A021 BlowingBubbles QP29 slow   enc 233.545 s | dec 0.241 s | 475,296 B | Y 33.4594 / 33.4594 | OK
+[A022] BQMall QP39 medium (repeat R01#3)
+  A022 BQMall QP39 medium enc 76.836 s | dec 0.500 s | 308,911 B | Y 31.4765 / 31.4765 | OK
+[A023] BasketballPass QP29 faster (repeat #3)
+  A023 BasketballPass QP29 faster enc 8.389 s | dec 0.188 s | 578,073 B | Y 34.8147 / 34.8147 | OK
+[A024] BasketballPass QP34 faster (new)
+  A024 BasketballPass QP34 faster enc 6.592 s | dec 0.152 s | 278,549 B | Y 31.6979 / 31.6979 | OK
+[A025] BQMall QP34 faster (new)
+  A025 BQMall QP34 faster enc 13.348 s | dec 0.464 s | 651,457 B | Y 33.4193 / 33.4193 | OK
+[A026] BlowingBubbles QP24 medium (repeat R03#2)
+  A026 BlowingBubbles QP24 medium enc 99.584 s | dec 0.318 s | 1,016,655 B | Y 36.3690 / 36.369 | OK
+[A027] BlowingBubbles QP24 slow (new)
+  A027 BlowingBubbles QP24 slow   enc 334.453 s | dec 0.332 s | 988,472 B | Y 36.4893 / 36.4893 | OK
+[A028] BasketballPass QP39 slow (new)
+  A028 BasketballPass QP39 slow   enc 104.646 s | dec 0.154 s | 126,577 B | Y 29.7008 / 29.7008 | OK
+[A029] BasketballPass QP29 faster (new)
+  A029 BasketballPass QP29 faster enc 8.422 s | dec 0.185 s | 578,073 B | Y 34.8147 / 34.8147 | OK
+[A030] BlowingBubbles QP39 faster (new)
+  A030 BlowingBubbles QP39 faster enc 4.161 s | dec 0.125 s | 117,406 B | Y 27.4196 / 27.4196 | OK
+[A031] BasketballPass QP29 faster (repeat #1)
+  A031 BasketballPass QP29 faster enc 8.519 s | dec 0.188 s | 578,073 B | Y 34.8147 / 34.8147 | OK
+[A032] BasketballPass QP34 slow (new)
+  A032 BasketballPass QP34 slow   enc 170.292 s | dec 0.196 s | 245,665 B | Y 32.3480 / 32.348 | OK
+[A033] BlowingBubbles QP34 medium (repeat R16/R18#2)
+  A033 BlowingBubbles QP34 medium enc 49.287 s | dec 0.194 s | 235,433 B | Y 30.5371 / 30.5371 | OK
+[A034] BasketballPass QP29 slow (repeat #2)
+  A034 BasketballPass QP29 slow   enc 260.602 s | dec 0.253 s | 494,827 B | Y 35.4413 / 35.4413 | OK
+[A035] BasketballPass QP39 fast (new)
+  A035 BasketballPass QP39 fast   enc 12.318 s | dec 0.161 s | 127,475 B | Y 29.1316 / 29.1316 | OK
+[A036] BQMall QP39 faster (new)
+  A036 BQMall QP39 faster enc 11.790 s | dec 0.408 s | 336,499 B | Y 30.7713 / 30.7713 | OK
+[A037] BQMall QP24 slow (new)
+  A037 BQMall QP24 slow   enc 770.038 s | dec 0.814 s | 2,286,942 B | Y 39.4531 / 39.4531 | OK
+[A038] BlowingBubbles QP34 fast (repeat R04/R17#2)
+  A038 BlowingBubbles QP34 fast   enc 13.570 s | dec 0.164 s | 233,927 B | Y 30.1374 / 30.1374 | OK
+[A039] BlowingBubbles QP24 medium (repeat R03#3)
+  A039 BlowingBubbles QP24 medium enc 99.884 s | dec 0.322 s | 1,016,655 B | Y 36.3690 / 36.369 | OK
+[A040] BasketballPass QP34 fast (new)
+  A040 BasketballPass QP34 fast   enc 15.155 s | dec 0.164 s | 255,562 B | Y 31.8448 / 31.8448 | OK
+[A041] BQMall QP29 medium (repeat R15#3)
+  A041 BQMall QP29 medium enc 148.333 s | dec 0.734 s | 1,149,316 B | Y 36.7734 / 36.7734 | OK
+[A042] BlowingBubbles QP29 faster (new)
+  A042 BlowingBubbles QP29 faster enc 7.385 s | dec 0.198 s | 527,720 B | Y 32.6471 / 32.6471 | OK
+[A043] BlowingBubbles QP34 faster (new)
+  A043 BlowingBubbles QP34 faster enc 5.533 s | dec 0.145 s | 249,921 B | Y 29.9137 / 29.9137 | OK
+[A044] BlowingBubbles QP34 medium (repeat R16/R18#1)
+  A044 BlowingBubbles QP34 medium enc 48.504 s | dec 0.181 s | 235,433 B | Y 30.5371 / 30.5371 | OK
+[A045] BlowingBubbles QP39 slow (new)
+  A045 BlowingBubbles QP39 slow   enc 102.626 s | dec 0.154 s | 112,050 B | Y 28.0800 / 28.08 | OK
+[A046] BasketballPass QP29 medium (new)
+  A046 BasketballPass QP29 medium enc 70.958 s | dec 0.245 s | 504,514 B | Y 35.2511 / 35.2511 | OK
+[A047] BasketballPass QP34 medium (new)
+  A047 BasketballPass QP34 medium enc 47.894 s | dec 0.197 s | 250,124 B | Y 32.1590 / 32.159 | OK
+[A048] BQMall QP29 slow (new)
+  A048 BQMall QP29 slow   enc 524.395 s | dec 0.691 s | 1,109,666 B | Y 36.9019 / 36.9019 | OK
+[A049] BQMall QP29 medium (repeat R15#2)
+  A049 BQMall QP29 medium enc 148.719 s | dec 0.738 s | 1,149,316 B | Y 36.7734 / 36.7734 | OK
+[A050] BlowingBubbles QP34 fast (repeat R04/R17#3)
+  A050 BlowingBubbles QP34 fast   enc 14.286 s | dec 0.161 s | 233,927 B | Y 30.1374 / 30.1374 | OK
+[A051] BQMall QP34 slow (new)
+  A051 BQMall QP34 slow   enc 350.986 s | dec 0.588 s | 565,104 B | Y 34.2310 / 34.231 | OK
+[A052] BQMall QP24 faster (new)
+  A052 BQMall QP24 faster enc 23.069 s | dec 0.699 s | 2,720,994 B | Y 38.8792 / 38.8792 | OK
+[A053] BQMall QP29 medium (repeat R15#1)
+  A053 BQMall QP29 medium enc 150.023 s | dec 0.744 s | 1,149,316 B | Y 36.7734 / 36.7734 | OK
+  phase-1 decode timing pass written: decode_timing_phase1_bitstreams.csv
+Block A done 2026-11-11T14:49:48+06:00
+Block B: 22 runs, seed 20261112, start 2026-11-11T14:49:48+06:00
+  warm-up (discarded)
+[B001] BasketballDrive QP24 fast (new)
+  B001 BasketballDrive QP24 fast   enc 239.426 s | dec 3.000 s | 8,845,454 B | Y 38.3875 / 38.3875 | OK
+[B002] BasketballDrive QP39 fast (new)
+  B002 BasketballDrive QP39 fast   enc 82.186 s | dec 2.076 s | 1,036,660 B | Y 32.7380 / 32.738 | OK
+[B003] BasketballDrive QP29 faster (new)
+  B003 BasketballDrive QP29 faster enc 66.490 s | dec 2.239 s | 4,479,431 B | Y 36.6260 / 36.626 | OK
+[B004] BasketballDrive QP34 faster (repeat #3)
+  B004 BasketballDrive QP34 faster enc 49.180 s | dec 1.920 s | 2,220,348 B | Y 34.6578 / 34.6578 | OK
+[B005] BasketballDrive QP24 faster (new)
+  B005 BasketballDrive QP24 faster enc 99.254 s | dec 2.829 s | 9,779,933 B | Y 38.2969 / 38.2969 | OK
+[B006] BasketballDrive QP39 medium (new)
+  B006 BasketballDrive QP39 medium enc 271.139 s | dec 2.130 s | 996,818 B | Y 33.0944 / 33.0944 | OK
+[B007] BasketballDrive QP34 medium (new)
+  B007 BasketballDrive QP34 medium enc 376.547 s | dec 2.427 s | 1,948,159 B | Y 35.1306 / 35.1306 | OK
+[B008] BasketballDrive QP34 slow (new)
+  B008 BasketballDrive QP34 slow   enc 1307.143 s | dec 2.378 s | 1,909,722 B | Y 35.2773 / 35.2773 | OK
+[B009] BasketballDrive QP34 fast (new)
+  B009 BasketballDrive QP34 fast   enc 107.035 s | dec 2.326 s | 2,032,648 B | Y 34.8369 / 34.8369 | OK
+[B010] BasketballDrive QP34 fast (repeat #2)
+  B010 BasketballDrive QP34 fast   enc 108.484 s | dec 2.250 s | 2,032,648 B | Y 34.8369 / 34.8369 | OK
+[B011] BasketballDrive QP34 faster (new)
+  B011 BasketballDrive QP34 faster enc 49.389 s | dec 1.944 s | 2,220,348 B | Y 34.6578 / 34.6578 | OK
+[B012] BasketballDrive QP39 slow (new)
+  B012 BasketballDrive QP39 slow   enc 803.698 s | dec 2.267 s | 980,238 B | Y 33.2587 / 33.2587 | OK
+[B013] BasketballDrive QP24 medium (new)
+  B013 BasketballDrive QP24 medium enc 852.666 s | dec 3.283 s | 8,378,879 B | Y 38.5220 / 38.522 | OK
+[B014] BasketballDrive QP29 fast (new)
+  B014 BasketballDrive QP29 fast   enc 147.341 s | dec 2.446 s | 4,079,555 B | Y 36.7670 / 36.767 | OK
+[B015] BasketballDrive QP34 fast (repeat #1)
+  B015 BasketballDrive QP34 fast   enc 103.561 s | dec 2.214 s | 2,032,648 B | Y 34.8369 / 34.8369 | OK
+[B016] BasketballDrive QP34 faster (repeat #2)
+  B016 BasketballDrive QP34 faster enc 47.124 s | dec 1.865 s | 2,220,348 B | Y 34.6578 / 34.6578 | OK
+[B017] BasketballDrive QP24 slow (new)
+  B017 BasketballDrive QP24 slow   enc 3279.961 s | dec 3.211 s | 8,109,201 B | Y 38.5874 / 38.5874 | OK
+[B018] BasketballDrive QP29 slow (new)
+  B018 BasketballDrive QP29 slow   enc 1998.005 s | dec 2.826 s | 3,789,702 B | Y 37.0866 / 37.0866 | OK
+[B019] BasketballDrive QP39 faster (new)
+  B019 BasketballDrive QP39 faster enc 37.542 s | dec 1.716 s | 1,146,683 B | Y 32.5839 / 32.5839 | OK
+[B020] BasketballDrive QP34 fast (repeat #3)
+  B020 BasketballDrive QP34 fast   enc 104.992 s | dec 2.307 s | 2,032,648 B | Y 34.8369 / 34.8369 | OK
+[B021] BasketballDrive QP34 faster (repeat #1)
+  B021 BasketballDrive QP34 faster enc 47.682 s | dec 1.918 s | 2,220,348 B | Y 34.6578 / 34.6578 | OK
+[B022] BasketballDrive QP29 medium (new)
+  B022 BasketballDrive QP29 medium enc 611.970 s | dec 2.714 s | 3,891,643 B | Y 36.9788 / 36.9788 | CHECK
+Block B done 2026-11-11T18:01:17+06:00
+ALL DONE

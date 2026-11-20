@@ -1,0 +1,317 @@
+[
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "65/65 runs ok, 32/32 repeats byte-identical, PSNR diff to encoder 0.0000",
+    "recomputed": [
+      65,
+      0,
+      "32/32",
+      0
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "bitrate falls by 1.91-2.35x per +5 QP (median about 2.06)",
+    "recomputed": [
+      1.91,
+      2.35,
+      2.062
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "Y-PSNR falls 1.45-3.93 dB per +5 QP",
+    "recomputed": [
+      1.45,
+      3.93
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "QP 22 takes 2.7-3.7x as long as QP 37",
+    "recomputed": [
+      2.71,
+      3.69
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "encoding 133-333x slower than decoding (medium, QP sweep)",
+    "recomputed": [
+      133,
+      333
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "faster encode time vs medium 0.11-0.13x",
+    "recomputed": [
+      0.123,
+      0.105,
+      0.115,
+      0.131
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "fast encode time vs medium 0.27-0.3x",
+    "recomputed": [
+      0.289,
+      0.274,
+      0.297,
+      0.28
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "slow encode time vs medium 3.25-3.71x",
+    "recomputed": [
+      3.592,
+      3.247,
+      3.434,
+      3.707
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "slower encode time vs medium 14.44-17.06x",
+    "recomputed": [
+      16.758,
+      14.437,
+      15.909,
+      17.059
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "MEDIUM -> SLOWER: +0.24 to +0.38 dB Y-PSNR, 1.5-4.3% smaller (4 sequences, sequence level)",
+    "recomputed": {
+      "dB": [
+        0.3747,
+        0.2963,
+        0.328,
+        0.2389
+      ],
+      "pct_smaller": [
+        2.2,
+        1.51,
+        4.31,
+        3.59
+      ]
+    },
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "FASTER -> SLOWER: +0.69 to +0.98 dB, 7-15% smaller (4 sequences, sequence level)",
+    "recomputed": {
+      "dB": [
+        0.843,
+        0.9546,
+        0.9785,
+        0.6869
+      ],
+      "pct_smaller": [
+        13.1,
+        7.35,
+        14.65,
+        15.27
+      ]
+    },
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "FASTER -> MEDIUM: 7.7-9.1x time, +0.45 to +0.66 dB, 6-12% smaller",
+    "recomputed": {
+      "time_x": [
+        8.12,
+        9.51,
+        8.69,
+        7.65
+      ],
+      "dB": [
+        0.468,
+        0.658,
+        0.651,
+        0.448
+      ],
+      "pct_smaller": [
+        11.14,
+        5.93,
+        10.8,
+        12.12
+      ]
+    },
+    "result": "FAIL"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "encode CV median 2.4%, range 0.40-5.27% excluding the 14.1% battery outlier",
+    "recomputed": {
+      "median": 2.44,
+      "min": 0.4,
+      "max_excl_outlier": 5.27,
+      "max": 14.1
+    },
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "BlowingBubbles fast is 0.58% smaller than medium, with -0.44 dB",
+    "recomputed": [
+      0.58,
+      -0.438
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md",
+    "claim": "battery interval 14:27:34-15:31:17; 11 runs with battery exposure",
+    "recomputed": [
+      [
+        [
+          "2026-11-04T14:27:34",
+          "2026-11-04T15:31:17"
+        ]
+      ],
+      11
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md section 9",
+    "claim": "BQMall_f600_q32_faster_t8: encode reported diff -18.71%",
+    "recomputed": -18.71,
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md section 9",
+    "claim": "BasketballDrive_f500_q32_fast_t8: encode reported diff -2.39%",
+    "recomputed": -2.39,
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md section 9",
+    "claim": "BQMall_f600_q22_medium_t8: encode reported diff +0.87%",
+    "recomputed": 0.87,
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md section 9",
+    "claim": "BasketballDrive_f500_q32_slower_t8: encode reported diff -2.82%",
+    "recomputed": -2.82,
+    "result": "PASS"
+  },
+  {
+    "report": "report/preliminary_results_report.md section 9",
+    "claim": "all supplementary runs AC-valid and bitstream-identical",
+    "recomputed": {
+      "warmup_BasketballPass_f64_q32_faster_suppAC": [
+        true,
+        true
+      ],
+      "BQMall_f600_q32_faster_t8_suppAC": [
+        true,
+        true
+      ],
+      "BasketballDrive_f500_q32_fast_t8_suppAC": [
+        true,
+        true
+      ],
+      "BQMall_f600_q22_medium_t8_suppAC": [
+        true,
+        true
+      ],
+      "BasketballDrive_f500_q32_slower_t8_suppAC": [
+        true,
+        true
+      ]
+    },
+    "result": "PASS"
+  },
+  {
+    "report": "report/phase5_linux_build_report.md",
+    "claim": "Windows and Linux smoke bitstream and recon byte-identical; PSNR identical; 16 frames",
+    "recomputed": {
+      "bitstream_identical_windows_linux": true,
+      "recon_identical_windows_linux": true,
+      "psnr_identical_windows_linux": true,
+      "decoded_frames_16_both": true,
+      "linux_runs_deterministic_bitstream": true
+    },
+    "result": "PASS"
+  },
+  {
+    "report": "report/phase6_visual_evaluation_report.md + phase6_summary_for_prof_kiho.md",
+    "claim": "frame Y-PSNR QP22->QP37 drop 9.8-10.2 dB (BasketballPass), 7.9-8.7 dB (BQMall)",
+    "recomputed": {
+      "BasketballPass": [
+        9.85,
+        10.24
+      ],
+      "BQMall": [
+        7.93,
+        8.69
+      ]
+    },
+    "result": "PASS"
+  },
+  {
+    "report": "report/phase6_visual_evaluation_report.md + phase6_summary_for_prof_kiho.md",
+    "claim": "FRAME-level faster->slower spread 0.24-1.31 dB (6 selected frames)",
+    "recomputed": [
+      0.42,
+      1.31,
+      0.7,
+      0.9,
+      1.12,
+      0.24
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/phase6_visual_evaluation_report.md + phase6_summary_for_prof_kiho.md",
+    "claim": "SEQUENCE-level FASTER->SLOWER +0.84 to +0.98 dB and 13% / 15% smaller (BasketballPass, BQMall only)",
+    "recomputed": {
+      "BasketballPass": [
+        0.843,
+        13.1
+      ],
+      "BQMall": [
+        0.9785,
+        14.65
+      ]
+    },
+    "result": "PASS"
+  },
+  {
+    "report": "report/phase6_visual_evaluation_report.md + phase6_summary_for_prof_kiho.md",
+    "claim": "BasketballPass: medium below faster in 67 frames (13.4%), all with more bits in faster, 59 with lower slice QP",
+    "recomputed": [
+      67,
+      13.4,
+      67,
+      59
+    ],
+    "result": "PASS"
+  },
+  {
+    "report": "report/phase6_visual_evaluation_report.md + phase6_summary_for_prof_kiho.md",
+    "claim": "summary for Prof. Kiho: 'IDR at QP 27' for -q 32 (stated without sequence)",
+    "recomputed": {
+      "BasketballPass": 27,
+      "BQMall": 29
+    },
+    "result": "FAIL"
+  }
+]

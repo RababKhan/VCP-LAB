@@ -1,0 +1,78 @@
+{
+  "manifest": "configs\\supp_ac_selftest_manifest.json",
+  "manifest_sha256": "de99efb3002c5495c4f1fbcb3afb4709ebb875f4ccf08da88259e4f9fed3c72f",
+  "started": "2026-11-04T17:26:03.720+06:00",
+  "simulated_ac_loss_after": null,
+  "preflight": {
+    "ac_power": {
+      "pass": true,
+      "info": "AC=True, battery 94%, battery saver off"
+    },
+    "power_mode_best_performance": {
+      "pass": true,
+      "info": "Best performance"
+    },
+    "full_manifest_unchanged": {
+      "pass": true,
+      "info": "f96b1ebf3fae61bccb5ada1ad8355b85e5960ea37fcb51d7be4868702199b02b"
+    },
+    "vvencapp_sha256": {
+      "pass": true,
+      "info": "c74f3b63e331805f3cac74ab1e0849f0c7877fa885de44d32119927425b3160b"
+    },
+    "vvdecapp_sha256": {
+      "pass": true,
+      "info": "3f46677abee5bef1c2c272752d6b04222c06a48eaa983b848f623d8dbc2499b6"
+    },
+    "dataset_BasketballPass_sha256": {
+      "pass": true,
+      "info": "de0dcc61e9ba4d22312effad81517fb3a24ecd883738ec3c66f490f7593ed698"
+    },
+    "disk_free": {
+      "pass": true,
+      "info": "49.89 GiB free (need >= 15)"
+    },
+    "results_full_fingerprint": {
+      "pass": true,
+      "info": "44eb11e4324f2fed407c9074aea6e1ef934857bfb94e51dcfd121e7655182c47 (136 files)"
+    }
+  },
+  "results_full_fingerprint_before": "44eb11e4324f2fed407c9074aea6e1ef934857bfb94e51dcfd121e7655182c47",
+  "logs": {
+    "power": "logs\\supp_ac_selftest_power_20261104_172603.csv",
+    "cpu": "logs\\supp_ac_selftest_cpu_20261104_172603.csv",
+    "console": "logs\\supp_ac_selftest_console_20261104_172603.log"
+  },
+  "runs": {
+    "selftest_BasketballPass_f64_q32_medium": {
+      "verifies": "none",
+      "launched": "2026-11-04T17:26:03.724+06:00",
+      "finished": "2026-11-04T17:26:09.730+06:00",
+      "power_samples": 3,
+      "non_ac_samples": 0,
+      "non_best_perf_samples": 0,
+      "runner_exit": 0,
+      "runner_status": "ok",
+      "result": "COMPLETED",
+      "timing_valid": true,
+      "reason": "AC + Best performance in every power sample"
+    },
+    "selftest_warmup_f64_faster": {
+      "verifies": "warmup_BasketballPass_f64_q32_faster",
+      "launched": "2026-11-04T17:26:09.730+06:00",
+      "finished": "2026-11-04T17:26:11.739+06:00",
+      "power_samples": 1,
+      "non_ac_samples": 0,
+      "non_best_perf_samples": 0,
+      "runner_exit": 0,
+      "runner_status": "ok",
+      "result": "COMPLETED",
+      "timing_valid": true,
+      "reason": "AC + Best performance in every power sample"
+    }
+  },
+  "stopped_reason": null,
+  "results_full_fingerprint_after": "44eb11e4324f2fed407c9074aea6e1ef934857bfb94e51dcfd121e7655182c47",
+  "results_full_unchanged": true,
+  "ended": "2026-11-04T17:26:11.969+06:00"
+}

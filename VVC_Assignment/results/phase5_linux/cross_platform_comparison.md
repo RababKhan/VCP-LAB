@@ -1,0 +1,44 @@
+| Metric | Windows (MSVC) | Linux (GCC, WSL2) | Same? |
+|---|---|---|---|
+| Encode exit code | 0 | 0 | yes |
+| Decode exit code | 0 | 0 | yes |
+| Encoder pictures | 16 | 16 | yes |
+| Decoded frames (decoder log) | 16 | 16 | yes |
+| Recon bytes | 4792320 | 4792320 | yes |
+| Recon frames (bytes / 299,520) | 16.0 | 16.0 | yes |
+| Bitstream bytes | 10069 | 10069 | yes |
+| Bitstream SHA256 | 5037d0750588ac5fe0b02a7aa4fa038709ea4fd4364b6b27adf5b7890a20e1bb | 5037d0750588ac5fe0b02a7aa4fa038709ea4fd4364b6b27adf5b7890a20e1bb | yes |
+| Recon SHA256 | 17dda8aee3708c15df5cc7134bb613371fdcf70c2aa9db931f923c6ef3c699cb | 17dda8aee3708c15df5cc7134bb613371fdcf70c2aa9db931f923c6ef3c699cb | yes |
+| Y-PSNR (dB, peak 1020) | 34.253519576085466 | 34.253519576085466 | yes |
+| U-PSNR (dB) | 39.708370680927395 | 39.708370680927395 | yes |
+| V-PSNR (dB) | 38.527919730098716 | 38.527919730098716 | yes |
+| YUV-PSNR (dB, 4:1:1 MSE) | 35.1826058381694 | 35.1826058381694 | yes |
+| Encoder-reported kbps | 251.725 | 251.725 | yes |
+| Intra pictures (POC:type) | [[15, 'IDR_W_RADL']] | [[15, 'IDR_W_RADL']] | yes |
+| Encode wall time (s) | 0.452 | 0.251 | n/a (not a benchmark) |
+| Encode reported time (s) | 0.345 | 0.196 | n/a (not a benchmark) |
+| Decode wall time (s) | 0.055 | 0.025 | n/a (not a benchmark) |
+| Decode reported time (s) | 0.026 | 0.012 | n/a (not a benchmark) |
+
+Linux repeats (determinism):
+
+| Linux run | Bitstream SHA256 | Recon SHA256 | Encode wall (s) | Encode reported (s) | Decode wall (s) |
+|---|---|---|---|---|---|
+| run1 | 5037d0750588ac5f… | 17dda8aee3708c15… | 0.251 | 0.196 | 0.025 |
+| _rep2 | 5037d0750588ac5f… | 17dda8aee3708c15… | 0.242 | 0.197 | 0.02 |
+| _rep3 | 5037d0750588ac5f… | 17dda8aee3708c15… | 0.234 | 0.189 | 0.022 |
+
+Checks:
+
+- linux_runs_deterministic_bitstream: True
+- linux_runs_deterministic_recon: True
+- bitstream_identical_windows_linux: True
+- recon_identical_windows_linux: True
+- bitstream_bytes_equal: True
+- recon_frames_16_both: True
+- decoded_frames_16_both: True
+- exit_codes_zero_both: True
+- psnr_identical_windows_linux: True
+- linux_psnr_matches_encoder_log: True
+- encoder_config_echo_identical: True
+- encoder_log_identical_after_normalisation: False

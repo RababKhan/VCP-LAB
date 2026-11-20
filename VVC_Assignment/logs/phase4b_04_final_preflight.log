@@ -1,0 +1,22 @@
+﻿Final preflight - 2026-11-04 10:29:16 +06:00
+[1] AC: BatteryStatus=2 (2=AC) charge=91%
+[2] Power mode: Best power efficiency (961cc777-2547-4f9d-8174-7d86181b8a7a); plan: Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)
+[3] D: free 80.82 GiB (need ~30.9 GiB)
+[4] manifest sha256: f96b1ebf3fae61bccb5ada1ad8355b85e5960ea37fcb51d7be4868702199b02b
+total runs: 65 = 1 warm-up + 32 unique configurations + 32 timing repeats
+RESULT: VALID
+    BasketballPass   sha256_match=True
+    BlowingBubbles   sha256_match=True
+    BQMall           sha256_match=True
+    BasketballDrive  sha256_match=True
+    vvencapp sha256 c74f3b63... match: True
+    vvdecapp sha256 3f46677a... match: True
+[5] sleep/hibernate (AC):
+    STANDBYIDLE Current AC Power Setting Index: 0x00000000
+    HIBERNATEIDLE Current AC Power Setting Index: 0x00000000
+    Windows Update reboot pending: False
+    CBS reboot pending: False
+    Update pause expiry:   active hours: 8-2
+[6] thermal zone / CPU: temperature=342.0  % processor utility=8.5
+    load 34%  free RAM 5.6 GB
+[7] existing full results: 0

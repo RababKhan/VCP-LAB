@@ -1,0 +1,6 @@
+﻿pchip identical: 0.0 | rate x0.9: -10.0 | rate x1.2: 20.0
+poly identical: 0.0 | rate x0.9: -10.0 | rate x1.2: 20.0
+BD-PSNR, +0.5 dB shift: 0.5
+no-overlap case: no overlapping PSNR range
+SSIM identical: 1.0 MS-SSIM identical: 1.0
+SSIM noisy: own 0.835062 vs scikit-image 0.835062

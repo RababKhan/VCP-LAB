@@ -1,0 +1,261 @@
+{
+  "phase6_runs": [
+    {
+      "run": "A018",
+      "config": "BasketballPass QP24 slow, 500 frames",
+      "windows": {
+        "bytes": 1035528,
+        "sha256": "4c5741f69eb3b3dccfa9839ce9b4ddf4a8eca0cdc8d1d52dc225b8c3ed1d4c0c",
+        "recon_sha256": "4c8de67a294def0df9038b7a6814177dad42e4ae96c2d922d3502ba0952f8076",
+        "frames": 500.0,
+        "psnr_yuv": [
+          39.086,
+          42.997,
+          41.5497
+        ]
+      },
+      "linux": {
+        "bytes": 1035528,
+        "sha256": "4c5741f69eb3b3dccfa9839ce9b4ddf4a8eca0cdc8d1d52dc225b8c3ed1d4c0c",
+        "recon_sha256": "4c8de67a294def0df9038b7a6814177dad42e4ae96c2d922d3502ba0952f8076",
+        "frames": 500.0,
+        "psnr_yuv": [
+          39.086,
+          42.997,
+          41.5497
+        ]
+      },
+      "match": {
+        "size": true,
+        "bitstream_sha256": true,
+        "recon_sha256": true,
+        "frames": true,
+        "psnr": true,
+        "encoder_parameters": true
+      },
+      "n_parameter_lines_compared": 16,
+      "parameter_differences": []
+    },
+    {
+      "run": "A020",
+      "config": "BasketballPass QP39 faster, 500 frames",
+      "windows": {
+        "bytes": 139958,
+        "sha256": "71248828a91ce6e799832c3fb6337b4a3a94a1709e09daca04a11c7bd380aeb3",
+        "recon_sha256": "a6c6a441e95f19d6e30a4581ad61f0e0a86ee93a8334171e71b1cf62f4781b89",
+        "frames": 500.0,
+        "psnr_yuv": [
+          29.072,
+          36.238,
+          34.0515
+        ]
+      },
+      "linux": {
+        "bytes": 139958,
+        "sha256": "71248828a91ce6e799832c3fb6337b4a3a94a1709e09daca04a11c7bd380aeb3",
+        "recon_sha256": "a6c6a441e95f19d6e30a4581ad61f0e0a86ee93a8334171e71b1cf62f4781b89",
+        "frames": 500.0,
+        "psnr_yuv": [
+          29.072,
+          36.238,
+          34.0515
+        ]
+      },
+      "match": {
+        "size": true,
+        "bitstream_sha256": true,
+        "recon_sha256": true,
+        "frames": true,
+        "psnr": true,
+        "encoder_parameters": true
+      },
+      "n_parameter_lines_compared": 16,
+      "parameter_differences": []
+    },
+    {
+      "run": "A021",
+      "config": "BlowingBubbles QP29 slow, 500 frames",
+      "windows": {
+        "bytes": 475296,
+        "sha256": "3a3e314c34a2ee61d81704d15bc4937e392ada31949a02707cdf2ef925180e8e",
+        "recon_sha256": "b04f7eba8de9fe68c6402084cfdd834ac997c181ee0ef73d6ade26d6fa7c2ef1",
+        "frames": 500.0,
+        "psnr_yuv": [
+          33.4594,
+          38.2715,
+          39.096
+        ]
+      },
+      "linux": {
+        "bytes": 475296,
+        "sha256": "3a3e314c34a2ee61d81704d15bc4937e392ada31949a02707cdf2ef925180e8e",
+        "recon_sha256": "b04f7eba8de9fe68c6402084cfdd834ac997c181ee0ef73d6ade26d6fa7c2ef1",
+        "frames": 500.0,
+        "psnr_yuv": [
+          33.4594,
+          38.2715,
+          39.096
+        ]
+      },
+      "match": {
+        "size": true,
+        "bitstream_sha256": true,
+        "recon_sha256": true,
+        "frames": true,
+        "psnr": true,
+        "encoder_parameters": true
+      },
+      "n_parameter_lines_compared": 16,
+      "parameter_differences": []
+    },
+    {
+      "run": "A025",
+      "config": "BQMall QP34 faster, 600 frames",
+      "windows": {
+        "bytes": 651457,
+        "sha256": "9b9ff9cca141a96dccd40305f6566665706badd1bb6bc76d588478ded95d0c51",
+        "recon_sha256": "4ad809bae7395dbf08969a2fb6f63a693f3c90b2695c03d2026d4be3ccd2f72d",
+        "frames": 600.0,
+        "psnr_yuv": [
+          33.4193,
+          39.4394,
+          40.1405
+        ]
+      },
+      "linux": {
+        "bytes": 651457,
+        "sha256": "9b9ff9cca141a96dccd40305f6566665706badd1bb6bc76d588478ded95d0c51",
+        "recon_sha256": "4ad809bae7395dbf08969a2fb6f63a693f3c90b2695c03d2026d4be3ccd2f72d",
+        "frames": 600.0,
+        "psnr_yuv": [
+          33.4193,
+          39.4394,
+          40.1405
+        ]
+      },
+      "match": {
+        "size": true,
+        "bitstream_sha256": true,
+        "recon_sha256": true,
+        "frames": true,
+        "psnr": true,
+        "encoder_parameters": true
+      },
+      "n_parameter_lines_compared": 16,
+      "parameter_differences": []
+    },
+    {
+      "run": "B019",
+      "config": "BasketballDrive QP39 faster, 500 frames",
+      "windows": {
+        "bytes": 1146683,
+        "sha256": "220fcf5564bd0cbc34a26c4c15beb56e50a1891a27929f188bf6f5affabe1c4c",
+        "recon_sha256": "9457e345ed5dc8a12602613f781bb821104d7ed7a2845422460fdde21eb6e8f6",
+        "frames": 500.0,
+        "psnr_yuv": [
+          32.5839,
+          39.6902,
+          38.7054
+        ]
+      },
+      "linux": {
+        "bytes": 1146683,
+        "sha256": "220fcf5564bd0cbc34a26c4c15beb56e50a1891a27929f188bf6f5affabe1c4c",
+        "recon_sha256": "9457e345ed5dc8a12602613f781bb821104d7ed7a2845422460fdde21eb6e8f6",
+        "frames": 500.0,
+        "psnr_yuv": [
+          32.5839,
+          39.6902,
+          38.7054
+        ]
+      },
+      "match": {
+        "size": true,
+        "bitstream_sha256": true,
+        "recon_sha256": true,
+        "frames": true,
+        "psnr": true,
+        "encoder_parameters": true
+      },
+      "n_parameter_lines_compared": 16,
+      "parameter_differences": []
+    }
+  ],
+  "phase1_checks": {
+    "full_length": [
+      {
+        "config": "BlowingBubbles QP 34 fast, 500 frames (Windows run R04)",
+        "windows": {
+          "bytes": 233927,
+          "sha256": "393e733fd15e0178055b2dc5e8ebc79027f973b56c81fa06e4f8203d788e54d7",
+          "frames": 500.0,
+          "recon_sha256": "405648edea2cf744ae415700e6be48230b11757a1001727fb6d83d7e67686a2a",
+          "y_psnr": 30.1374,
+          "u_psnr": 35.8909,
+          "v_psnr": 36.5968
+        },
+        "linux": {
+          "bytes": 233927,
+          "sha256": "393e733fd15e0178055b2dc5e8ebc79027f973b56c81fa06e4f8203d788e54d7",
+          "frames": 500.0,
+          "recon_sha256": "405648edea2cf744ae415700e6be48230b11757a1001727fb6d83d7e67686a2a",
+          "y_psnr": 30.1374,
+          "u_psnr": 35.8909,
+          "v_psnr": 36.5968
+        },
+        "match": {
+          "size": true,
+          "bitstream_sha256": true,
+          "frames": true,
+          "recon_sha256": true,
+          "psnr": true
+        }
+      },
+      {
+        "config": "BQMall QP 29 medium, 600 frames (Windows run R15)",
+        "windows": {
+          "bytes": 1149316,
+          "sha256": "7c34ef2211c1235826b54c31571eb5d4bd14a07f318176d26e953ac069281122",
+          "frames": 600.0,
+          "recon_sha256": "e5fbf487fdce407ceb64925896e4449d73a8e147beecac6161acbc93fa30adc1",
+          "y_psnr": 36.7734,
+          "u_psnr": 41.8251,
+          "v_psnr": 42.8498
+        },
+        "linux": {
+          "bytes": 1149316,
+          "sha256": "7c34ef2211c1235826b54c31571eb5d4bd14a07f318176d26e953ac069281122",
+          "frames": 600.0,
+          "recon_sha256": "e5fbf487fdce407ceb64925896e4449d73a8e147beecac6161acbc93fa30adc1",
+          "y_psnr": 36.7734,
+          "u_psnr": 41.8251,
+          "v_psnr": 42.8498
+        },
+        "match": {
+          "size": true,
+          "bitstream_sha256": true,
+          "frames": true,
+          "recon_sha256": true,
+          "psnr": true
+        }
+      }
+    ],
+    "smoke_16_frames": {
+      "bitstream": "IDENTICAL",
+      "decoded": "IDENTICAL",
+      "bitstream_sha256": {
+        "Windows": "b6cf96c3d9b01c3c533d2328c619b632fcfe2acc9c0aa31a3b789c69510cbcfc",
+        "Linux": "b6cf96c3d9b01c3c533d2328c619b632fcfe2acc9c0aa31a3b789c69510cbcfc"
+      },
+      "recon_sha256": {
+        "Windows": "18fa60ceb58daa0cf283d08a721230adde03a2daf72be6f75675996f6b1ff258",
+        "Linux": "18fa60ceb58daa0cf283d08a721230adde03a2daf72be6f75675996f6b1ff258"
+      }
+    },
+    "note": "Linux timing is not compared: the Linux runs were made in WSL2 reading from /mnt/d."
+  },
+  "summary": {
+    "n_new": 5,
+    "n_new_all_match": 5
+  }
+}

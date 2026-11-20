@@ -1,0 +1,17 @@
+sequence,qp,preset,frames_sampled,ssim_mean,ms_ssim_mean
+BasketballPass,24,medium,50,0.96282,0.99316
+BasketballPass,29,medium,50,0.92737,0.98324
+BasketballPass,34,medium,50,0.87762,0.96469
+BasketballPass,39,medium,50,0.81281,0.93196
+BlowingBubbles,24,medium,50,0.95612,0.99425
+BlowingBubbles,29,medium,50,0.92323,0.98777
+BlowingBubbles,34,medium,50,0.86875,0.97453
+BlowingBubbles,39,medium,50,0.78663,0.94993
+BQMall,24,medium,60,0.96262,0.99469
+BQMall,29,medium,60,0.94517,0.99023
+BQMall,34,medium,60,0.91812,0.98167
+BQMall,39,medium,60,0.87887,0.96632
+BasketballDrive,24,medium,50,0.92467,0.98844
+BasketballDrive,29,medium,50,0.90975,0.98243
+BasketballDrive,34,medium,50,0.88938,0.97186
+BasketballDrive,39,medium,50,0.86414,0.9544

@@ -1,0 +1,21 @@
+﻿checks: 614, failed: 0
+
+run order | started | config | encode s (wall s) | decode runs s
+R01 11:21:59 BQMall         QP39 medium    84.72 (  84.89) | 1.430;3.355;2.772
+R02 11:23:34 BQMall         QP34 fast      34.88 (  35.03) | 5.585;1.079;1.087
+R03 11:24:20 BlowingBubbles QP24 medium   122.09 ( 122.28) | 0.741;0.600;0.716
+R04 11:26:26 BlowingBubbles QP34 fast      23.98 (  24.16) | 0.613;0.615;0.668
+R05 11:26:54 BQMall         QP34 medium   141.17 ( 141.43) | 1.466;5.139;1.240
+R06 11:29:28 BQMall         QP29 fast      57.17 (  57.34) | 1.535;5.762;1.245
+R07 11:30:37 BQMall         QP24 fast      76.44 (  76.61) | 1.348;1.352;1.341
+R08 11:32:00 BlowingBubbles QP39 medium    43.91 (  44.06) | 0.400;0.399;0.382
+R09 11:32:46 BQMall         QP39 fast      24.47 (  24.59) | 1.202;1.149;1.154
+R10 11:33:17 BlowingBubbles QP29 fast      19.98 (  20.09) | 0.353;0.345;0.361
+R11 11:33:39 BlowingBubbles QP24 fast      28.10 (  28.21) | 0.419;0.417;0.420
+R12 11:34:10 BlowingBubbles QP39 fast      11.38 (  11.52) | 0.347;0.364;0.377
+R13 11:34:23 BlowingBubbles QP29 medium    79.96 (  80.13) | 0.425;0.417;0.416
+R14 11:35:45 BQMall         QP24 medium   233.05 ( 233.23) | 1.390;1.380;1.372
+R15 11:39:46 BQMall         QP29 medium   150.54 ( 150.72) | 1.421;1.333;6.198
+R16 11:42:29 BlowingBubbles QP34 medium    48.58 (  48.72) | 0.359;0.369;0.349
+R17 11:43:19 BlowingBubbles QP34 fast      13.24 (  13.36) | 0.338;0.346;0.321
+R18 11:43:35 BlowingBubbles QP34 medium    47.58 (  47.72) | 0.381;0.378;0.365

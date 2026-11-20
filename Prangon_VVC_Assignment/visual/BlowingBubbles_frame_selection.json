@@ -1,0 +1,38 @@
+{
+  "sequence": "BlowingBubbles",
+  "frame_index_0based": 365,
+  "crop_xywh": [
+    312,
+    176,
+    104,
+    60
+  ],
+  "rule": "Phase 5 support: render the SAME frame and the SAME crop from the original and the decoded QP 24/29/34/39\n(medium preset) files, so they can be compared side by side. These are script renderings of the decoded YUV\ndata (BT.709 limited-range conversion, 10-bit -> 8-bit, for display only). They are NOT YUView screenshots.\n\nFrame choice (objective, decided before looking at the images): the frame whose QP 39 medium Y-PSNR is the median\nof all frames. Crop choice: the 208x120 window with the highest luma variance in the original frame.",
+  "tiles": [
+    {
+      "label": "Original",
+      "file": "BlowingBubbles_f365_original_crop.png",
+      "frame_y_psnr_db": null
+    },
+    {
+      "label": "QP 24 \u00b7 medium",
+      "file": "BlowingBubbles_f365_QP24_medium_crop.png",
+      "frame_y_psnr_db": 36.31
+    },
+    {
+      "label": "QP 29 \u00b7 medium",
+      "file": "BlowingBubbles_f365_QP29_medium_crop.png",
+      "frame_y_psnr_db": 33.41
+    },
+    {
+      "label": "QP 34 \u00b7 medium",
+      "file": "BlowingBubbles_f365_QP34_medium_crop.png",
+      "frame_y_psnr_db": 30.58
+    },
+    {
+      "label": "QP 39 \u00b7 medium",
+      "file": "BlowingBubbles_f365_QP39_medium_crop.png",
+      "frame_y_psnr_db": 28.06
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+﻿  pilot: on battery, waiting for AC power ...
+  pilot: on battery, waiting for AC power ...
+  pilot: on battery, waiting for AC power ...
+  pilot: on battery, waiting for AC power ...
+  pilot: on battery, waiting for AC power ...
+  pilot: on battery, waiting for AC power ...
+  pilot BasketballPass  faster:    0.36 s for 32 frames ->       6 s for 500 frames
+  pilot BasketballPass  fast  :    0.91 s for 32 frames ->      14 s for 500 frames
+  pilot BasketballPass  medium:    2.52 s for 32 frames ->      39 s for 500 frames
+  pilot BasketballPass  slow  :    7.52 s for 32 frames ->     118 s for 500 frames
+  pilot BasketballDrive faster:    3.05 s for 32 frames ->      48 s for 500 frames
+  pilot BasketballDrive fast  :    6.85 s for 32 frames ->     107 s for 500 frames
+  pilot BasketballDrive medium:   24.58 s for 32 frames ->     384 s for 500 frames
+  pilot BasketballDrive slow  :   90.06 s for 32 frames ->    1407 s for 500 frames
+{
+ "BasketballPass_faster": 0.01128125,
+ "BasketballPass_fast": 0.028375,
+ "BasketballPass_medium": 0.0786875,
+ "BasketballPass_slow": 0.2350625,
+ "BasketballDrive_faster": 0.09540625,
+ "BasketballDrive_fast": 0.214125,
+ "BasketballDrive_medium": 0.7681875,
+ "BasketballDrive_slow": 2.8143125
+}

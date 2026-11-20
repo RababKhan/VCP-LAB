@@ -1,0 +1,154 @@
+{
+  "runs": 36,
+  "all_exit_zero": true,
+  "recon_frames_all_ok": true,
+  "alignment_all_zero": true,
+  "max_abs_psnr_diff_vs_encoder": 0.0,
+  "max_abs_bitrate_diff_vs_encoder_kbps": 0.00010000000008858478,
+  "ac_power_all_runs": true,
+  "power_plans": [
+    "Balanced"
+  ],
+  "repeatability": {
+    "run_ids": [
+      "BasketballPass_f64_q32_medium_t8",
+      "BasketballPass_f64_q32_medium_t8_rep2",
+      "BasketballPass_f64_q32_medium_t8_rep3"
+    ],
+    "bitstreams_identical": true,
+    "encode_wall_s": {
+      "values": [
+        10.196,
+        7.46,
+        7.483
+      ],
+      "mean": 8.379666666666667,
+      "stdev": 1.5730328455990146,
+      "cv_percent": 18.772021706500034
+    },
+    "encode_reported_s": {
+      "values": [
+        9.916,
+        7.251,
+        7.256
+      ],
+      "mean": 8.141,
+      "stdev": 1.5371971246395175,
+      "cv_percent": 18.882165884283474
+    },
+    "decode_wall_s": {
+      "values": [
+        0.075,
+        0.067,
+        0.065
+      ],
+      "mean": 0.069,
+      "stdev": 0.005291502622129178,
+      "cv_percent": 7.668844379897359
+    }
+  },
+  "thread_count": {
+    "encode_wall_s": {
+      "t8_median_of_3": 7.483,
+      "t4_single": 7.743
+    },
+    "encode_reported_s": {
+      "t8_median_of_3": 7.256,
+      "t4_single": 7.615
+    },
+    "bitstream_bytes": {
+      "t8": "27168",
+      "t4": "26972"
+    },
+    "psnr_y": {
+      "t8": "35.2919",
+      "t4": "35.3109"
+    },
+    "psnr_yuv_411": {
+      "t8": "36.2821",
+      "t4": "36.2913"
+    },
+    "parallel_frames": {
+      "t8": "8  (parallel frames: 4)",
+      "t4": "4  (parallel frames: 4)"
+    },
+    "bitstreams_identical": false
+  },
+  "frame_linearity": {
+    "enc_reported_s_per_frame_f64_median_of_3": 0.113375,
+    "enc_reported_s_per_frame_f128": 0.1251484375,
+    "ratio_f128_over_f64": 1.1038450937155455,
+    "enc_reported_s_per_frame_f64_first_run": 0.1549375,
+    "bytes_per_frame_f64": 424.5,
+    "bytes_per_frame_f128": 513.7109375
+  },
+  "full_matrix_estimate_per_sequence": {
+    "BasketballPass": {
+      "configs": 8,
+      "enc_h": 0.4653103298611111,
+      "dec_h": 0.003298611111111111,
+      "bitstream_MB": 2.4407421874999997,
+      "recon_GB": 1.19808
+    },
+    "BlowingBubbles": {
+      "configs": 8,
+      "enc_h": 0.7133767361111112,
+      "dec_h": 0.003758680555555556,
+      "bitstream_MB": 4.2714140625,
+      "recon_GB": 1.19808
+    },
+    "BQMall": {
+      "configs": 8,
+      "enc_h": 1.5933020833333331,
+      "dec_h": 0.009221354166666666,
+      "bitstream_MB": 11.601262499999999,
+      "recon_GB": 5.750784000000001
+    },
+    "BasketballDrive": {
+      "configs": 8,
+      "enc_h": 3.4217317708333335,
+      "dec_h": 0.03453559027777778,
+      "bitstream_MB": 23.201203125,
+      "recon_GB": 24.883199999999995
+    }
+  },
+  "full_matrix_estimate_total": {
+    "configs": 32,
+    "enc_h": 6.1937209201388885,
+    "dec_h": 0.05081423611111111,
+    "bitstream_MB": 41.514621874999996,
+    "recon_GB": 33.03014399999999
+  },
+  "est_full_enc_minutes_by_preset_qp32": {
+    "medium": {
+      "BasketballPass": 1.3,
+      "BlowingBubbles": 1.9,
+      "BQMall": 3.9,
+      "BasketballDrive": 8.9
+    },
+    "faster": {
+      "BasketballPass": 0.2,
+      "BlowingBubbles": 0.2,
+      "BQMall": 0.5,
+      "BasketballDrive": 1.4
+    },
+    "fast": {
+      "BasketballPass": 0.4,
+      "BlowingBubbles": 0.5,
+      "BQMall": 1.2,
+      "BasketballDrive": 2.8
+    },
+    "slow": {
+      "BasketballPass": 3.7,
+      "BlowingBubbles": 6.3,
+      "BQMall": 13.8,
+      "BasketballDrive": 28.2
+    },
+    "slower": {
+      "BasketballPass": 16.5,
+      "BlowingBubbles": 26.0,
+      "BQMall": 59.7,
+      "BasketballDrive": 120.6
+    }
+  }
+}

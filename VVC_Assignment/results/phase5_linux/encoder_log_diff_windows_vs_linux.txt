@@ -1,0 +1,8 @@
+--- windows_encode
++++ linux_encode
+@@ -53 +53 @@
+-vvenc [info]: stats: 100.0% frame= 16/16 fps=  46.5 avg_fps=  46.5 bitrate=   251.72 kbps avg_bitrate=   251.72 kbps elapsed= 00h:00m:01s left= 00h:00m:00s
++vvenc [info]: stats: 100.0% frame= 16/16 fps=  82.1 avg_fps=  82.1 bitrate=   251.72 kbps avg_bitrate=   251.72 kbps elapsed= 00h:00m:01s left= 00h:00m:00s
+@@ -55 +55 @@
+-vvenc [info]: stats summary: frame= 16/16 avg_fps= 46.5 avg_bitrate= 251.72 kbps
++vvenc [info]: stats summary: frame= 16/16 avg_fps= 82.1 avg_bitrate= 251.72 kbps

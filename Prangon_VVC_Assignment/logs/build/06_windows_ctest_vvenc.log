@@ -1,0 +1,116 @@
+﻿=== vvenc ctest (Windows, Release) 2026-11-11 11:18:19 +06:00
+Test project D:/Korea/Prangon_VVC_Assignment/vvenc/build
+      Start  1: Test_vvencinterfacetest
+ 1/39 Test  #1: Test_vvencinterfacetest ..........................   Passed    3.17 sec
+      Start  2: Test_vvenclibtest-parameter_range
+Process not started
+ D:/Korea/Prangon_VVC_Assignment/vvenc/bin/release-static/vvenclibtest.exe
+[unknown error]
+ 2/39 Test  #2: Test_vvenclibtest-parameter_range ................***Not Run   0.00 sec
+      Start  3: Test_vvenclibtest-calling_order
+Process not started
+ D:/Korea/Prangon_VVC_Assignment/vvenc/bin/release-static/vvenclibtest.exe
+[unknown error]
+ 3/39 Test  #3: Test_vvenclibtest-calling_order ..................***Not Run   0.00 sec
+      Start  4: Test_vvenclibtest-input_params
+Process not started
+ D:/Korea/Prangon_VVC_Assignment/vvenc/bin/release-static/vvenclibtest.exe
+[unknown error]
+ 4/39 Test  #4: Test_vvenclibtest-input_params ...................***Not Run   0.00 sec
+      Start  5: Test_vvenclibtest-sdk_default
+Process not started
+ D:/Korea/Prangon_VVC_Assignment/vvenc/bin/release-static/vvenclibtest.exe
+[unknown error]
+ 5/39 Test  #5: Test_vvenclibtest-sdk_default ....................***Not Run   0.00 sec
+      Start  6: Test_vvenclibtest-sdk_stringapi_interface
+Process not started
+ D:/Korea/Prangon_VVC_Assignment/vvenc/bin/release-static/vvenclibtest.exe
+[unknown error]
+ 6/39 Test  #6: Test_vvenclibtest-sdk_stringapi_interface ........***Not Run   0.00 sec
+      Start  7: Test_vvenclibtest-timestamps
+Process not started
+ D:/Korea/Prangon_VVC_Assignment/vvenc/bin/release-static/vvenclibtest.exe
+[unknown error]
+ 7/39 Test  #7: Test_vvenclibtest-timestamps .....................***Not Run   0.00 sec
+      Start  8: Test_vvenc_unit_test
+Process not started
+ D:/Korea/Prangon_VVC_Assignment/vvenc/bin/release-static/vvenc_unit_test.exe
+[unknown error]
+ 8/39 Test  #8: Test_vvenc_unit_test .............................***Not Run   0.00 sec
+      Start  9: Test_vvencapp-tooltest
+ 9/39 Test  #9: Test_vvencapp-tooltest ...........................   Passed    4.22 sec
+      Start 10: Test_vvencFFapp-tooltest
+10/39 Test #10: Test_vvencFFapp-tooltest .........................   Passed    5.10 sec
+      Start 11: Test_compare_output-tooltest
+11/39 Test #11: Test_compare_output-tooltest .....................   Passed    0.05 sec
+      Start 12: Test_vvencFFapp-tooltest-Scalar
+12/39 Test #12: Test_vvencFFapp-tooltest-Scalar ..................   Passed    4.48 sec
+      Start 13: Test_compare_output-tooltest-Scalar
+13/39 Test #13: Test_compare_output-tooltest-Scalar ..............   Passed    0.05 sec
+      Start 14: Test_vvencapp-faster
+14/39 Test #14: Test_vvencapp-faster .............................   Passed    0.25 sec
+      Start 15: Test_vvencFFapp-faster
+15/39 Test #15: Test_vvencFFapp-faster ...........................   Passed    0.20 sec
+      Start 16: Test_compare_output-faster
+16/39 Test #16: Test_compare_output-faster .......................   Passed    0.04 sec
+      Start 17: Test_vvencapp-fast
+17/39 Test #17: Test_vvencapp-fast ...............................   Passed    0.18 sec
+      Start 18: Test_vvencFFapp-fast
+18/39 Test #18: Test_vvencFFapp-fast .............................   Passed    0.18 sec
+      Start 19: Test_compare_output-fast
+19/39 Test #19: Test_compare_output-fast .........................   Passed    0.03 sec
+      Start 20: Test_vvencapp-medium
+20/39 Test #20: Test_vvencapp-medium .............................   Passed    0.31 sec
+      Start 21: Test_vvencFFapp-medium
+21/39 Test #21: Test_vvencFFapp-medium ...........................   Passed    0.30 sec
+      Start 22: Test_compare_output-medium
+22/39 Test #22: Test_compare_output-medium .......................   Passed    0.02 sec
+      Start 23: Test_vvencapp-slow
+23/39 Test #23: Test_vvencapp-slow ...............................   Passed    0.49 sec
+      Start 24: Test_vvencFFapp-slow
+24/39 Test #24: Test_vvencFFapp-slow .............................   Passed    0.46 sec
+      Start 25: Test_compare_output-slow
+25/39 Test #25: Test_compare_output-slow .........................   Passed    0.02 sec
+      Start 26: Test_vvencapp-medium_noqpa_0thr
+26/39 Test #26: Test_vvencapp-medium_noqpa_0thr ..................   Passed    0.21 sec
+      Start 27: Test_vvencFFapp-medium_noqpa_0thr
+27/39 Test #27: Test_vvencFFapp-medium_noqpa_0thr ................   Passed    0.20 sec
+      Start 28: Test_compare_output-medium_noqpa_0thr
+28/39 Test #28: Test_compare_output-medium_noqpa_0thr ............   Passed    0.02 sec
+      Start 29: Test_vvencFFapp-lowdelay_medium
+29/39 Test #29: Test_vvencFFapp-lowdelay_medium ..................   Passed    0.44 sec
+      Start 30: Test_vvencapp-medium_rc2p
+30/39 Test #30: Test_vvencapp-medium_rc2p ........................   Passed    0.31 sec
+      Start 31: Test_vvencFFapp-medium_rc2p
+31/39 Test #31: Test_vvencFFapp-medium_rc2p ......................   Passed    0.32 sec
+      Start 32: Test_compare_output-medium_rc2p
+32/39 Test #32: Test_compare_output-medium_rc2p ..................   Passed    0.02 sec
+      Start 33: Test_vvencFFapp-medium_rc2p_statsFile1_exp
+33/39 Test #33: Test_vvencFFapp-medium_rc2p_statsFile1_exp .......   Passed    0.08 sec
+      Start 34: Test_vvencFFapp-medium_rc2p_statsFile2_exp
+34/39 Test #34: Test_vvencFFapp-medium_rc2p_statsFile2_exp .......   Passed    0.30 sec
+      Start 35: Test_compare_output-medium_rc2p_statsFile_exp
+35/39 Test #35: Test_compare_output-medium_rc2p_statsFile_exp ....   Passed    0.02 sec
+      Start 36: Test_vvencapp-medium_rc2p_statsFile1_easy
+36/39 Test #36: Test_vvencapp-medium_rc2p_statsFile1_easy ........   Passed    0.08 sec
+      Start 37: Test_vvencapp-medium_rc2p_statsFile2_easy
+37/39 Test #37: Test_vvencapp-medium_rc2p_statsFile2_easy ........   Passed    0.29 sec
+      Start 38: Test_compare_output-medium_rc2p_statsFile_easy
+38/39 Test #38: Test_compare_output-medium_rc2p_statsFile_easy ...   Passed    0.02 sec
+      Start 39: Cleanup_remove_temp_files
+39/39 Test #39: Cleanup_remove_temp_files ........................   Passed    0.02 sec
+
+82% tests passed, 7 tests failed out of 39
+
+Total Test time (real) =  25.07 sec
+
+The following tests FAILED:
+	  2 - Test_vvenclibtest-parameter_range (BAD_COMMAND)
+	  3 - Test_vvenclibtest-calling_order (BAD_COMMAND)
+	  4 - Test_vvenclibtest-input_params (BAD_COMMAND)
+	  5 - Test_vvenclibtest-sdk_default (BAD_COMMAND)
+	  6 - Test_vvenclibtest-sdk_stringapi_interface (BAD_COMMAND)
+	  7 - Test_vvenclibtest-timestamps (BAD_COMMAND)
+	  8 - Test_vvenc_unit_test (BAD_COMMAND)
+Errors while running CTest
+ctest exit: 8

@@ -1,0 +1,32 @@
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Linux][GCC 13.3.0][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BQMall_832_480_60_10_420.yuv
+vvenc [info]: Bitstream File                         : /mnt/d/Korea/Prangon_VVC_Assignment/out/linux/R15_BQMall_QP29_medium_linux.266
+vvenc [info]: Real Format                            : 832x480  yuv420p10  60 Hz  SDR  601 frames
+vvenc [info]: Frames                                 : encode 600 frames 
+vvenc [info]: Internal format                        : 832x480  60 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 64
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats:  10.0% frame=  60/600 fps=   2.4 avg_fps=   2.4 bitrate=  1223.79 kbps avg_bitrate=  1223.79 kbps elapsed= 00h:00m:25s left= 00h:03m:42s    
+vvenc [info]: stats:  20.0% frame= 120/600 fps=   2.8 avg_fps=   2.6 bitrate=  1294.90 kbps avg_bitrate=  1259.34 kbps elapsed= 00h:00m:47s left= 00h:03m:06s    
+vvenc [info]: stats:  30.0% frame= 180/600 fps=   3.3 avg_fps=   2.8 bitrate=  1018.51 kbps avg_bitrate=  1179.07 kbps elapsed= 00h:01m:05s left= 00h:02m:31s    
+vvenc [info]: stats:  40.0% frame= 240/600 fps=   3.5 avg_fps=   2.9 bitrate=   746.98 kbps avg_bitrate=  1071.04 kbps elapsed= 00h:01m:22s left= 00h:02m:03s    
+vvenc [info]: stats:  50.0% frame= 300/600 fps=   4.0 avg_fps=   3.1 bitrate=   579.09 kbps avg_bitrate=   972.65 kbps elapsed= 00h:01m:37s left= 00h:01m:37s    
+vvenc [info]: stats:  60.0% frame= 360/600 fps=   3.8 avg_fps=   3.2 bitrate=   600.30 kbps avg_bitrate=   910.59 kbps elapsed= 00h:01m:53s left= 00h:01m:16s    
+vvenc [info]: stats:  70.0% frame= 420/600 fps=   3.2 avg_fps=   3.2 bitrate=   723.58 kbps avg_bitrate=   883.88 kbps elapsed= 00h:02m:12s left= 00h:00m:57s    
+vvenc [info]: stats:  80.0% frame= 480/600 fps=   2.8 avg_fps=   3.1 bitrate=   753.46 kbps avg_bitrate=   867.58 kbps elapsed= 00h:02m:33s left= 00h:00m:39s    
+vvenc [info]: stats:  90.0% frame= 540/600 fps=   3.5 avg_fps=   3.2 bitrate=  1206.34 kbps avg_bitrate=   905.22 kbps elapsed= 00h:02m:50s left= 00h:00m:19s    
+vvenc [info]: stats: 100.0% frame= 600/600 fps=   3.3 avg_fps=   3.2 bitrate=  1047.57 kbps avg_bitrate=   919.45 kbps elapsed= 00h:03m:09s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 600/600 avg_fps= 3.2 avg_bitrate= 919.45 kbps
+vvenc [info]: stats summary: frame I:   9, kbps: 13461.81, AvgQP: 25.44
+vvenc [info]: stats summary: frame P:   0, kbps:      nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 591, kbps:   728.45, AvgQP: 36.33
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	      600    a     919.4528   36.7734   41.8251   42.8498   37.7752
+vvencapp [info]: Total Time: 188.244 sec. Fps(avg): 3.187 encoded Frames 600

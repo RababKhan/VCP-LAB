@@ -1,0 +1,162 @@
+=== vvdec Linux build 2026-11-11 11:18:42 +0600
+Compiler: g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0; cmake version 3.28.3
+Cloning into 'vvdec'...
+Note: switching to 'cb1a3efd88b2ebd1141f1a9ca87c774f05de9249'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+Commit: cb1a3efd88b2ebd1141f1a9ca87c774f05de9249  (grafted, HEAD, tag: v3.2.1)
+$ cmake -S vvdec -B vvdec/build/release-static -DCMAKE_BUILD_TYPE=Release
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_MODULE_PATH: updating module path to: /home/vvcuser/vvc_sadab/vvdec/cmake/modules
+-- normalized target architecture: X86
+-- Performing Test SUPPORTED_Werror_unused_command_line_argument
+-- Performing Test SUPPORTED_Werror_unused_command_line_argument - Failed
+-- Performing Test SUPPORTED_msse4_1
+-- Performing Test SUPPORTED_msse4_1 - Success
+-- Performing Test SUPPORTED_msse2
+-- Performing Test SUPPORTED_msse2 - Success
+-- Performing Test SUPPORTED_mavx
+-- Performing Test SUPPORTED_mavx - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si16
+-- Performing Test HAVE_INTRIN_mm_storeu_si16 - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si32
+-- Performing Test HAVE_INTRIN_mm_storeu_si32 - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si64
+-- Performing Test HAVE_INTRIN_mm_storeu_si64 - Success
+-- Performing Test HAVE_INTRIN_mm_loadu_si32
+-- Performing Test HAVE_INTRIN_mm_loadu_si32 - Success
+-- Performing Test HAVE_INTRIN_mm_loadu_si64
+-- Performing Test HAVE_INTRIN_mm_loadu_si64 - Success
+-- Performing Test HAVE_INTRIN_mm256_zeroupper
+-- Performing Test HAVE_INTRIN_mm256_zeroupper - Success
+-- Performing Test HAVE_INTRIN_mm256_loadu2_m128i
+-- Performing Test HAVE_INTRIN_mm256_loadu2_m128i - Success
+-- x86 SIMD intrinsics enabled (using SIMDE for non-x86 targets)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test SUPPORTED_mxsave
+-- Performing Test SUPPORTED_mxsave - Success
+-- Performing Test SUPPORTED_mavx2
+-- Performing Test SUPPORTED_mavx2 - Success
+-- Some bitstream files are missing.
+--   If you want to run tests, reconfigure with -DVVDEC_ENABLE_BITSTREAM_DOWNLOAD=ON
+--   (or using top level Makefile: make test enable-bitstream-download=1)
+-- Configuring done (4.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/vvcuser/vvc_sadab/vvdec/build/release-static
+configure exit: 0
+$ cmake --build vvdec/build/release-static --parallel 8
+[  1%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/AdaptiveLoopFilter_sse41.cpp.o
+[  3%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/InterpolationFilter_sse41.cpp.o
+[  6%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/Buffer_sse41.cpp.o
+[  2%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/InterPred_sse41.cpp.o
+[  4%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/Quant_sse41.cpp.o
+[  7%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/IntraPred_sse41.cpp.o
+[  8%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/LoopFilter_sse41.cpp.o
+[  9%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/Picture_sse41.cpp.o
+[ 10%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/RdCost_sse41.cpp.o
+[ 12%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/SampleAdaptiveOffset_sse41.cpp.o
+[ 13%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/sse41/Trafo_sse41.cpp.o
+[ 14%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/FilmGrain/FilmGrainImpl_sse41.cpp.o
+[ 15%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/AdaptiveLoopFilter_avx2.cpp.o
+[ 16%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/Buffer_avx2.cpp.o
+[ 18%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/InterPred_avx2.cpp.o
+[ 19%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/InterpolationFilter_avx2.cpp.o
+[ 20%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/IntraPred_avx2.cpp.o
+[ 21%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/LoopFilter_avx2.cpp.o
+[ 22%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/Picture_avx2.cpp.o
+[ 24%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/Quant_avx2.cpp.o
+[ 25%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/RdCost_avx2.cpp.o
+[ 26%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/SampleAdaptiveOffset_avx2.cpp.o
+[ 27%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/CommonLib/x86/avx2/Trafo_avx2.cpp.o
+[ 28%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec_x86_simd.dir/__/FilmGrain/FilmGrainImpl_avx2.cpp.o
+[ 28%] Built target vvdec_x86_simd
+[ 30%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/AdaptiveLoopFilter.cpp.o
+[ 32%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/BitStream.cpp.o
+[ 31%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/ChromaFormat.cpp.o
+[ 33%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/CodingStructure.cpp.o
+[ 34%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/Contexts.cpp.o
+[ 37%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/ContextModelling.cpp.o
+[ 37%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/Buffer.cpp.o
+[ 38%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/InterPrediction.cpp.o
+[ 39%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/InterpolationFilter.cpp.o
+[ 40%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/IntraPrediction.cpp.o
+[ 42%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/LoopFilter.cpp.o
+[ 43%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/MatrixIntraPrediction.cpp.o
+[ 44%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/Mv.cpp.o
+[ 45%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/ParameterSetManager.cpp.o
+[ 46%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/PicListManager.cpp.o
+[ 48%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/PicYuvMD5.cpp.o
+[ 49%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/Picture.cpp.o
+[ 50%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/Quant.cpp.o
+[ 51%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/RdCost.cpp.o
+[ 53%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/Reshape.cpp.o
+[ 54%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/Rom.cpp.o
+[ 55%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/RomTr.cpp.o
+[ 56%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/RomLFNST.cpp.o
+[ 57%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/SEI_internal.cpp.o
+[ 59%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/SampleAdaptiveOffset.cpp.o
+[ 60%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/Slice.cpp.o
+[ 61%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/StatCounter.cpp.o
+[ 62%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/TrQuant.cpp.o
+[ 63%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/TrQuant_EMT.cpp.o
+[ 65%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/Unit.cpp.o
+[ 66%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/UnitPartitioner.cpp.o
+[ 67%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/UnitTools.cpp.o
+[ 68%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/WeightPrediction.cpp.o
+[ 69%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/dtrace.cpp.o
+[ 71%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/AnnexBread.cpp.o
+[ 72%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/BinDecoder.cpp.o
+[ 73%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/CABACReader.cpp.o
+[ 74%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/DecCu.cpp.o
+[ 75%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/DecLib.cpp.o
+[ 77%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/DecLibParser.cpp.o
+[ 78%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/DecLibRecon.cpp.o
+[ 79%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/DecSlice.cpp.o
+[ 80%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/HLSyntaxReader.cpp.o
+[ 81%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/NALread.cpp.o
+[ 83%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/SEIread.cpp.o
+[ 84%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/DecoderLib/VLCReader.cpp.o
+[ 85%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/Utilities/ThreadPool.cpp.o
+[ 86%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/vvdec.cpp.o
+[ 87%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/vvdecimpl.cpp.o
+[ 89%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/wasm_bindings.cpp.o
+[ 90%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/x86/CommonDefX86.cpp.o
+[ 91%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/CommonLib/x86/InitX86.cpp.o
+[ 92%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/FilmGrain/FilmGrain.cpp.o
+[ 93%] Building CXX object source/Lib/vvdec/CMakeFiles/vvdec.dir/__/FilmGrain/FilmGrainImpl.cpp.o
+[ 95%] Linking CXX static library /home/vvcuser/vvc_sadab/vvdec/lib/release-static/libvvdec.a
+[ 95%] Built target vvdec
+[ 97%] Building CXX object source/App/vvdecapp/CMakeFiles/vvdecapp.dir/vvdecapp.cpp.o
+[ 97%] Building CXX object tests/vvdec_unit_test/CMakeFiles/vvdec_unit_test.dir/vvdec_unit_test.cpp.o
+[ 98%] Linking CXX executable /home/vvcuser/vvc_sadab/vvdec/bin/release-static/vvdecapp
+[100%] Linking CXX executable /home/vvcuser/vvc_sadab/vvdec/bin/release-static/vvdec_unit_test
+[100%] Built target vvdecapp
+[100%] Built target vvdec_unit_test
+build exit: 0; build wall time 32 s

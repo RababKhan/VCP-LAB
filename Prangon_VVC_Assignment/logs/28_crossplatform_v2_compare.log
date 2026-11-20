@@ -1,0 +1,6 @@
+﻿BasketballPass QP24 slow, 500 frames {'size': True, 'bitstream_sha256': True, 'recon_sha256': True, 'frames': True, 'psnr': True, 'encoder_parameters': True}
+BasketballPass QP39 faster, 500 frames {'size': True, 'bitstream_sha256': True, 'recon_sha256': True, 'frames': True, 'psnr': True, 'encoder_parameters': True}
+BlowingBubbles QP29 slow, 500 frames {'size': True, 'bitstream_sha256': True, 'recon_sha256': True, 'frames': True, 'psnr': True, 'encoder_parameters': True}
+BQMall QP34 faster, 600 frames {'size': True, 'bitstream_sha256': True, 'recon_sha256': True, 'frames': True, 'psnr': True, 'encoder_parameters': True}
+BasketballDrive QP39 faster, 500 frames {'size': True, 'bitstream_sha256': True, 'recon_sha256': True, 'frames': True, 'psnr': True, 'encoder_parameters': True}
+{"n_new": 5, "n_new_all_match": 5}

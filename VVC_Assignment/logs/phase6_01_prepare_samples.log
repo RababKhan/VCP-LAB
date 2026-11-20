@@ -1,0 +1,83 @@
+BasketballPass  origi QP            frames  501.0 Y          bytes           sha de0dcc61e9ba
+BasketballPass  recon QP22  medium  frames  500.0 Y  40.5448 bytes   1430459 sha 43f0771ff645
+BasketballPass  recon QP32  medium  frames  500.0 Y  33.3048 bytes    325445 sha c1f821f5ffc3
+BasketballPass  recon QP37  medium  frames  500.0 Y  30.5388 bytes    166829 sha 17434e2c0f61
+BasketballPass  recon QP32  faster  frames  500.0 Y  32.8365 bytes    366257 sha 8e91c81e43dd
+BasketballPass  recon QP32  slower  frames  500.0 Y  33.6795 bytes    318273 sha 10a5ce72e6fe
+BQMall          origi QP            frames  601.0 Y          bytes           sha 02490741eed0
+BQMall          recon QP22  medium  frames  600.0 Y  40.3348 bytes   3246923 sha 30d7eecf2807
+BQMall          recon QP32  medium  frames  600.0 Y  35.1603 bytes    760913 sha 95daf04d8b26
+BQMall          recon QP37  medium  frames  600.0 Y  32.5194 bytes    397582 sha f85edb908231
+BQMall          recon QP32  faster  frames  600.0 Y  34.5098 bytes    853056 sha 703cdcbe8f73
+BQMall          recon QP32  slower  frames  600.0 Y  35.4883 bytes    728106 sha bb6308ca56cd
+{
+ "BasketballPass": {
+  "frames": {
+   "intra_first_idr": 15,
+   "typical_qp32_medium": 133,
+   "worst_qp37_medium": 370
+  },
+  "per_frame_y_psnr": {
+   "QP22_medium": {
+    "intra_first_idr": 45.4448,
+    "typical_qp32_medium": 40.7928,
+    "worst_qp37_medium": 37.6187
+   },
+   "QP32_medium": {
+    "intra_first_idr": 38.8546,
+    "typical_qp32_medium": 33.2822,
+    "worst_qp37_medium": 30.4144
+   },
+   "QP37_medium": {
+    "intra_first_idr": 35.5952,
+    "typical_qp32_medium": 30.5533,
+    "worst_qp37_medium": 27.6821
+   },
+   "QP32_faster": {
+    "intra_first_idr": 38.101,
+    "typical_qp32_medium": 32.7463,
+    "worst_qp37_medium": 30.5505
+   },
+   "QP32_slower": {
+    "intra_first_idr": 38.998,
+    "typical_qp32_medium": 33.8685,
+    "worst_qp37_medium": 30.7858
+   }
+  }
+ },
+ "BQMall": {
+  "frames": {
+   "intra_first_idr": 31,
+   "typical_qp32_medium": 441,
+   "worst_qp37_medium": 42
+  },
+  "per_frame_y_psnr": {
+   "QP22_medium": {
+    "intra_first_idr": 41.5337,
+    "typical_qp32_medium": 40.6667,
+    "worst_qp37_medium": 38.2779
+   },
+   "QP32_medium": {
+    "intra_first_idr": 36.737,
+    "typical_qp32_medium": 35.1726,
+    "worst_qp37_medium": 32.3121
+   },
+   "QP37_medium": {
+    "intra_first_idr": 33.6062,
+    "typical_qp32_medium": 32.5537,
+    "worst_qp37_medium": 29.5845
+   },
+   "QP32_faster": {
+    "intra_first_idr": 36.4801,
+    "typical_qp32_medium": 34.7842,
+    "worst_qp37_medium": 31.5054
+   },
+   "QP32_slower": {
+    "intra_first_idr": 36.9011,
+    "typical_qp32_medium": 35.4826,
+    "worst_qp37_medium": 32.817
+   }
+  }
+ }
+}
+PROBLEMS: none

@@ -1,0 +1,74 @@
+{
+  "file": "BlowingBubbles_416_240_50_10_420.yuv",
+  "size_bytes": 150059520,
+  "sha256": "ffe4039fc7cfc034e54258302adcafd6f02a3d77028e566a0f82313a54d180e2",
+  "width": 416,
+  "height": 240,
+  "layouts": {
+    "yuv420p10le": {
+      "bytes_per_frame": 299520,
+      "frames": 501,
+      "trailing_bytes": 0
+    },
+    "yuv420p (8-bit)": {
+      "bytes_per_frame": 149760,
+      "frames": 1002,
+      "trailing_bytes": 0
+    },
+    "yuv444p (8-bit)": {
+      "bytes_per_frame": 299520,
+      "frames": 501,
+      "trailing_bytes": 0
+    },
+    "yuv422p10le": {
+      "bytes_per_frame": 399360,
+      "frames": 375,
+      "trailing_bytes": 299520
+    }
+  },
+  "frame0_mean_abs_vertical_diff": 29.62,
+  "frame0_mean_abs_horizontal_diff": 37.62,
+  "frames_10bit_420": 501,
+  "high_byte_le_3_fraction": 1.0,
+  "high_byte_max": 3,
+  "planes_10bit": {
+    "Y": {
+      "min": 64,
+      "max": 940,
+      "mean": 415.99
+    },
+    "U": {
+      "min": 64,
+      "max": 828,
+      "mean": 447.7
+    },
+    "V": {
+      "min": 256,
+      "max": 844,
+      "mean": 604.31
+    }
+  },
+  "fraction_samples_lsb2_zero": 1.0,
+  "temporal_mad": {
+    "mean": 20.626,
+    "median": 17.223,
+    "max": 413.325,
+    "max_at_pair": [
+      499,
+      500
+    ],
+    "zero_diff_pairs": [],
+    "outlier_pairs_gt_5x_median": [
+      [
+        499,
+        500,
+        413.32
+      ]
+    ]
+  },
+  "luma_mean_first_last": {
+    "first": 400.82,
+    "second_last": 469.66,
+    "last": 136.18
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "run": {
+    "run_id": "BlowingBubbles_f500_q32_medium_t8",
+    "sequence": "BlowingBubbles",
+    "frames": 500,
+    "qp": 32,
+    "preset": "medium",
+    "groups": [
+      "qp_sweep",
+      "preset_sweep"
+    ]
+  },
+  "sequence": {
+    "file": "dataset/BlowingBubbles_416_240_50_10_420.yuv",
+    "width": 416,
+    "height": 240,
+    "fps": 50,
+    "sha256": "ffe4039fc7cfc034e54258302adcafd6f02a3d77028e566a0f82313a54d180e2",
+    "file_frames": 501,
+    "content_frames": 500,
+    "bitdepth": 10,
+    "chroma": "420",
+    "container": "yuv420p10le (16-bit little-endian words)",
+    "effective_precision_bits": 8,
+    "trailing_frame_note": "last frame is an NTT DOCOMO copyright text card; never encoded"
+  },
+  "encoder_common": {
+    "format": "yuv420_10",
+    "qpa": 0,
+    "threads": 8,
+    "verbosity": 4,
+    "extra_args": [
+      "--refreshtype",
+      "cra",
+      "--refreshsec",
+      "1"
+    ],
+    "notes": "constant-QP (no rate control); GOP structure = preset default; intra refresh CRA every 1 s; POC0IDR = library default (off)"
+  },
+  "encoder_cmd": "D:\\Korea\\VVC_Assignment\\src\\vvenc\\bin\\release-static\\vvencapp.exe -i D:\\Korea\\VVC_Assignment\\dataset\\BlowingBubbles_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 500 -q 32 --preset medium --qpa 0 -t 8 -v 4 --refreshtype cra --refreshsec 1 -o D:\\Korea\\VVC_Assignment\\bitstreams\\full\\BlowingBubbles_f500_q32_medium_t8.266",
+  "encoder": {
+    "notice": {
+      "Input File": "D:\\Korea\\VVC_Assignment\\dataset\\BlowingBubbles_416_240_50_10_420.yuv",
+      "Bitstream File": "D:\\Korea\\VVC_Assignment\\bitstreams\\full\\BlowingBubbles_f500_q32_medium_t8.266",
+      "Real Format": "416x240  yuv420p10  50 Hz  SDR  501 frames",
+      "Frames": "encode 500 frames",
+      "Internal format": "416x240  50 Hz  SDR",
+      "Threads": "8  (parallel frames: 4)",
+      "Rate control": "QP 32",
+      "Perceptual optimization": "Disabled",
+      "Intra period (keyframe)": "48",
+      "Decoding refresh type": "CRA",
+      "Sequence PSNR output": "Linear average only",
+      "Hexadecimal PSNR output": "Disabled",
+      "Sequence MSE output": "Disabled",
+      "Frame MSE output": "Disabled",
+      "Cabac-zero-word-padding": "Enabled",
+      "Frame index": "500 frames",
+      "Profile": "main_10",
+      "Level": "2.1",
+      "CU size": "128",
+      "Max TB size": "64",
+      "Min CB size": "4",
+      "Motion search range": "384",
+      "QP": "32",
+      "Max dQP signaling subdiv": "0",
+      "Cb QP Offset (dual tree)": "0 (0)",
+      "Cr QP Offset (dual tree)": "0 (0)",
+      "GOP size": "32",
+      "PicReordering": "1",
+      "Input bit depth": "(Y:10, C:10)",
+      "MSB-extended bit depth": "(Y:10, C:10)",
+      "Internal bit depth": "(Y:10, C:10)",
+      "cu_chroma_qp_offset_subdiv": "-1",
+      "log2_sao_offset_scale_luma": "0",
+      "log2_sao_offset_scale_chroma": "0",
+      "Cost function": "Lossy coding",
+      "Film grain analysis": "0"
+    },
+    "summary": {
+      "frames": 500,
+      "kbps": 251.7136,
+      "Y": 31.6208,
+      "U": 36.9433,
+      "V": 37.6414,
+      "YUV": 32.689
+    },
+    "total_time_s": 54.381,
+    "frames_I": 11,
+    "avg_qp_I": 29.3,
+    "frames_P": 0,
+    "avg_qp_P": null,
+    "frames_B": 489,
+    "avg_qp_B": 40.57,
+    "pictures": 500,
+    "distinct_pocs": 500,
+    "intra": [
+      [
+        15,
+        "IDR_W_RADL"
+      ],
+      [
+        63,
+        "CRA"
+      ],
+      [
+        111,
+        "CRA"
+      ],
+      [
+        159,
+        "CRA"
+      ],
+      [
+        207,
+        "CRA"
+      ],
+      [
+        255,
+        "CRA"
+      ],
+      [
+        303,
+        "CRA"
+      ],
+      [
+        351,
+        "CRA"
+      ],
+      [
+        399,
+        "CRA"
+      ],
+      [
+        447,
+        "CRA"
+      ],
+      [
+        495,
+        "CRA"
+      ]
+    ]
+  },
+  "decoder_timing_cmd": "D:\\Korea\\VVC_Assignment\\src\\vvdec\\bin\\release-static\\vvdecapp.exe -b D:\\Korea\\VVC_Assignment\\bitstreams\\full\\BlowingBubbles_f500_q32_medium_t8.266 -t 8",
+  "decoder_timing": {
+    "frames": 500,
+    "reported_s": 0.184,
+    "size_info": "SizeInfo: 416x240 (10b)"
+  },
+  "decoder_recon_cmd": "D:\\Korea\\VVC_Assignment\\src\\vvdec\\bin\\release-static\\vvdecapp.exe -b D:\\Korea\\VVC_Assignment\\bitstreams\\full\\BlowingBubbles_f500_q32_medium_t8.266 -o D:\\Korea\\VVC_Assignment\\recon\\full\\BlowingBubbles_f500_q32_medium_t8_rec.yuv -t 8",
+  "decoder_recon": {
+    "frames": 500,
+    "reported_s": 0.332,
+    "size_info": "SizeInfo: 416x240 (10b)",
+    "exit": 0
+  },
+  "checks": {
+    "encode_exit_zero": true,
+    "cfg_qpa_disabled": true,
+    "cfg_rate_control_qp": true,
+    "cfg_frames": true,
+    "cfg_threads": true,
+    "cfg_input_bitdepth_10": true,
+    "enc_pictures_eq_frames": true,
+    "enc_summary_frames": true,
+    "bitstream_nonempty": true,
+    "decode_timing_exit_zero": true,
+    "decode_timing_frames": true,
+    "decode_recon_exit_zero": true,
+    "decode_recon_frames": true,
+    "recon_size_ok": true,
+    "alignment_offset_zero": true,
+    "psnr_matches_encoder": true,
+    "bitrate_matches_encoder": true
+  },
+  "status": "ok",
+  "row": {
+    "run_id": "BlowingBubbles_f500_q32_medium_t8",
+    "sequence": "BlowingBubbles",
+    "width": 416,
+    "height": 240,
+    "fps": 50,
+    "bitdepth": 10,
+    "chroma": "420",
+    "frames": 500,
+    "qp": 32,
+    "preset": "medium",
+    "qpa": 0,
+    "enc_threads": 8,
+    "dec_threads": 8,
+    "groups": "qp_sweep+preset_sweep",
+    "repeat_of": "",
+    "encode_exit": 0,
+    "encode_wall_s": 54.533,
+    "encode_reported_s": 54.381,
+    "encode_fps_wall": 9.1688,
+    "ac_power": false,
+    "power_plan": "Balanced",
+    "power_mode": "Best performance",
+    "started": "2026-11-04T15:00:57.995+06:00",
+    "vvenc_version": "vvencapp version 1.14.0",
+    "vvdec_version": "vvdecapp.exe version 3.2.1",
+    "intra_pocs": "15:IDR_W_RADL 63:CRA 111:CRA 159:CRA 207:CRA 255:CRA 303:CRA 351:CRA 399:CRA 447:CRA 495:CRA",
+    "frames_I": 11,
+    "frames_B": 489,
+    "avg_qp_I": 29.3,
+    "avg_qp_B": 40.57,
+    "intra_period": "48",
+    "gop_size": "32",
+    "parallel_frames": "8  (parallel frames: 4)",
+    "bitstream_bytes": 314642,
+    "bitrate_kbps": 251.7136,
+    "bitstream_sha256": "5d62a13a3adb8479b97e0fc73983657e829257830311c8bbf9109778b2e3b3fc",
+    "encoder_reported_kbps": 251.7136,
+    "enc_psnr_y": 31.6208,
+    "enc_psnr_u": 36.9433,
+    "enc_psnr_v": 37.6414,
+    "enc_psnr_yuv": 32.689,
+    "decode_exit": 0,
+    "decode_wall_s": 0.203,
+    "decode_reported_s": 0.184,
+    "decode_recon_wall_s": 0.347,
+    "recon_bytes": 149760000,
+    "recon_frames_ok": true,
+    "psnr_y": 31.6208,
+    "psnr_u": 36.9433,
+    "psnr_v": 37.6414,
+    "psnr_yuv_411": 32.689,
+    "psnr_yuv_611": 33.0387,
+    "alignment_best_offset": 0,
+    "max_abs_psnr_diff_vs_encoder": 0.0,
+    "status": "ok",
+    "failed_checks": ""
+  },
+  "finished": "2026-11-04T15:01:53.831+06:00"
+}

@@ -1,0 +1,102 @@
+=== WARM-UP ENCODE block B (discarded)
+Command: D:\Korea\Prangon_VVC_Assignment\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 64 -q 34 --preset medium --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\out\phase2\_warmup_B.266
+Started: 2026-11-11T14:49:53+06:00
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Windows][VS 1944][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv
+vvenc [info]: Bitstream File                         : D:\Korea\Prangon_VVC_Assignment\out\phase2\_warmup_B.266
+vvenc [info]: Real Format                            : 416x240  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 64 frames 
+vvenc [info]: Internal format                        : 416x240  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 34
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats:  78.1% frame= 50/64 fps=  10.4 avg_fps=  10.4 bitrate=   152.30 kbps avg_bitrate=   152.30 kbps elapsed= 00h:00m:05s left= 00h:00m:02s    
+vvenc [info]: stats: 100.0% frame= 64/64 fps=  12.0 avg_fps=  12.0 bitrate=   132.81 kbps avg_bitrate=   132.81 kbps elapsed= 00h:00m:06s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 64/64 avg_fps= 12.0 avg_bitrate= 132.81 kbps
+vvenc [info]: stats summary: frame I:  2, kbps: 1545.40, AvgQP: 30.50
+vvenc [info]: stats summary: frame P:  0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 62, kbps:   87.25, AvgQP: 41.29
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       64    a     132.8125   34.1828   39.7688   38.8086   35.2168
+vvencapp [info]: Total Time: 5.322 sec. Fps(avg): 12.026 encoded Frames 64
+Exit code: 0
+Wall time (s): 5.476
+=== WARM-UP DECODE block B (discarded)
+Command: D:\Korea\Prangon_VVC_Assignment\vvdec\bin\release-static\vvdecapp.exe -b D:\Korea\Prangon_VVC_Assignment\out\phase2\_warmup_B.266 -t 8
+Started: 2026-11-11T14:49:53+06:00
+VVdeC, the Fraunhofer VVC/H.266 decoder, version 3.2.1 [THREADS=8; PARSE_DELAY=12; SIMD=AVX2]
+POC   15 LId:  0 TId: 0 ( I-SLICE, QP 29 ) [DT  0.003] [L0 ] [L1 ] 
+POC    7 LId:  0 TId: 2 ( B-SLICE, QP 36 ) [DT  0.003] [L0 15 ] [L1 15c ] 
+POC    3 LId:  0 TId: 3 ( B-SLICE, QP 39 ) [DT  0.002] [L0 7 15 ] [L1 7c 15 ] 
+POC   11 LId:  0 TId: 3 ( B-SLICE, QP 39 ) [DT  0.001] [L0 7c 15 ] [L1 15 7 ] 
+POC    1 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 3 7 ] [L1 3c 7 ] 
+POC    5 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 3c 7 ] [L1 7 15 ] 
+POC    9 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 7 11 ] [L1 11c 15 ] 
+POC    0 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 1 ] [L1 1c ] 
+POC    2 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 1c ] [L1 3 ] 
+POC    4 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 3 ] [L1 5c ] 
+POC    6 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 5c ] [L1 7 ] 
+vvdecapp [info]: SizeInfo: 416x240 (10b) 
+POC    8 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 7 ] [L1 9c ] 
+POC   10 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 9c ] [L1 11 ] 
+POC   13 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.000] [L0 11c 7 ] [L1 15 11 ] 
+POC   47 LId:  0 TId: 0 ( B-SLICE, QP 32 ) [DT  0.002] [L0 15 ] [L1 15c ] 
+POC   12 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 11 ] [L1 13c ] 
+POC   14 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 13c ] [L1 15 ] 
+POC   31 LId:  0 TId: 1 ( B-SLICE, QP 35 ) [DT  0.001] [L0 15 47 ] [L1 47c 15 ] 
+POC   23 LId:  0 TId: 2 ( B-SLICE, QP 36 ) [DT  0.002] [L0 15 31 ] [L1 31c 47 ] 
+POC   19 LId:  0 TId: 3 ( B-SLICE, QP 39 ) [DT  0.001] [L0 15 23 ] [L1 23c 31 ] 
+POC   27 LId:  0 TId: 3 ( B-SLICE, QP 39 ) [DT  0.001] [L0 23c 15 ] [L1 31 47 ] 
+POC   17 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 15 19 ] [L1 19c 23 ] 
+POC   21 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 19c 15 ] [L1 23 31 ] 
+POC   25 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 23 15 ] [L1 27c 31 ] 
+POC   16 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 15 ] [L1 17c ] 
+POC   18 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 17c ] [L1 19 ] 
+POC   20 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 19 ] [L1 21c ] 
+POC   22 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 21c ] [L1 23 ] 
+POC   24 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 23 ] [L1 25c ] 
+POC   26 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 25c ] [L1 27 ] 
+POC   29 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.000] [L0 27c 23 ] [L1 31 47 ] 
+POC   39 LId:  0 TId: 2 ( B-SLICE, QP 36 ) [DT  0.001] [L0 31c 15 ] [L1 47 31 ] 
+POC   28 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 27 ] [L1 29c ] 
+POC   30 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 29c ] [L1 31 ] 
+POC   35 LId:  0 TId: 3 ( B-SLICE, QP 39 ) [DT  0.001] [L0 31 15 ] [L1 39c 47 ] 
+POC   43 LId:  0 TId: 3 ( B-SLICE, QP 39 ) [DT  0.001] [L0 39c 31 ] [L1 47 39 ] 
+POC   33 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.000] [L0 31 15 ] [L1 35c 39 ] 
+POC   37 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 35c 31 ] [L1 39 47 ] 
+POC   41 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 39 31 ] [L1 43c 47 ] 
+POC   32 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 31 ] [L1 33c ] 
+POC   34 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 33c ] [L1 35 ] 
+POC   36 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 35 ] [L1 37c ] 
+POC   38 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 37c ] [L1 39 ] 
+POC   40 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 39 ] [L1 41c ] 
+POC   42 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 41c ] [L1 43 ] 
+POC   45 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 43c 31 ] [L1 47 43 ] 
+POC   63 LId:  0 TId: 0 ( I-SLICE, QP 32 ) [DT  0.003] [L0 ] [L1 ] 
+POC   44 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 43 ] [L1 45c ] 
+POC   46 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 45c ] [L1 47 ] 
+POC   55 LId:  0 TId: 2 ( B-SLICE, QP 37 ) [DT  0.001] [L0 47 31 ] [L1 63c 47 ] 
+POC   51 LId:  0 TId: 3 ( B-SLICE, QP 40 ) [DT  0.001] [L0 47 31 ] [L1 55c 63 ] 
+POC   59 LId:  0 TId: 3 ( B-SLICE, QP 40 ) [DT  0.001] [L0 55c 47 ] [L1 63 55 ] 
+POC   49 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 47 31 ] [L1 51c 55 ] 
+POC   53 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 51c 47 ] [L1 55 63 ] 
+POC   57 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 55 47 ] [L1 59c 63 ] 
+POC   48 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 47 ] [L1 49c ] 
+POC   50 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 49c ] [L1 51 ] 
+POC   52 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 51 ] [L1 53c ] 
+POC   54 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 53c ] [L1 55 ] 
+POC   56 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.000] [L0 55 ] [L1 57c ] 
+POC   58 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 57c ] [L1 59 ] 
+POC   61 LId:  0 TId: 4 ( B-SLICE, QP 42 ) [DT  0.001] [L0 59c 55 ] [L1 63 59 ] 
+POC   60 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 59 ] [L1 61c ] 
+POC   62 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 61c ] [L1 63 ] 
+vvdecapp [info]: 2026-Nov-11 14:49:53.557282: 64 frames decoded @ 2666.67 fps (0.024 sec)
+
+Exit code: 0
+Wall time (s): 0.045

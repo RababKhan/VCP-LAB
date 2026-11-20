@@ -1,0 +1,2 @@
+timestamp,run_id,ac_power,battery_pct,battery_saver,power_mode
+2026-11-04T17:26:00.025+06:00,selftest_BasketballPass_f64_q32_medium:prelaunch,False,94,False,Best performance

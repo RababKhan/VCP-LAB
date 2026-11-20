@@ -1,0 +1,252 @@
+{
+  "expected_runs": 65,
+  "present_runs": 65,
+  "missing_runs": [],
+  "failed_runs": [],
+  "all_complete_and_ok": true,
+  "repeats_identical_bitstream": "32/32",
+  "power_modes": [
+    "Best performance"
+  ],
+  "ac_power_all": false,
+  "max_abs_psnr_diff_vs_encoder": 0,
+  "first_started": "2026-11-04T10:32:53.310+06:00",
+  "last_started": "2026-11-04T16:48:19.179+06:00",
+  "runs_started_on_battery": [
+    "BasketballPass_f500_q37_medium_t8",
+    "BQMall_f600_q32_faster_t8",
+    "BasketballDrive_f500_q32_fast_t8",
+    "BQMall_f600_q22_medium_t8",
+    "BlowingBubbles_f500_q32_medium_t8",
+    "BasketballPass_f500_q32_slower_t8",
+    "BasketballPass_f500_q27_medium_t8_rep3",
+    "BlowingBubbles_f500_q32_fast_t8_rep3",
+    "BasketballPass_f500_q37_medium_t8_rep3",
+    "BasketballPass_f500_q32_slower_t8_rep3"
+  ],
+  "runs_with_battery_samples": {
+    "BasketballDrive_f500_q32_slower_t8": {
+      "samples": 224,
+      "started_on_battery": false,
+      "battery_samples": 51,
+      "low_perf_samples": 0
+    },
+    "BasketballPass_f500_q37_medium_t8": {
+      "samples": 1,
+      "started_on_battery": true,
+      "battery_samples": 2,
+      "low_perf_samples": 0
+    },
+    "BQMall_f600_q32_faster_t8": {
+      "samples": 0,
+      "started_on_battery": true,
+      "battery_samples": 1,
+      "low_perf_samples": 0
+    },
+    "BasketballDrive_f500_q32_fast_t8": {
+      "samples": 5,
+      "started_on_battery": true,
+      "battery_samples": 6,
+      "low_perf_samples": 0
+    },
+    "BQMall_f600_q22_medium_t8": {
+      "samples": 8,
+      "started_on_battery": true,
+      "battery_samples": 9,
+      "low_perf_samples": 0
+    },
+    "BlowingBubbles_f500_q32_medium_t8": {
+      "samples": 2,
+      "started_on_battery": true,
+      "battery_samples": 3,
+      "low_perf_samples": 0
+    },
+    "BasketballPass_f500_q32_slower_t8": {
+      "samples": 29,
+      "started_on_battery": true,
+      "battery_samples": 30,
+      "low_perf_samples": 0
+    },
+    "BasketballPass_f500_q27_medium_t8_rep3": {
+      "samples": 2,
+      "started_on_battery": true,
+      "battery_samples": 3,
+      "low_perf_samples": 0
+    },
+    "BlowingBubbles_f500_q32_fast_t8_rep3": {
+      "samples": 1,
+      "started_on_battery": true,
+      "battery_samples": 2,
+      "low_perf_samples": 0
+    },
+    "BasketballPass_f500_q37_medium_t8_rep3": {
+      "samples": 1,
+      "started_on_battery": true,
+      "battery_samples": 2,
+      "low_perf_samples": 0
+    },
+    "BasketballPass_f500_q32_slower_t8_rep3": {
+      "samples": 36,
+      "started_on_battery": true,
+      "battery_samples": 25,
+      "low_perf_samples": 14
+    }
+  },
+  "runs_with_low_perf_samples": {
+    "BasketballPass_f500_q32_slower_t8_rep3": {
+      "samples": 36,
+      "started_on_battery": true,
+      "battery_samples": 25,
+      "low_perf_samples": 14
+    }
+  },
+  "battery_intervals": [
+    [
+      "2026-11-04T14:27:34",
+      "2026-11-04T15:31:17"
+    ]
+  ],
+  "timing_variability": {
+    "configs_with_repeats": 16,
+    "enc_wall_cv_pct_median": 2.4415417408668234,
+    "enc_wall_cv_pct_max": 14.101380899177169,
+    "dec_wall_cv_pct_median": 3.6790277991496563,
+    "all_repeat_bitstreams_identical": true
+  },
+  "preset_relative_to_medium": {
+    "BasketballPass/faster": {
+      "enc_time_x_vs_medium": 0.1232068141063957,
+      "bytes_pct_vs_medium": 12.54036780408363,
+      "psnr_y_db_vs_medium": -0.4682999999999993,
+      "psnr_yuv_db_vs_medium": -0.45110000000000383
+    },
+    "BasketballPass/fast": {
+      "enc_time_x_vs_medium": 0.2893753735803945,
+      "bytes_pct_vs_medium": 3.585859361796917,
+      "psnr_y_db_vs_medium": -0.30519999999999925,
+      "psnr_yuv_db_vs_medium": -0.30880000000000507
+    },
+    "BasketballPass/medium": {
+      "enc_time_x_vs_medium": 1.0,
+      "bytes_pct_vs_medium": 0.0,
+      "psnr_y_db_vs_medium": 0.0,
+      "psnr_yuv_db_vs_medium": 0.0
+    },
+    "BasketballPass/slow": {
+      "enc_time_x_vs_medium": 3.5919194560669454,
+      "bytes_pct_vs_medium": -1.340625912212512,
+      "psnr_y_db_vs_medium": 0.19069999999999965,
+      "psnr_yuv_db_vs_medium": 0.2072999999999965
+    },
+    "BasketballPass/slower": {
+      "enc_time_x_vs_medium": 16.757770472205618,
+      "bytes_pct_vs_medium": -2.2037517860160727,
+      "psnr_y_db_vs_medium": 0.37469999999999715,
+      "psnr_yuv_db_vs_medium": 0.40099999999999625
+    },
+    "BlowingBubbles/faster": {
+      "enc_time_x_vs_medium": 0.1051383103905564,
+      "bytes_pct_vs_medium": 6.303036466841672,
+      "psnr_y_db_vs_medium": -0.6583000000000006,
+      "psnr_yuv_db_vs_medium": -0.6379000000000019
+    },
+    "BlowingBubbles/fast": {
+      "enc_time_x_vs_medium": 0.27370701731448105,
+      "bytes_pct_vs_medium": -0.5809777461368792,
+      "psnr_y_db_vs_medium": -0.43819999999999837,
+      "psnr_yuv_db_vs_medium": -0.4373999999999967
+    },
+    "BlowingBubbles/medium": {
+      "enc_time_x_vs_medium": 1.0,
+      "bytes_pct_vs_medium": 0.0,
+      "psnr_y_db_vs_medium": 0.0,
+      "psnr_yuv_db_vs_medium": 0.0
+    },
+    "BlowingBubbles/slow": {
+      "enc_time_x_vs_medium": 3.2466426343413213,
+      "bytes_pct_vs_medium": -1.3815701654578905,
+      "psnr_y_db_vs_medium": 0.1460000000000008,
+      "psnr_yuv_db_vs_medium": 0.14710000000000178
+    },
+    "BlowingBubbles/slower": {
+      "enc_time_x_vs_medium": 14.437344739348886,
+      "bytes_pct_vs_medium": -1.5147373840745937,
+      "psnr_y_db_vs_medium": 0.29630000000000223,
+      "psnr_yuv_db_vs_medium": 0.2931999999999988
+    },
+    "BQMall/faster": {
+      "enc_time_x_vs_medium": 0.11505140738243722,
+      "bytes_pct_vs_medium": 12.109531575883192,
+      "psnr_y_db_vs_medium": -0.650500000000001,
+      "psnr_yuv_db_vs_medium": -0.6586999999999961
+    },
+    "BQMall/fast": {
+      "enc_time_x_vs_medium": 0.2972020900050565,
+      "bytes_pct_vs_medium": 3.9449976541339193,
+      "psnr_y_db_vs_medium": -0.41259999999999764,
+      "psnr_yuv_db_vs_medium": -0.43549999999999756
+    },
+    "BQMall/medium": {
+      "enc_time_x_vs_medium": 1.0,
+      "bytes_pct_vs_medium": 0.0,
+      "psnr_y_db_vs_medium": 0.0,
+      "psnr_yuv_db_vs_medium": 0.0
+    },
+    "BQMall/slow": {
+      "enc_time_x_vs_medium": 3.434131130962414,
+      "bytes_pct_vs_medium": -3.490937860175869,
+      "psnr_y_db_vs_medium": 0.1291000000000011,
+      "psnr_yuv_db_vs_medium": 0.13880000000000337
+    },
+    "BQMall/slower": {
+      "enc_time_x_vs_medium": 15.909354458115626,
+      "bytes_pct_vs_medium": -4.311531016029424,
+      "psnr_y_db_vs_medium": 0.32800000000000296,
+      "psnr_yuv_db_vs_medium": 0.34140000000000015
+    },
+    "BasketballDrive/faster": {
+      "enc_time_x_vs_medium": 0.13072336318829306,
+      "bytes_pct_vs_medium": 13.785873576104969,
+      "psnr_y_db_vs_medium": -0.4480000000000004,
+      "psnr_yuv_db_vs_medium": -0.4513999999999996
+    },
+    "BasketballDrive/fast": {
+      "enc_time_x_vs_medium": 0.2799481025933932,
+      "bytes_pct_vs_medium": 4.640283395791167,
+      "psnr_y_db_vs_medium": -0.26190000000000424,
+      "psnr_yuv_db_vs_medium": -0.2785000000000011
+    },
+    "BasketballDrive/medium": {
+      "enc_time_x_vs_medium": 1.0,
+      "bytes_pct_vs_medium": 0.0,
+      "psnr_y_db_vs_medium": 0.0,
+      "psnr_yuv_db_vs_medium": 0.0
+    },
+    "BasketballDrive/slow": {
+      "enc_time_x_vs_medium": 3.7066540944296453,
+      "bytes_pct_vs_medium": -2.0819847149809445,
+      "psnr_y_db_vs_medium": 0.13700000000000045,
+      "psnr_yuv_db_vs_medium": 0.1407999999999987
+    },
+    "BasketballDrive/slower": {
+      "enc_time_x_vs_medium": 17.058529836084947,
+      "bytes_pct_vs_medium": -3.587898697495373,
+      "psnr_y_db_vs_medium": 0.238900000000001,
+      "psnr_yuv_db_vs_medium": 0.24849999999999994
+    }
+  },
+  "system_monitor": {
+    "file": "phase4b_system_monitor_20261104_103252.csv",
+    "samples": 726,
+    "thermal_zone_C_max": 92.9,
+    "thermal_zone_C_median": 91.9,
+    "proc_performance_pct_median": 117.25,
+    "proc_performance_pct_min": 0.0,
+    "battery_samples": 124,
+    "low_perf_samples": 14,
+    "zero_perf_counter_glitches": [
+      "2026-11-04T11:35:03"
+    ],
+    "guard_events": []
+  }
+}

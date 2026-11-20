@@ -1,0 +1,14 @@
+=== clone vvdec 2026-11-05T09:24:46+06:00 as vvcuser in /home/vvcuser/vvc_linux
+$ git clone https://github.com/fraunhoferhhi/vvdec.git /home/vvcuser/vvc_linux/vvdec
+Cloning into '/home/vvcuser/vvc_linux/vvdec'...
+clone exit code: 0
+$ git -C /home/vvcuser/vvc_linux/vvdec checkout --detach cb1a3efd88b2ebd1141f1a9ca87c774f05de9249
+HEAD is now at cb1a3ef prepare for v3.2.1 bugfix release
+checkout exit code: 0
+HEAD: cb1a3efd88b2ebd1141f1a9ca87c774f05de9249
+expected: cb1a3efd88b2ebd1141f1a9ca87c774f05de9249
+tags at HEAD: v3.2.1 
+describe: v3.2.1
+git status --porcelain (empty = unmodified):
+[end status]
+COMMIT CHECK: PASS

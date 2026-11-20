@@ -1,0 +1,20 @@
+﻿Checkout release tags - 2026-10-27 14:40:11 +06:00
+Reason: use latest stable releases for reproducibility (vvenc master is 305 commits past v1.14.0; vvdec v3.2.1 lives on branch release-3.2.1)
+git : HEAD is now at 9428ea8 remove -rc1 from version number
+At line:5 char:3
++   git -C D:\Korea\VVC_Assignment\src\vvenc -c advice.detachedHead=fal ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (HEAD is now at ... version number:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+vvenc HEAD: 9428ea8636ae7f443ecde89999d16b2dfc421524  describe: v1.14.0
+git : HEAD is now at cb1a3ef prepare for v3.2.1 bugfix release
+At line:7 char:3
++   git -C D:\Korea\VVC_Assignment\src\vvdec -c advice.detachedHead=fal ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (HEAD is now at ... bugfix release:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+vvdec HEAD: cb1a3efd88b2ebd1141f1a9ca87c774f05de9249  describe: v3.2.1
+vvenc status:
+vvdec status:

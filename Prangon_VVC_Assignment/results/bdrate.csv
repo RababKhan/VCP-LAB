@@ -1,0 +1,13 @@
+anchor,bdpsnr_Y_db,bdrate_YUV611_pchip_pct,bdrate_YUV611_poly_pct,bdrate_Y_pchip_pct,bdrate_Y_poly_pct,overlap_Y,overlap_YUV611,resolution,sequence,status,status_Y,status_YUV611,test,time_ratio_vs_medium_geomean
+medium,-0.983,26.23,26.24,25.14,25.16,0.96,0.95,416×240,BasketballPass,ok,ok,ok,faster,0.126
+medium,-0.445,12.23,12.25,10.62,10.65,0.98,0.98,416×240,BasketballPass,ok,ok,ok,fast,0.311
+medium,0.27,-6.4,-6.39,-5.88,-5.87,0.98,0.98,416×240,BasketballPass,ok,ok,ok,slow,3.505
+medium,-0.912,27.13,27.11,27.75,27.75,0.93,0.93,416×240,BlowingBubbles,ok,ok,ok,faster,0.095
+medium,-0.413,11.15,11.12,11.61,11.59,0.96,0.96,416×240,BlowingBubbles,ok,ok,ok,fast,0.268
+medium,0.194,-5.12,-5.12,-4.92,-4.92,0.99,0.99,416×240,BlowingBubbles,ok,ok,ok,slow,2.943
+medium,-1.073,33.07,33.04,31.89,31.86,0.94,0.94,832×480,BQMall,ok,ok,ok,faster,0.114
+medium,-0.541,15.8,15.79,15.02,15.0,0.97,0.96,832×480,BQMall,ok,ok,ok,fast,0.315
+medium,0.264,-7.06,-7.05,-6.6,-6.59,0.99,0.99,832×480,BQMall,ok,ok,ok,slow,3.065
+medium,-0.758,34.15,34.06,33.6,33.46,0.96,0.95,1920×1080,BasketballDrive,ok,ok,ok,faster,0.126
+medium,-0.364,16.71,16.67,15.03,14.98,0.98,0.97,1920×1080,BasketballDrive,ok,ok,ok,fast,0.283
+medium,0.181,-7.3,-7.28,-6.88,-6.86,0.99,0.99,1920×1080,BasketballDrive,ok,ok,ok,slow,3.463

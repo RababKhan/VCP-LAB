@@ -1,0 +1,75 @@
+﻿Planned runs: 18
+  R01  BQMall          QP 39  medium 
+  R02  BQMall          QP 34  fast   
+  R03  BlowingBubbles  QP 24  medium 
+  R04  BlowingBubbles  QP 34  fast   
+  R05  BQMall          QP 34  medium 
+  R06  BQMall          QP 29  fast   
+  R07  BQMall          QP 24  fast   
+  R08  BlowingBubbles  QP 39  medium 
+  R09  BQMall          QP 39  fast   
+  R10  BlowingBubbles  QP 29  fast   
+  R11  BlowingBubbles  QP 24  fast   
+  R12  BlowingBubbles  QP 39  fast   
+  R13  BlowingBubbles  QP 29  medium 
+  R14  BQMall          QP 24  medium 
+  R15  BQMall          QP 29  medium 
+  R16  BlowingBubbles  QP 34  medium 
+  R17  BlowingBubbles  QP 34  fast   (repeat of R04)
+  R18  BlowingBubbles  QP 34  medium (repeat of R16)
+
+[R01] BQMall QP 39 medium
+  encode 84.718 s | decode 2.772 s | 308,911 bytes | 247.129 kbps | Y-PSNR enc 31.4765 / check 31.4765 | OK
+
+[R02] BQMall QP 34 fast
+  encode 34.882 s | decode 1.087 s | 601,320 bytes | 481.056 kbps | Y-PSNR enc 33.6498 / check 33.6498 | OK
+
+[R03] BlowingBubbles QP 24 medium
+  encode 122.094 s | decode 0.716 s | 1,016,655 bytes | 813.324 kbps | Y-PSNR enc 36.3690 / check 36.369 | OK
+
+[R04] BlowingBubbles QP 34 fast
+  encode 23.982 s | decode 0.615 s | 233,927 bytes | 187.142 kbps | Y-PSNR enc 30.1374 / check 30.1374 | OK
+
+[R05] BQMall QP 34 medium
+  encode 141.172 s | decode 1.466 s | 582,799 bytes | 466.239 kbps | Y-PSNR enc 34.0773 / check 34.0773 | OK
+
+[R06] BQMall QP 29 fast
+  encode 57.167 s | decode 1.535 s | 1,208,276 bytes | 966.621 kbps | Y-PSNR enc 36.4110 / check 36.411 | OK
+
+[R07] BQMall QP 24 fast
+  encode 76.441 s | decode 1.348 s | 2,531,387 bytes | 2025.110 kbps | Y-PSNR enc 39.0939 / check 39.0939 | OK
+
+[R08] BlowingBubbles QP 39 medium
+  encode 43.913 s | decode 0.399 s | 112,934 bytes | 90.347 kbps | Y-PSNR enc 27.9715 / check 27.9715 | OK
+
+[R09] BQMall QP 39 fast
+  encode 24.469 s | decode 1.154 s | 312,709 bytes | 250.167 kbps | Y-PSNR enc 31.0090 / check 31.009 | OK
+
+[R10] BlowingBubbles QP 29 fast
+  encode 19.975 s | decode 0.353 s | 487,898 bytes | 390.318 kbps | Y-PSNR enc 32.8871 / check 32.8871 | OK
+
+[R11] BlowingBubbles QP 24 fast
+  encode 28.096 s | decode 0.419 s | 1,051,208 bytes | 840.966 kbps | Y-PSNR enc 36.0044 / check 36.0044 | OK
+
+[R12] BlowingBubbles QP 39 fast
+  encode 11.385 s | decode 0.364 s | 111,140 bytes | 88.912 kbps | Y-PSNR enc 27.6509 / check 27.6509 | OK
+
+[R13] BlowingBubbles QP 29 medium
+  encode 79.964 s | decode 0.417 s | 485,230 bytes | 388.184 kbps | Y-PSNR enc 33.3299 / check 33.3299 | OK
+
+[R14] BQMall QP 24 medium
+  encode 233.052 s | decode 1.380 s | 2,376,924 bytes | 1901.539 kbps | Y-PSNR enc 39.3636 / check 39.3636 | OK
+
+[R15] BQMall QP 29 medium
+  encode 150.545 s | decode 1.421 s | 1,149,316 bytes | 919.453 kbps | Y-PSNR enc 36.7734 / check 36.7734 | OK
+
+[R16] BlowingBubbles QP 34 medium
+  encode 48.579 s | decode 0.359 s | 235,433 bytes | 188.346 kbps | Y-PSNR enc 30.5371 / check 30.5371 | OK
+
+[R17] BlowingBubbles QP 34 fast
+  encode 13.236 s | decode 0.338 s | 233,927 bytes | 187.142 kbps | Y-PSNR enc 30.1374 / check 30.1374 | OK
+
+[R18] BlowingBubbles QP 34 medium
+  encode 47.576 s | decode 0.378 s | 235,433 bytes | 188.346 kbps | Y-PSNR enc 30.5371 / check 30.5371 | OK
+
+Done. Results: D:\Korea\Prangon_VVC_Assignment\results\results_raw.csv

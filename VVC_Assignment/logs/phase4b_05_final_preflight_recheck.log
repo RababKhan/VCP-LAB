@@ -1,0 +1,10 @@
+﻿Final preflight re-check - 2026-11-04 10:32:11 +06:00
+[1] AC: BatteryStatus=2 (2=AC) charge=92%
+[2] Power mode: selected=Best performance effective=Best performance
+[3] D: free 80.82 GiB
+[4] manifest sha256 unchanged: True
+[5] sleep AC: Current AC Power Setting Index: 0x00000000  hibernate AC: Current AC Power Setting Index: 0x00000000
+    reboot pending: WU=False CBS=False
+    update pause expiry: 
+[6] temperature=339.0  % processor utility=4.3  % processor performance=108.2
+    load 18%  CodeSetup running: True

@@ -1,0 +1,51 @@
+{
+ "BasketballPass/intra_first_idr": {
+  "frame_index": 15,
+  "crop_x": 232,
+  "crop_y": 88,
+  "crop_w": 104,
+  "crop_h": 80,
+  "zoom": 4
+ },
+ "BasketballPass/typical_qp32_medium": {
+  "frame_index": 133,
+  "crop_x": 176,
+  "crop_y": 88,
+  "crop_w": 104,
+  "crop_h": 80,
+  "zoom": 4
+ },
+ "BasketballPass/worst_qp37_medium": {
+  "frame_index": 370,
+  "crop_x": 312,
+  "crop_y": 104,
+  "crop_w": 104,
+  "crop_h": 80,
+  "zoom": 4
+ },
+ "BQMall/intra_first_idr": {
+  "frame_index": 31,
+  "crop_x": 504,
+  "crop_y": 240,
+  "crop_w": 160,
+  "crop_h": 120,
+  "zoom": 3
+ },
+ "BQMall/typical_qp32_medium": {
+  "frame_index": 441,
+  "crop_x": 376,
+  "crop_y": 200,
+  "crop_w": 160,
+  "crop_h": 120,
+  "zoom": 3
+ },
+ "BQMall/worst_qp37_medium": {
+  "frame_index": 42,
+  "crop_x": 56,
+  "crop_y": 232,
+  "crop_w": 160,
+  "crop_h": 120,
+  "zoom": 3
+ }
+}
+['BQMall_preset_frame031_intra_first_idr_crop.png', 'BQMall_preset_frame031_intra_first_idr_full.png', 'BQMall_preset_frame042_worst_qp37_medium_crop.png', 'BQMall_preset_frame042_worst_qp37_medium_full.png', 'BQMall_preset_frame441_typical_qp32_medium_crop.png', 'BQMall_preset_frame441_typical_qp32_medium_full.png', 'BQMall_qp_frame031_intra_first_idr_crop.png', 'BQMall_qp_frame031_intra_first_idr_full.png', 'BQMall_qp_frame042_worst_qp37_medium_crop.png', 'BQMall_qp_frame042_worst_qp37_medium_full.png', 'BQMall_qp_frame441_typical_qp32_medium_crop.png', 'BQMall_qp_frame441_typical_qp32_medium_full.png', 'BasketballPass_preset_frame015_intra_first_idr_crop.png', 'BasketballPass_preset_frame015_intra_first_idr_full.png', 'BasketballPass_preset_frame133_typical_qp32_medium_crop.png', 'BasketballPass_preset_frame133_typical_qp32_medium_full.png', 'BasketballPass_preset_frame370_worst_qp37_medium_crop.png', 'BasketballPass_preset_frame370_worst_qp37_medium_full.png', 'BasketballPass_qp_frame015_intra_first_idr_crop.png', 'BasketballPass_qp_frame015_intra_first_idr_full.png', 'BasketballPass_qp_frame133_typical_qp32_medium_crop.png', 'BasketballPass_qp_frame133_typical_qp32_medium_full.png', 'BasketballPass_qp_frame370_worst_qp37_medium_crop.png', 'BasketballPass_qp_frame370_worst_qp37_medium_full.png', 'crops.json']

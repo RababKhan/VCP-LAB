@@ -1,0 +1,16 @@
+=== Linux cross-platform runs 2026-11-11 11:44:45 +0600 (automated by Claude)
+--- R04 BlowingBubbles QP 34 fast
+$ /home/vvcuser/vvc_sadab/vvenc/bin/release-static/vvencapp -i /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BlowingBubbles_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 500 -q 34 --preset fast --qpa 0 -t 8 -o /mnt/d/Korea/Prangon_VVC_Assignment/out/linux/R04_BlowingBubbles_QP34_fast_linux.266
+encode exit: 0
+vvenc [info]:	      500    a     187.1416   30.1374   35.8909   36.5968   31.2458
+decode exit: 0
+bitstream 233927 bytes sha256 393e733fd15e0178055b2dc5e8ebc79027f973b56c81fa06e4f8203d788e54d7
+recon 149760000 bytes sha256 405648edea2cf744ae415700e6be48230b11757a1001727fb6d83d7e67686a2a
+--- R15 BQMall QP 29 medium
+$ /home/vvcuser/vvc_sadab/vvenc/bin/release-static/vvencapp -i /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BQMall_832_480_60_10_420.yuv -s 832x480 -c yuv420_10 --fps 60 -f 600 -q 29 --preset medium --qpa 0 -t 8 -o /mnt/d/Korea/Prangon_VVC_Assignment/out/linux/R15_BQMall_QP29_medium_linux.266
+encode exit: 0
+vvenc [info]:	      600    a     919.4528   36.7734   41.8251   42.8498   37.7752
+decode exit: 0
+bitstream 1149316 bytes sha256 7c34ef2211c1235826b54c31571eb5d4bd14a07f318176d26e953ac069281122
+recon 718848000 bytes sha256 e5fbf487fdce407ceb64925896e4449d73a8e147beecac6161acbc93fa30adc1
+done 2026-11-11 11:49:36 +0600

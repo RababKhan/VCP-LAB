@@ -1,0 +1,43 @@
+=== A025_BQMall_QP34_faster (Linux) 2026-11-11 18:23:30 +0600
+$ /home/vvcuser/vvc_sadab/vvenc/bin/release-static/vvencapp -i /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BQMall_832_480_60_10_420.yuv -s 832x480 -c yuv420_10 --fps 60 -f 600 -q 34 --preset faster --qpa 0 -t 8 -o /home/vvcuser/vvc_sadab/xp/A025_BQMall_QP34_faster_linux.266
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Linux][GCC 13.3.0][64 bit][SIMD=AVX2]
+IFP is enabled. For better performance, AlfUnitSize is adjusted to the CTUSize.
+vvenc [info]: Input File                             : /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BQMall_832_480_60_10_420.yuv
+vvenc [info]: Bitstream File                         : /home/vvcuser/vvc_sadab/xp/A025_BQMall_QP34_faster_linux.266
+vvenc [info]: Real Format                            : 832x480  yuv420p10  60 Hz  SDR  601 frames
+vvenc [info]: Frames                                 : encode 600 frames 
+vvenc [info]: Internal format                        : 832x480  60 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 34
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 64
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats:  10.0% frame=  60/600 fps=  10.8 avg_fps=  10.8 bitrate=   716.45 kbps avg_bitrate=   716.45 kbps elapsed= 00h:00m:06s left= 00h:00m:51s    
+vvenc [info]: stats:  20.0% frame= 120/600 fps=  17.9 avg_fps=  13.5 bitrate=   750.23 kbps avg_bitrate=   733.34 kbps elapsed= 00h:00m:09s left= 00h:00m:36s    
+vvenc [info]: stats:  30.0% frame= 180/600 fps=  16.7 avg_fps=  14.4 bitrate=   595.17 kbps avg_bitrate=   687.28 kbps elapsed= 00h:00m:13s left= 00h:00m:30s    
+vvenc [info]: stats:  40.0% frame= 240/600 fps=  16.7 avg_fps=  14.9 bitrate=   407.73 kbps avg_bitrate=   617.39 kbps elapsed= 00h:00m:17s left= 00h:00m:25s    
+vvenc [info]: stats:  50.0% frame= 300/600 fps=  18.7 avg_fps=  15.5 bitrate=   325.67 kbps avg_bitrate=   559.05 kbps elapsed= 00h:00m:20s left= 00h:00m:20s    
+vvenc [info]: stats:  60.0% frame= 360/600 fps=  18.2 avg_fps=  15.9 bitrate=   341.45 kbps avg_bitrate=   522.78 kbps elapsed= 00h:00m:23s left= 00h:00m:16s    
+vvenc [info]: stats:  70.0% frame= 420/600 fps=  19.2 avg_fps=  16.3 bitrate=   413.30 kbps avg_bitrate=   507.14 kbps elapsed= 00h:00m:26s left= 00h:00m:12s    
+vvenc [info]: stats:  80.0% frame= 480/600 fps=  18.7 avg_fps=  16.6 bitrate=   433.03 kbps avg_bitrate=   497.88 kbps elapsed= 00h:00m:29s left= 00h:00m:08s    
+vvenc [info]: stats:  90.0% frame= 540/600 fps=  15.5 avg_fps=  16.5 bitrate=   689.87 kbps avg_bitrate=   519.21 kbps elapsed= 00h:00m:33s left= 00h:00m:04s    
+vvenc [info]: stats: 100.0% frame= 600/600 fps=  40.9 avg_fps=  17.5 bitrate=   538.76 kbps avg_bitrate=   521.17 kbps elapsed= 00h:00m:35s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 600/600 avg_fps= 17.5 avg_bitrate= 521.17 kbps
+vvenc [info]: stats summary: frame I:   9, kbps: 8995.15, AvgQP: 30.11
+vvenc [info]: stats summary: frame P:   0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 591, kbps:  392.12, AvgQP: 41.62
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	      600    a     521.1656   33.4193   39.4394   40.1405   34.4548
+vvencapp [info]: Total Time: 34.271 sec. Fps(avg): 17.508 encoded Frames 600
+encode exit: 0
+$ /home/vvcuser/vvc_sadab/vvdec/bin/release-static/vvdecapp -b /home/vvcuser/vvc_sadab/xp/A025_BQMall_QP34_faster_linux.266 -o /home/vvcuser/vvc_sadab/xp/A025_BQMall_QP34_faster_linux_rec.yuv -t 8
+POC  598 LId:  0 TId: 5 ( B-SLICE, QP 43 ) [DT  0.001] [L0 597c ] [L1 599 ] 
+vvdecapp [info]: 2026-Nov-11 18:24:06.503977: 600 frames decoded @ 684.151 fps (0.877 sec)
+
+decode exit: 0
+RESULT bitstream_bytes 651457 bitstream_sha256 9b9ff9cca141a96dccd40305f6566665706badd1bb6bc76d588478ded95d0c51
+RESULT recon_bytes 718848000 recon_sha256 4ad809bae7395dbf08969a2fb6f63a693f3c90b2695c03d2026d4be3ccd2f72d

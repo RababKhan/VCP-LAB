@@ -1,0 +1,13 @@
+sequence,role,qp,preset,width,height,bitdepth,chroma,frames_in_file,frames_compared,psnr_y,psnr_yuv_411,bitstream_bytes,bitrate_kbps,sha256,yuview_link
+BasketballPass,original,,,416,240,10,4:2:0,501.0,500,,,,,de0dcc61e9ba4d22312effad81517fb3a24ecd883738ec3c66f490f7593ed698,visual\yuview\BasketballPass_original_416x240_50fps_10bit_420.yuv
+BasketballPass,reconstruction,22,medium,416,240,10,4:2:0,500.0,500,40.5448,41.0519,1430459,1144.3672,43f0771ff64505c56102ab2cc523162d74933c765656179f0398a3f94bd26cc5,visual\yuview\BasketballPass_QP22_medium_416x240_50fps_10bit_420.yuv
+BasketballPass,reconstruction,32,medium,416,240,10,4:2:0,500.0,500,33.3048,34.133,325445,260.356,c1f821f5ffc3bcfc8af59ac024f23bead59350aa25310ab2a9442aa0edcdfb0d,visual\yuview\BasketballPass_QP32_medium_416x240_50fps_10bit_420.yuv
+BasketballPass,reconstruction,37,medium,416,240,10,4:2:0,500.0,500,30.5388,31.4862,166829,133.4632,17434e2c0f61e54e987510297b7c78d8932f7b8c35364251af91416bef4493c8,visual\yuview\BasketballPass_QP37_medium_416x240_50fps_10bit_420.yuv
+BasketballPass,reconstruction,32,faster,416,240,10,4:2:0,500.0,500,32.8365,33.6819,366257,293.0056,8e91c81e43dd8f1ee9d57de518499b024ab14fe28d534e470022f91044a02274,visual\yuview\BasketballPass_QP32_faster_416x240_50fps_10bit_420.yuv
+BasketballPass,reconstruction,32,slower,416,240,10,4:2:0,500.0,500,33.6795,34.534,318273,254.6184,10a5ce72e6fe1559b6edf2f866ce769419d6d2608a38a0e8b03b6330656fd2d1,visual\yuview\BasketballPass_QP32_slower_416x240_50fps_10bit_420.yuv
+BQMall,original,,,832,480,10,4:2:0,601.0,600,,,,,02490741eed0ef8d50016d236e7e98efdf5e3deb9a7cc60aa61c0d55c4e61b52,visual\yuview\BQMall_original_832x480_60fps_10bit_420.yuv
+BQMall,reconstruction,22,medium,832,480,10,4:2:0,600.0,600,40.3348,41.3183,3246923,2597.5384,30d7eecf28076ffa2685ff3556c3a27d864af1dd2d5c71988c0715c0115c7f7a,visual\yuview\BQMall_QP22_medium_832x480_60fps_10bit_420.yuv
+BQMall,reconstruction,32,medium,832,480,10,4:2:0,600.0,600,35.1603,36.1812,760913,608.7304,95daf04d8b269b8fccf6081caa862145b93b7a224a61f9f3d8b94f2012a2979b,visual\yuview\BQMall_QP32_medium_832x480_60fps_10bit_420.yuv
+BQMall,reconstruction,37,medium,832,480,10,4:2:0,600.0,600,32.5194,33.5816,397582,318.0656,f85edb908231b74437b78d9934e4bda32e69b0314231427363980777089a8090,visual\yuview\BQMall_QP37_medium_832x480_60fps_10bit_420.yuv
+BQMall,reconstruction,32,faster,832,480,10,4:2:0,600.0,600,34.5098,35.5225,853056,682.4448,703cdcbe8f73ecc52043653476fdc5482292ad4a8f657694fe1b5f2460c83424,visual\yuview\BQMall_QP32_faster_832x480_60fps_10bit_420.yuv
+BQMall,reconstruction,32,slower,832,480,10,4:2:0,600.0,600,35.4883,36.5226,728106,582.4848,bb6308ca56cd52810b991caf49bb1829244351d1adabf5688302dd3295edd0cd,visual\yuview\BQMall_QP32_slower_832x480_60fps_10bit_420.yuv

@@ -1,0 +1,72 @@
+{
+  "file": "BasketballPass_416_240_50_10_420.yuv",
+  "size_bytes": 150059520,
+  "sha256": "de0dcc61e9ba4d22312effad81517fb3a24ecd883738ec3c66f490f7593ed698",
+  "width": 416,
+  "height": 240,
+  "layouts": {
+    "yuv420p10le": {
+      "bytes_per_frame": 299520,
+      "frames": 501,
+      "trailing_bytes": 0
+    },
+    "yuv420p (8-bit)": {
+      "bytes_per_frame": 149760,
+      "frames": 1002,
+      "trailing_bytes": 0
+    },
+    "yuv444p (8-bit)": {
+      "bytes_per_frame": 299520,
+      "frames": 501,
+      "trailing_bytes": 0
+    },
+    "yuv422p10le": {
+      "bytes_per_frame": 399360,
+      "frames": 375,
+      "trailing_bytes": 299520
+    }
+  },
+  "high_byte_le_3_fraction": 1.0,
+  "high_byte_max": 3,
+  "planes_10bit": {
+    "Y": {
+      "min": 64,
+      "max": 940,
+      "mean": 468.74
+    },
+    "U": {
+      "min": 192,
+      "max": 652,
+      "mean": 436.56
+    },
+    "V": {
+      "min": 412,
+      "max": 916,
+      "mean": 595.12
+    }
+  },
+  "fraction_samples_lsb2_zero": 1.0,
+  "frame0_mean_abs_vertical_diff": 24.19,
+  "frame0_mean_abs_horizontal_diff": 20.44,
+  "temporal_mad": {
+    "mean": 37.654,
+    "min": 9.268,
+    "min_at_pair": [
+      27,
+      28
+    ],
+    "max": 448.084,
+    "max_at_pair": [
+      499,
+      500
+    ],
+    "zero_diff_pairs": []
+  },
+  "last_frame": {
+    "index": 500,
+    "identical_to_previous": false,
+    "identical_to_first": false,
+    "mad_vs_previous": 448.084,
+    "Y_mean": 136.18
+  }
+}

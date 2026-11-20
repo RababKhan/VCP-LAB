@@ -1,0 +1,37 @@
+﻿=== ENCODE (Linux (WSL2))
+Command: /home/vvcuser/vvc_sadab/vvenc/bin/release-static/vvencapp -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 500 -q 29 --preset faster --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\professor_demo\output\20261115_111427_full\demo.266
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Linux][GCC 13.3.0][64 bit][SIMD=AVX2]
+IFP is enabled. For better performance, AlfUnitSize is adjusted to the CTUSize.
+vvenc [info]: Input File                             : /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BasketballPass_416_240_50_10_420.yuv
+vvenc [info]: Bitstream File                         : /mnt/d/Korea/Prangon_VVC_Assignment/professor_demo/output/20261115_111427_full/demo.266
+vvenc [info]: Real Format                            : 416x240  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 500 frames 
+vvenc [info]: Internal format                        : 416x240  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats:  10.0% frame=  50/500 fps=  27.8 avg_fps=  27.8 bitrate=   306.13 kbps avg_bitrate=   306.13 kbps elapsed= 00h:00m:02s left= 00h:00m:17s    
+vvenc [info]: stats:  20.0% frame= 100/500 fps=  42.9 avg_fps=  33.7 bitrate=   424.50 kbps avg_bitrate=   365.32 kbps elapsed= 00h:00m:03s left= 00h:00m:12s    
+vvenc [info]: stats:  30.0% frame= 150/500 fps=  45.0 avg_fps=  36.8 bitrate=   370.49 kbps avg_bitrate=   367.04 kbps elapsed= 00h:00m:05s left= 00h:00m:10s    
+vvenc [info]: stats:  40.0% frame= 200/500 fps=  35.9 avg_fps=  36.6 bitrate=   490.90 kbps avg_bitrate=   398.00 kbps elapsed= 00h:00m:06s left= 00h:00m:09s    
+vvenc [info]: stats:  50.0% frame= 250/500 fps=  42.6 avg_fps=  37.6 bitrate=   470.04 kbps avg_bitrate=   412.41 kbps elapsed= 00h:00m:07s left= 00h:00m:07s    
+vvenc [info]: stats:  60.0% frame= 300/500 fps=  39.6 avg_fps=  37.9 bitrate=   491.00 kbps avg_bitrate=   425.51 kbps elapsed= 00h:00m:08s left= 00h:00m:06s    
+vvenc [info]: stats:  70.0% frame= 350/500 fps=  40.8 avg_fps=  38.3 bitrate=   589.82 kbps avg_bitrate=   448.98 kbps elapsed= 00h:00m:10s left= 00h:00m:04s    
+vvenc [info]: stats:  80.0% frame= 400/500 fps=  29.7 avg_fps=  37.0 bitrate=   541.98 kbps avg_bitrate=   460.61 kbps elapsed= 00h:00m:11s left= 00h:00m:03s    
+vvenc [info]: stats:  90.0% frame= 450/500 fps=  36.7 avg_fps=  36.9 bitrate=   535.90 kbps avg_bitrate=   468.97 kbps elapsed= 00h:00m:13s left= 00h:00m:02s    
+vvenc [info]: stats: 100.0% frame= 500/500 fps=  79.4 avg_fps=  39.0 bitrate=   403.82 kbps avg_bitrate=   462.46 kbps elapsed= 00h:00m:13s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 500/500 avg_fps= 39.0 avg_bitrate= 462.46 kbps
+vvenc [info]: stats summary: frame I:  11, kbps: 2933.38, AvgQP: 25.85
+vvenc [info]: stats summary: frame P:   0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 489, kbps:  406.88, AvgQP: 36.32
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	      500    a     462.4584   34.8147   39.9791   38.2132   35.5616
+vvencapp [info]: Total Time: 12.815 sec. Fps(avg): 39.017 encoded Frames 500
+Exit code: 0
+Wall time (s): 13.172

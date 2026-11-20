@@ -1,0 +1,226 @@
+=== PILOT BasketballPass faster QP29 32 frames
+Command: D:\Korea\Prangon_VVC_Assignment\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 32 -q 29 --preset faster --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballPass_faster.266
+Started: 2026-11-11T13:00:40+06:00
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Windows][VS 1944][64 bit][SIMD=AVX2]
+IFP is enabled. For better performance, AlfUnitSize is adjusted to the CTUSize.
+vvenc [info]: Input File                             : D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv
+vvenc [info]: Bitstream File                         : D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballPass_faster.266
+vvenc [info]: Real Format                            : 416x240  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 32 frames 
+vvenc [info]: Internal format                        : 416x240  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 32/32 fps=  88.6 avg_fps=  88.6 bitrate=   272.25 kbps avg_bitrate=   272.25 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 88.6 avg_bitrate= 272.25 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 3738.80, AvgQP: 25.00
+vvenc [info]: stats summary: frame P:  0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 31, kbps:  160.43, AvgQP: 36.39
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a     272.2500   36.3665   41.3397   40.0025   37.2576
+vvencapp [info]: Total Time: 0.361 sec. Fps(avg): 88.643 encoded Frames 32
+Exit code: 0
+Wall time (s): 0.615
+=== PILOT BasketballPass fast QP29 32 frames
+Command: D:\Korea\Prangon_VVC_Assignment\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 32 -q 29 --preset fast --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballPass_fast.266
+Started: 2026-11-11T13:00:41+06:00
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Windows][VS 1944][64 bit][SIMD=AVX2]
+IFP is enabled. For better performance, AlfUnitSize is adjusted to the CTUSize.
+vvenc [info]: Input File                             : D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv
+vvenc [info]: Bitstream File                         : D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballPass_fast.266
+vvenc [info]: Real Format                            : 416x240  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 32 frames 
+vvenc [info]: Internal format                        : 416x240  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 32/32 fps=  35.3 avg_fps=  35.3 bitrate=   255.20 kbps avg_bitrate=   255.20 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 35.3 avg_bitrate= 255.20 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 3542.00, AvgQP: 25.00
+vvenc [info]: stats summary: frame P:  0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 31, kbps:  149.17, AvgQP: 36.19
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a     255.2000   36.5911   41.7221   40.2262   37.4889
+vvencapp [info]: Total Time: 0.908 sec. Fps(avg): 35.242 encoded Frames 32
+Exit code: 0
+Wall time (s): 1.015
+=== PILOT BasketballPass medium QP29 32 frames
+Command: D:\Korea\Prangon_VVC_Assignment\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 32 -q 29 --preset medium --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballPass_medium.266
+Started: 2026-11-11T13:00:43+06:00
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Windows][VS 1944][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv
+vvenc [info]: Bitstream File                         : D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballPass_medium.266
+vvenc [info]: Real Format                            : 416x240  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 32 frames 
+vvenc [info]: Internal format                        : 416x240  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 32/32 fps=  12.7 avg_fps=  12.7 bitrate=   260.86 kbps avg_bitrate=   260.86 kbps elapsed= 00h:00m:03s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 12.7 avg_bitrate= 260.86 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 3540.80, AvgQP: 24.00
+vvenc [info]: stats summary: frame P:  0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 31, kbps:  155.06, AvgQP: 36.19
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a     260.8625   37.2215   42.2963   41.1148   38.1488
+vvencapp [info]: Total Time: 2.518 sec. Fps(avg): 12.708 encoded Frames 32
+Exit code: 0
+Wall time (s): 2.642
+=== PILOT BasketballPass slow QP29 32 frames
+Command: D:\Korea\Prangon_VVC_Assignment\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 32 -q 29 --preset slow --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballPass_slow.266
+Started: 2026-11-11T13:00:51+06:00
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Windows][VS 1944][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : D:\Korea\Prangon_VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv
+vvenc [info]: Bitstream File                         : D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballPass_slow.266
+vvenc [info]: Real Format                            : 416x240  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 32 frames 
+vvenc [info]: Internal format                        : 416x240  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 32/32 fps=   4.3 avg_fps=   4.3 bitrate=   255.53 kbps avg_bitrate=   255.53 kbps elapsed= 00h:00m:08s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 4.3 avg_bitrate= 255.53 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 3518.80, AvgQP: 24.00
+vvenc [info]: stats summary: frame P:  0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 31, kbps:  150.26, AvgQP: 36.19
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a     255.5250   37.3661   42.5322   41.3431   38.3151
+vvencapp [info]: Total Time: 7.522 sec. Fps(avg): 4.254 encoded Frames 32
+Exit code: 0
+Wall time (s): 7.700
+=== PILOT BasketballDrive faster QP29 32 frames
+Command: D:\Korea\Prangon_VVC_Assignment\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballDrive_1920_1080_50_10_420.yuv -s 1920x1080 -c yuv420_10 --fps 50 -f 32 -q 29 --preset faster --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballDrive_faster.266
+Started: 2026-11-11T13:00:54+06:00
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Windows][VS 1944][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : D:\Korea\Prangon_VVC_Assignment\dataset\BasketballDrive_1920_1080_50_10_420.yuv
+vvenc [info]: Bitstream File                         : D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballDrive_faster.266
+vvenc [info]: Real Format                            : 1920x1080  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 32 frames 
+vvenc [info]: Internal format                        : 1920x1080  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 32/32 fps=  10.5 avg_fps=  10.5 bitrate=  2615.51 kbps avg_bitrate=  2615.51 kbps elapsed= 00h:00m:04s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 10.5 avg_bitrate= 2615.51 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 18528.80, AvgQP: 25.00
+vvenc [info]: stats summary: frame P:  0, kbps:      nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 31, kbps:  2102.18, AvgQP: 36.42
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a    2615.5125   37.6736   43.0624   43.2392   38.8209
+vvencapp [info]: Total Time: 3.053 sec. Fps(avg): 10.481 encoded Frames 32
+Exit code: 0
+Wall time (s): 3.228
+=== PILOT BasketballDrive fast QP29 32 frames
+Command: D:\Korea\Prangon_VVC_Assignment\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballDrive_1920_1080_50_10_420.yuv -s 1920x1080 -c yuv420_10 --fps 50 -f 32 -q 29 --preset fast --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballDrive_fast.266
+Started: 2026-11-11T13:01:01+06:00
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Windows][VS 1944][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : D:\Korea\Prangon_VVC_Assignment\dataset\BasketballDrive_1920_1080_50_10_420.yuv
+vvenc [info]: Bitstream File                         : D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballDrive_fast.266
+vvenc [info]: Real Format                            : 1920x1080  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 32 frames 
+vvenc [info]: Internal format                        : 1920x1080  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 32/32 fps=   4.7 avg_fps=   4.7 bitrate=  2403.65 kbps avg_bitrate=  2403.65 kbps elapsed= 00h:00m:07s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 4.7 avg_bitrate= 2403.65 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 17534.40, AvgQP: 25.00
+vvenc [info]: stats summary: frame P:  0, kbps:      nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 31, kbps:  1915.56, AvgQP: 36.42
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a    2403.6500   37.8133   43.1262   43.2840   38.9536
+vvencapp [info]: Total Time: 6.852 sec. Fps(avg): 4.670 encoded Frames 32
+Exit code: 0
+Wall time (s): 7.000
+=== PILOT BasketballDrive medium QP29 32 frames
+Command: D:\Korea\Prangon_VVC_Assignment\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballDrive_1920_1080_50_10_420.yuv -s 1920x1080 -c yuv420_10 --fps 50 -f 32 -q 29 --preset medium --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballDrive_medium.266
+Started: 2026-11-11T13:01:26+06:00
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Windows][VS 1944][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : D:\Korea\Prangon_VVC_Assignment\dataset\BasketballDrive_1920_1080_50_10_420.yuv
+vvenc [info]: Bitstream File                         : D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballDrive_medium.266
+vvenc [info]: Real Format                            : 1920x1080  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 32 frames 
+vvenc [info]: Internal format                        : 1920x1080  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 32/32 fps=   1.3 avg_fps=   1.3 bitrate=  2308.15 kbps avg_bitrate=  2308.15 kbps elapsed= 00h:00m:25s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 1.3 avg_bitrate= 2308.15 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 17055.60, AvgQP: 25.00
+vvenc [info]: stats summary: frame P:  0, kbps:      nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 31, kbps:  1832.43, AvgQP: 36.42
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a    2308.1500   38.0440   43.4077   43.7233   39.2071
+vvencapp [info]: Total Time: 24.582 sec. Fps(avg): 1.302 encoded Frames 32
+Exit code: 0
+Wall time (s): 24.758
+=== PILOT BasketballDrive slow QP29 32 frames
+Command: D:\Korea\Prangon_VVC_Assignment\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\Prangon_VVC_Assignment\dataset\BasketballDrive_1920_1080_50_10_420.yuv -s 1920x1080 -c yuv420_10 --fps 50 -f 32 -q 29 --preset slow --qpa 0 -t 8 -o D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballDrive_slow.266
+Started: 2026-11-11T13:02:56+06:00
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Windows][VS 1944][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : D:\Korea\Prangon_VVC_Assignment\dataset\BasketballDrive_1920_1080_50_10_420.yuv
+vvenc [info]: Bitstream File                         : D:\Korea\Prangon_VVC_Assignment\out\phase2\_pilot_BasketballDrive_slow.266
+vvenc [info]: Real Format                            : 1920x1080  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 32 frames 
+vvenc [info]: Internal format                        : 1920x1080  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 32/32 fps=   0.4 avg_fps=   0.4 bitrate=  2245.55 kbps avg_bitrate=  2245.55 kbps elapsed= 00h:01m:31s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 0.4 avg_bitrate= 2245.55 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 16873.20, AvgQP: 25.00
+vvenc [info]: stats summary: frame P:  0, kbps:      nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 31, kbps:  1773.69, AvgQP: 36.42
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a    2245.5500   38.1337   43.4664   43.8592   39.2995
+vvencapp [info]: Total Time: 90.058 sec. Fps(avg): 0.355 encoded Frames 32
+Exit code: 0
+Wall time (s): 90.288

@@ -1,0 +1,221 @@
+{
+  "stopped_reason": null,
+  "results_full_unchanged": true,
+  "runs": {
+    "warmup_BasketballPass_f64_q32_faster_suppAC": {
+      "run_id": "warmup_BasketballPass_f64_q32_faster_suppAC",
+      "original_run_id": "warmup_BasketballPass_f64_q32_faster",
+      "supervisor_result": "COMPLETED",
+      "timing_valid_ac": true,
+      "reason": "AC + Best performance in every power sample",
+      "original_power_exposure": "AC throughout",
+      "runner_status": "ok",
+      "bitstream_sha256_identical": true,
+      "bitstream_bytes": [
+        28271,
+        28271
+      ],
+      "decoded_frames_ok": true,
+      "psnr_identical_to_original": true,
+      "max_abs_psnr_diff_vs_encoder": 0.0,
+      "intra_pocs_identical": true,
+      "vvenc_version_identical": true,
+      "vvdec_version_identical": true,
+      "settings_identical": true,
+      "power_monitor": {
+        "power_samples": 1,
+        "ac_samples": 1,
+        "best_perf_samples": 1,
+        "battery_pct_range": [
+          95,
+          95
+        ],
+        "battery_saver_samples": 0
+      },
+      "cpu_monitor": {
+        "samples": 0,
+        "perf_pct_median": null,
+        "perf_pct_min": null,
+        "perf_pct_max": null,
+        "samples_perf_below_80": 0,
+        "thermal_zone_C_max": null
+      }
+    },
+    "BQMall_f600_q32_faster_t8_suppAC": {
+      "run_id": "BQMall_f600_q32_faster_t8_suppAC",
+      "original_run_id": "BQMall_f600_q32_faster_t8",
+      "supervisor_result": "COMPLETED",
+      "timing_valid_ac": true,
+      "reason": "AC + Best performance in every power sample",
+      "original_power_exposure": {
+        "samples": 0,
+        "started_on_battery": true,
+        "battery_samples": 1,
+        "low_perf_samples": 0
+      },
+      "runner_status": "ok",
+      "bitstream_sha256_identical": true,
+      "bitstream_bytes": [
+        853056,
+        853056
+      ],
+      "decoded_frames_ok": true,
+      "psnr_identical_to_original": true,
+      "max_abs_psnr_diff_vs_encoder": 0.0,
+      "intra_pocs_identical": true,
+      "vvenc_version_identical": true,
+      "vvdec_version_identical": true,
+      "settings_identical": true,
+      "power_monitor": {
+        "power_samples": 9,
+        "ac_samples": 9,
+        "best_perf_samples": 9,
+        "battery_pct_range": [
+          95,
+          95
+        ],
+        "battery_saver_samples": 0
+      },
+      "cpu_monitor": {
+        "samples": 3,
+        "perf_pct_median": 133.5,
+        "perf_pct_min": 128.0,
+        "perf_pct_max": 139.0,
+        "samples_perf_below_80": 0,
+        "thermal_zone_C_max": 91.9
+      }
+    },
+    "BasketballDrive_f500_q32_fast_t8_suppAC": {
+      "run_id": "BasketballDrive_f500_q32_fast_t8_suppAC",
+      "original_run_id": "BasketballDrive_f500_q32_fast_t8",
+      "supervisor_result": "COMPLETED",
+      "timing_valid_ac": true,
+      "reason": "AC + Best performance in every power sample",
+      "original_power_exposure": {
+        "samples": 5,
+        "started_on_battery": true,
+        "battery_samples": 6,
+        "low_perf_samples": 0
+      },
+      "runner_status": "ok",
+      "bitstream_sha256_identical": true,
+      "bitstream_bytes": [
+        2659099,
+        2659099
+      ],
+      "decoded_frames_ok": true,
+      "psnr_identical_to_original": true,
+      "max_abs_psnr_diff_vs_encoder": 0.0,
+      "intra_pocs_identical": true,
+      "vvenc_version_identical": true,
+      "vvdec_version_identical": true,
+      "settings_identical": true,
+      "power_monitor": {
+        "power_samples": 68,
+        "ac_samples": 68,
+        "best_perf_samples": 68,
+        "battery_pct_range": [
+          95,
+          95
+        ],
+        "battery_saver_samples": 0
+      },
+      "cpu_monitor": {
+        "samples": 28,
+        "perf_pct_median": 108.3,
+        "perf_pct_min": 104.8,
+        "perf_pct_max": 138.6,
+        "samples_perf_below_80": 0,
+        "thermal_zone_C_max": 91.9
+      }
+    },
+    "BQMall_f600_q22_medium_t8_suppAC": {
+      "run_id": "BQMall_f600_q22_medium_t8_suppAC",
+      "original_run_id": "BQMall_f600_q22_medium_t8",
+      "supervisor_result": "COMPLETED",
+      "timing_valid_ac": true,
+      "reason": "AC + Best performance in every power sample",
+      "original_power_exposure": {
+        "samples": 8,
+        "started_on_battery": true,
+        "battery_samples": 9,
+        "low_perf_samples": 0
+      },
+      "runner_status": "ok",
+      "bitstream_sha256_identical": true,
+      "bitstream_bytes": [
+        3246923,
+        3246923
+      ],
+      "decoded_frames_ok": true,
+      "psnr_identical_to_original": true,
+      "max_abs_psnr_diff_vs_encoder": 0.0,
+      "intra_pocs_identical": true,
+      "vvenc_version_identical": true,
+      "vvdec_version_identical": true,
+      "settings_identical": true,
+      "power_monitor": {
+        "power_samples": 125,
+        "ac_samples": 125,
+        "best_perf_samples": 125,
+        "battery_pct_range": [
+          95,
+          96
+        ],
+        "battery_saver_samples": 0
+      },
+      "cpu_monitor": {
+        "samples": 50,
+        "perf_pct_median": 118.0,
+        "perf_pct_min": 107.7,
+        "perf_pct_max": 129.2,
+        "samples_perf_below_80": 0,
+        "thermal_zone_C_max": 91.9
+      }
+    },
+    "BasketballDrive_f500_q32_slower_t8_suppAC": {
+      "run_id": "BasketballDrive_f500_q32_slower_t8_suppAC",
+      "original_run_id": "BasketballDrive_f500_q32_slower_t8",
+      "supervisor_result": "COMPLETED",
+      "timing_valid_ac": true,
+      "reason": "AC + Best performance in every power sample",
+      "original_power_exposure": {
+        "samples": 224,
+        "started_on_battery": false,
+        "battery_samples": 51,
+        "low_perf_samples": 0
+      },
+      "runner_status": "ok",
+      "bitstream_sha256_identical": true,
+      "bitstream_bytes": [
+        2450006,
+        2450006
+      ],
+      "decoded_frames_ok": true,
+      "psnr_identical_to_original": true,
+      "max_abs_psnr_diff_vs_encoder": 0.0,
+      "intra_pocs_identical": true,
+      "vvenc_version_identical": true,
+      "vvdec_version_identical": true,
+      "settings_identical": true,
+      "power_monitor": {
+        "power_samples": 3380,
+        "ac_samples": 3380,
+        "best_perf_samples": 3380,
+        "battery_pct_range": [
+          96,
+          100
+        ],
+        "battery_saver_samples": 0
+      },
+      "cpu_monitor": {
+        "samples": 1350,
+        "perf_pct_median": 106.9,
+        "perf_pct_min": 96.8,
+        "perf_pct_max": 148.1,
+        "samples_perf_below_80": 0,
+        "thermal_zone_C_max": 91.9
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+﻿{
+ "full_length": [
+  {
+   "config": "BlowingBubbles QP 34 fast, 500 frames (Windows run R04)",
+   "windows": {
+    "bytes": 233927,
+    "sha256": "393e733fd15e0178055b2dc5e8ebc79027f973b56c81fa06e4f8203d788e54d7",
+    "frames": 500.0,
+    "recon_sha256": "405648edea2cf744ae415700e6be48230b11757a1001727fb6d83d7e67686a2a",
+    "y_psnr": 30.1374,
+    "u_psnr": 35.8909,
+    "v_psnr": 36.5968
+   },
+   "linux": {
+    "bytes": 233927,
+    "sha256": "393e733fd15e0178055b2dc5e8ebc79027f973b56c81fa06e4f8203d788e54d7",
+    "frames": 500.0,
+    "recon_sha256": "405648edea2cf744ae415700e6be48230b11757a1001727fb6d83d7e67686a2a",
+    "y_psnr": 30.1374,
+    "u_psnr": 35.8909,
+    "v_psnr": 36.5968
+   },
+   "match": {
+    "size": true,
+    "bitstream_sha256": true,
+    "frames": true,
+    "recon_sha256": true,
+    "psnr": true
+   }
+  },
+  {
+   "config": "BQMall QP 29 medium, 600 frames (Windows run R15)",
+   "windows": {
+    "bytes": 1149316,
+    "sha256": "7c34ef2211c1235826b54c31571eb5d4bd14a07f318176d26e953ac069281122",
+    "frames": 600.0,
+    "recon_sha256": "e5fbf487fdce407ceb64925896e4449d73a8e147beecac6161acbc93fa30adc1",
+    "y_psnr": 36.7734,
+    "u_psnr": 41.8251,
+    "v_psnr": 42.8498
+   },
+   "linux": {
+    "bytes": 1149316,
+    "sha256": "7c34ef2211c1235826b54c31571eb5d4bd14a07f318176d26e953ac069281122",
+    "frames": 600.0,
+    "recon_sha256": "e5fbf487fdce407ceb64925896e4449d73a8e147beecac6161acbc93fa30adc1",
+    "y_psnr": 36.7734,
+    "u_psnr": 41.8251,
+    "v_psnr": 42.8498
+   },
+   "match": {
+    "size": true,
+    "bitstream_sha256": true,
+    "frames": true,
+    "recon_sha256": true,
+    "psnr": true
+   }
+  }
+ ],
+ "smoke_16_frames": {
+  "bitstream": "IDENTICAL",
+  "decoded": "IDENTICAL",
+  "bitstream_sha256": {
+   "Windows": "b6cf96c3d9b01c3c533d2328c619b632fcfe2acc9c0aa31a3b789c69510cbcfc",
+   "Linux": "b6cf96c3d9b01c3c533d2328c619b632fcfe2acc9c0aa31a3b789c69510cbcfc"
+  },
+  "recon_sha256": {
+   "Windows": "18fa60ceb58daa0cf283d08a721230adde03a2daf72be6f75675996f6b1ff258",
+   "Linux": "18fa60ceb58daa0cf283d08a721230adde03a2daf72be6f75675996f6b1ff258"
+  }
+ },
+ "note": "Linux timing is not compared: the Linux runs were made in WSL2 reading from /mnt/d."
+}

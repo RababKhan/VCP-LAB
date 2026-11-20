@@ -1,0 +1,32 @@
+﻿Manifest validation - 2026-11-04 09:43:20 +06:00
+manifest: D:\Korea\VVC_Assignment\configs\full_manifest.json
+run order: seeded random (seed 2026); all repeats after all originals
+total runs: 65 = 1 warm-up + 32 unique configurations + 32 timing repeats
+  BasketballPass   8 configs x 500 frames, 16 repeats -> 24 encodes, timing samples per config = 3
+  BlowingBubbles   8 configs x 500 frames, 16 repeats -> 24 encodes, timing samples per config = 3
+  BQMall           8 configs x 600 frames, 0 repeats -> 8 encodes, timing samples per config = 1
+  BasketballDrive  8 configs x 500 frames, 0 repeats -> 8 encodes, timing samples per config = 1
+qp_sweep runs: 16, preset_sweep runs: 20, shared (both): 4
+RESULT: VALID
+validator exit: 0
+=== dry-run: parameter tokens of every encoder command
+commands: 65
+  7 x  f=500 qp=22 preset=medium qpa=0 t=8
+  7 x  f=500 qp=27 preset=medium qpa=0 t=8
+  7 x  f=500 qp=32 preset=fast qpa=0 t=8
+  7 x  f=500 qp=32 preset=faster qpa=0 t=8
+  7 x  f=500 qp=32 preset=medium qpa=0 t=8
+  7 x  f=500 qp=32 preset=slow qpa=0 t=8
+  7 x  f=500 qp=32 preset=slower qpa=0 t=8
+  7 x  f=500 qp=37 preset=medium qpa=0 t=8
+  1 x  f=600 qp=22 preset=medium qpa=0 t=8
+  1 x  f=600 qp=27 preset=medium qpa=0 t=8
+  1 x  f=600 qp=32 preset=fast qpa=0 t=8
+  1 x  f=600 qp=32 preset=faster qpa=0 t=8
+  1 x  f=600 qp=32 preset=medium qpa=0 t=8
+  1 x  f=600 qp=32 preset=slow qpa=0 t=8
+  1 x  f=600 qp=32 preset=slower qpa=0 t=8
+  1 x  f=600 qp=37 preset=medium qpa=0 t=8
+  1 x  f=64 qp=32 preset=faster qpa=0 t=8
+first command:
+D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvencapp.exe -i D:\Korea\VVC_Assignment\dataset\BasketballPass_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 64 -q 32 --preset faster --qpa 0 -t 8 -v 4 --refreshtype cra --refreshsec 1 -o D:\Korea\VVC_Assignment\bitstreams\full\warmup_BasketballPass_f64_q32_faster.266

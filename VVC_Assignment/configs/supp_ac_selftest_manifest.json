@@ -1,0 +1,80 @@
+{
+  "name": "supp_ac_selftest",
+  "manifest_version": 1,
+  "purpose": "self-test of run_supplementary_ac.py guard (not a measurement)",
+  "derived_from": "configs/full_manifest.json",
+  "tools": {
+    "vvencapp": "src/vvenc/bin/release-static/vvencapp.exe",
+    "vvdecapp": "src/vvdec/bin/release-static/vvdecapp.exe",
+    "vvenc_tag": "v1.14.0",
+    "vvenc_commit": "9428ea8636ae7f443ecde89999d16b2dfc421524",
+    "vvdec_tag": "v3.2.1",
+    "vvdec_commit": "cb1a3efd88b2ebd1141f1a9ca87c774f05de9249"
+  },
+  "encoder_common": {
+    "format": "yuv420_10",
+    "qpa": 0,
+    "threads": 8,
+    "verbosity": 4,
+    "extra_args": [
+      "--refreshtype",
+      "cra",
+      "--refreshsec",
+      "1"
+    ],
+    "notes": "constant-QP (no rate control); GOP structure = preset default; intra refresh CRA every 1 s; POC0IDR = library default (off)"
+  },
+  "decoder_common": {
+    "threads": 8
+  },
+  "psnr_definition": {
+    "primary_peak": "1020 = 255 << (bitdepth - 8)  (HM/VTM/VVenC convention, vvenc Analyze.h)",
+    "secondary_peak": "1023 = 2^bitdepth - 1  (FFmpeg convention, also stored in per-run JSON)",
+    "bitdepth": "computed on 10-bit samples of the original file vs 10-bit decoder output",
+    "per_component_sequence_value": "arithmetic mean over frames of per-frame PSNR",
+    "yuv_combined_primary": "PSNR of 4:1:1 (pixel-count) weighted mean MSE, matches VVenC YUV-PSNR",
+    "yuv_combined_secondary": "(6*Y + U + V) / 8 of per-component PSNRs (JVET CTC style)",
+    "alignment": "frame i of reconstruction vs frame i of source starting at source frame 0"
+  },
+  "sequences": {
+    "BasketballPass": {
+      "file": "dataset/BasketballPass_416_240_50_10_420.yuv",
+      "width": 416,
+      "height": 240,
+      "fps": 50,
+      "sha256": "de0dcc61e9ba4d22312effad81517fb3a24ecd883738ec3c66f490f7593ed698",
+      "file_frames": 501,
+      "content_frames": 500,
+      "bitdepth": 10,
+      "chroma": "420",
+      "container": "yuv420p10le (16-bit little-endian words)",
+      "effective_precision_bits": 8,
+      "trailing_frame_note": "last frame is an NTT DOCOMO copyright text card; never encoded"
+    }
+  },
+  "run_order": "fixed: warm-up first, then shortest to longest",
+  "runs": [
+    {
+      "run_id": "selftest_BasketballPass_f64_q32_medium",
+      "sequence": "BasketballPass",
+      "frames": 64,
+      "qp": 32,
+      "preset": "medium",
+      "groups": [
+        "selftest"
+      ],
+      "verifies": "none"
+    },
+    {
+      "run_id": "selftest_warmup_f64_faster",
+      "sequence": "BasketballPass",
+      "frames": 64,
+      "qp": 32,
+      "preset": "faster",
+      "groups": [
+        "warmup"
+      ],
+      "verifies": "warmup_BasketballPass_f64_q32_faster"
+    }
+  ]
+}

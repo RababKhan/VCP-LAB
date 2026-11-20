@@ -1,0 +1,10 @@
+﻿Recorded: 2026-11-11 11:21:59 +06:00
+Computer: FARIASR
+CPU: 12th Gen Intel(R) Core(TM) i7-1260P (12 cores, 16 threads)
+RAM: 15.7 GB
+OS: Microsoft Windows 11 Home Single Language 10.0.26200
+Power: battery status code 2 (2 = on AC power), charge 49%
+Power plan: Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)
+Threads used (-t): 8; decode repeats: 3; run-order seed: 2026
+vvencapp version 1.14.0
+vvdecapp.exe version 3.2.1

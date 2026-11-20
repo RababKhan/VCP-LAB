@@ -1,0 +1,21 @@
+configuration,warmup,metric,original,original_power,supplementary_ac,supplementary_timing_valid,diff_pct
+warmup_BasketballPass_f64_q32_faster,True,encode_wall_s,0.617,AC,0.648,True,5.02
+warmup_BasketballPass_f64_q32_faster,True,encode_reported_s,0.523,AC,0.559,True,6.88
+warmup_BasketballPass_f64_q32_faster,True,decode_wall_s,0.027,AC,0.028,True,3.7
+warmup_BasketballPass_f64_q32_faster,True,decode_recon_wall_s,0.051,AC,0.041,True,-19.61
+BQMall_f600_q32_faster_t8,False,encode_wall_s,13.784,battery (whole run),11.209,True,-18.68
+BQMall_f600_q32_faster_t8,False,encode_reported_s,13.652,battery (whole run),11.098,True,-18.71
+BQMall_f600_q32_faster_t8,False,decode_wall_s,0.458,battery (whole run),0.432,True,-5.68
+BQMall_f600_q32_faster_t8,False,decode_recon_wall_s,1.14,battery (whole run),0.997,True,-12.54
+BasketballDrive_f500_q32_fast_t8,False,encode_wall_s,113.928,battery (whole run),111.201,True,-2.39
+BasketballDrive_f500_q32_fast_t8,False,encode_reported_s,113.711,battery (whole run),110.992,True,-2.39
+BasketballDrive_f500_q32_fast_t8,False,decode_wall_s,2.533,battery (whole run),2.252,True,-11.09
+BasketballDrive_f500_q32_fast_t8,False,decode_recon_wall_s,10.095,battery (whole run),5.256,True,-47.93
+BQMall_f600_q22_medium_t8,False,encode_wall_s,241.194,battery (whole run),243.282,True,0.87
+BQMall_f600_q22_medium_t8,False,encode_reported_s,241.045,battery (whole run),243.136,True,0.87
+BQMall_f600_q22_medium_t8,False,decode_wall_s,0.984,battery (whole run),0.901,True,-8.43
+BQMall_f600_q22_medium_t8,False,decode_recon_wall_s,1.319,battery (whole run),1.42,True,7.66
+BasketballDrive_f500_q32_slower_t8,False,encode_wall_s,6929.293,partly battery (51 of 224 30-s samples),6734.066,True,-2.82
+BasketballDrive_f500_q32_slower_t8,False,encode_reported_s,6928.936,partly battery (51 of 224 30-s samples),6733.726,True,-2.82
+BasketballDrive_f500_q32_slower_t8,False,decode_wall_s,2.73,partly battery (51 of 224 30-s samples),2.438,True,-10.7
+BasketballDrive_f500_q32_slower_t8,False,decode_recon_wall_s,9.459,partly battery (51 of 224 30-s samples),9.696,True,2.51

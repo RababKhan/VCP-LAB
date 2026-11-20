@@ -1,0 +1,14 @@
+=== clone vvenc 2026-11-05T09:24:28+06:00 as vvcuser in /home/vvcuser/vvc_linux
+$ git clone https://github.com/fraunhoferhhi/vvenc.git /home/vvcuser/vvc_linux/vvenc
+Cloning into '/home/vvcuser/vvc_linux/vvenc'...
+clone exit code: 0
+$ git -C /home/vvcuser/vvc_linux/vvenc checkout --detach 9428ea8636ae7f443ecde89999d16b2dfc421524
+HEAD is now at 9428ea8 remove -rc1 from version number
+checkout exit code: 0
+HEAD: 9428ea8636ae7f443ecde89999d16b2dfc421524
+expected: 9428ea8636ae7f443ecde89999d16b2dfc421524
+tags at HEAD: v1.14.0 
+describe: v1.14.0
+git status --porcelain (empty = unmodified):
+[end status]
+COMMIT CHECK: PASS

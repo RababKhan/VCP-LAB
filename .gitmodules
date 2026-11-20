@@ -1,0 +1,12 @@
+[submodule "Prangon_VVC_Assignment/vvenc"]
+	path = Prangon_VVC_Assignment/vvenc
+	url = https://github.com/fraunhoferhhi/vvenc.git
+[submodule "Prangon_VVC_Assignment/vvdec"]
+	path = Prangon_VVC_Assignment/vvdec
+	url = https://github.com/fraunhoferhhi/vvdec.git
+[submodule "VVC_Assignment/src/vvenc"]
+	path = VVC_Assignment/src/vvenc
+	url = https://github.com/fraunhoferhhi/vvenc.git
+[submodule "VVC_Assignment/src/vvdec"]
+	path = VVC_Assignment/src/vvdec
+	url = https://github.com/fraunhoferhhi/vvdec.git

@@ -1,0 +1,210 @@
+﻿=== vvenc Windows build - 2026-10-27 15:01:50 +06:00
+Source: D:\Korea\VVC_Assignment\src\vvenc
+Commit: 9428ea8636ae7f443ecde89999d16b2dfc421524 (v1.14.0)
+CMake:  cmake version 4.4.4
+Generator: Visual Studio 17 2022, platform x64, config Release (all other options = upstream defaults)
+--- configure
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The C compiler identification is MSVC 19.44.35229.0
+-- The CXX compiler identification is MSVC 19.44.35229.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_MODULE_PATH: updating module path to: D:/Korea/VVC_Assignment/src/vvenc/cmake/modules
+-- normalized target architecture: X86
+-- Performing Test SUPPORTED_Werror_unused_command_line_argument
+-- Performing Test SUPPORTED_Werror_unused_command_line_argument - Failed
+-- Performing Test SUPPORTED/arch:AVX2
+-- Performing Test SUPPORTED/arch:AVX2 - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si16
+-- Performing Test HAVE_INTRIN_mm_storeu_si16 - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si32
+-- Performing Test HAVE_INTRIN_mm_storeu_si32 - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si64
+-- Performing Test HAVE_INTRIN_mm_storeu_si64 - Success
+-- Performing Test HAVE_INTRIN_mm_loadu_si32
+-- Performing Test HAVE_INTRIN_mm_loadu_si32 - Success
+-- Performing Test HAVE_INTRIN_mm_loadu_si64
+-- Performing Test HAVE_INTRIN_mm_loadu_si64 - Success
+-- Performing Test HAVE_INTRIN_mm_cvtsi128_si64
+-- Performing Test HAVE_INTRIN_mm_cvtsi128_si64 - Success
+-- Performing Test HAVE_INTRIN_mm_cvtsi64_si128
+-- Performing Test HAVE_INTRIN_mm_cvtsi64_si128 - Success
+-- Performing Test HAVE_INTRIN_mm_extract_epi64
+-- Performing Test HAVE_INTRIN_mm_extract_epi64 - Success
+-- Performing Test HAVE_INTRIN_mm256_zeroupper
+-- Performing Test HAVE_INTRIN_mm256_zeroupper - Success
+-- Performing Test HAVE_INTRIN_mm256_loadu2_m128i
+-- Performing Test HAVE_INTRIN_mm256_loadu2_m128i - Success
+-- Performing Test HAVE_INTRIN_mm256_set_m128i
+-- Performing Test HAVE_INTRIN_mm256_set_m128i - Success
+-- x86 SIMD intrinsics enabled (using SIMDE for non-x86 targets)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- VVENC_ENABLE_THIRDPARTY_JSON: ON
+-- Configuring done (161.2s)
+-- Generating done (0.5s)
+-- Build files have been written to: D:/Korea/VVC_Assignment/src/vvenc/build/release-static
+configure exit code: 0
+--- build
+MSBuild version 17.14.60+43b635718 for .NET Framework
+
+  Checking File Globs
+  1>Checking Build System
+  Building Custom Rule D:/Korea/VVC_Assignment/src/vvenc/source/Lib/vvenc/CMakeLists.txt
+  AdaptiveLoopFilter_sse41.cpp
+  AffineGradientSearch_sse41.cpp
+  Buffer_sse41.cpp
+  DepQuant_sse41.cpp
+  FGA_sse41.cpp
+  InterPred_sse41.cpp
+  InterpolationFilter_sse41.cpp
+  IntraPred_sse41.cpp
+  LoopFilter_sse41.cpp
+  MCTF_avx41.cpp
+  Quant_sse41.cpp
+  RdCost_sse41.cpp
+  SampleAdaptiveOffset_sse41.cpp
+  Trafo_sse41.cpp
+  DepQuant_sse42.cpp
+  AdaptiveLoopFilter_avx2.cpp
+  AffineGradientSearch_avx2.cpp
+  Buffer_avx2.cpp
+  DepQuant_avx2.cpp
+  FGA_avx2.cpp
+  InterPred_avx2.cpp
+  InterpolationFilter_avx2.cpp
+  IntraPred_avx2.cpp
+  LoopFilter_avx2.cpp
+  MCTF_avx2.cpp
+  Quant_avx2.cpp
+  RdCost_avx2.cpp
+  SampleAdaptiveOffset_avx2.cpp
+  Trafo_avx2.cpp
+  vvenc_x86_simd.vcxproj -> D:\Korea\VVC_Assignment\src\vvenc\build\release-static\source\Lib\vvenc\vvenc_x86_simd.dir\Release\vvenc_x86_simd.lib
+  Building Custom Rule D:/Korea/VVC_Assignment/src/vvenc/source/Lib/vvenc/CMakeLists.txt
+  AdaptiveLoopFilter.cpp
+  AffineGradientSearch.cpp
+  BitStream.cpp
+  Buffer.cpp
+  CodingStructure.cpp
+  ContextModelling.cpp
+  Contexts.cpp
+  DepQuant.cpp
+  InterPrediction.cpp
+  InterpolationFilter.cpp
+  IntraPrediction.cpp
+  LoopFilter.cpp
+  MCTF.cpp
+  MatrixIntraPrediction.cpp
+  Mv.cpp
+  PicYuvMD5.cpp
+  Picture.cpp
+  ProfileLevelTier.cpp
+  Quant.cpp
+  QuantRDOQ.cpp
+  QuantRDOQ2.cpp
+  RdCost.cpp
+  Reshape.cpp
+  Rom.cpp
+  RomTr.cpp
+  SEI.cpp
+  SampleAdaptiveOffset.cpp
+  SearchSpaceCounter.cpp
+  Slice.cpp
+  StatCounter.cpp
+  TimeProfiler.cpp
+  TrQuant.cpp
+  TrQuant_EMT.cpp
+  Unit.cpp
+  UnitPartitioner.cpp
+  UnitTools.cpp
+  dtrace.cpp
+  DecCu.cpp
+  BinEncoder.cpp
+  BitAllocation.cpp
+  CABACWriter.cpp
+  EncAdaptiveLoopFilter.cpp
+  EncCfg.cpp
+  EncCu.cpp
+  EncGOP.cpp
+  EncHRD.cpp
+  EncLib.cpp
+  EncModeCtrl.cpp
+  EncPicture.cpp
+  EncReshape.cpp
+  EncSampleAdaptiveOffset.cpp
+  EncSlice.cpp
+  GOPCfg.cpp
+  InterSearch.cpp
+  IntraSearch.cpp
+  NALwrite.cpp
+  PreProcess.cpp
+  RateCtrl.cpp
+  SEIEncoder.cpp
+  SEIFilmGrainAnalyzer.cpp
+  SEIwrite.cpp
+  VLCWriter.cpp
+  NoMallocThreadPool.cpp
+  vvenc.cpp
+  vvencCfg.cpp
+  vvencimpl.cpp
+  CommonDefX86.cpp
+  InitX86.cpp
+  vvenc.vcxproj -> D:\Korea\VVC_Assignment\src\vvenc\lib\release-static\vvenc.lib
+  Building Custom Rule D:/Korea/VVC_Assignment/src/vvenc/source/App/vvencFFapp/CMakeLists.txt
+  Building Custom Rule D:/Korea/VVC_Assignment/src/vvenc/test/vvenc_unit_test/CMakeLists.txt
+  Building Custom Rule D:/Korea/VVC_Assignment/src/vvenc/test/vvenclibtest/CMakeLists.txt
+  Building Custom Rule D:/Korea/VVC_Assignment/src/vvenc/source/App/vvencapp/CMakeLists.txt
+  Building Custom Rule D:/Korea/VVC_Assignment/src/vvenc/test/vvencinterfacetest/CMakeLists.txt
+  EncApp.cpp
+  encmain.cpp
+  vvenc_unit_test.cpp
+  vvencinterfacetest.c
+  vvenclibtest.cpp
+  vvencapp.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 12033 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  vvencinterfacetest.vcxproj -> D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvencinterfacetest.exe
+  All 3940 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  vvenc_unit_test.vcxproj -> D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvenc_unit_test.exe
+  All 13790 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  vvenclibtest.vcxproj -> D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvenclibtest.exe
+  All 14228 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 14323 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Finished generating code
+  vvencapp.vcxproj -> D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvencapp.exe
+  vvencFFapp.vcxproj -> D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvencFFapp.exe
+  Building Custom Rule D:/Korea/VVC_Assignment/src/vvenc/CMakeLists.txt
+build exit code: 0  (wall time 4.24 min)
+--- produced executables
+D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvencapp.exe  2,797,056 bytes  10/27/2026 3:08:46 PM
+D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvencFFapp.exe  2,812,928 bytes  10/27/2026 3:08:46 PM
+D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvencinterfacetest.exe  2,438,656 bytes  10/27/2026 3:07:00 PM
+D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvenclibtest.exe  2,718,208 bytes  10/27/2026 3:08:34 PM
+D:\Korea\VVC_Assignment\src\vvenc\bin\release-static\vvenc_unit_test.exe  1,055,744 bytes  10/27/2026 3:07:22 PM

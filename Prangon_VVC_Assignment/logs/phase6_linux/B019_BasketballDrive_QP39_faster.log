@@ -1,0 +1,42 @@
+=== B019_BasketballDrive_QP39_faster (Linux) 2026-11-11 18:24:07 +0600
+$ /home/vvcuser/vvc_sadab/vvenc/bin/release-static/vvencapp -i /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BasketballDrive_1920_1080_50_10_420.yuv -s 1920x1080 -c yuv420_10 --fps 50 -f 500 -q 39 --preset faster --qpa 0 -t 8 -o /home/vvcuser/vvc_sadab/xp/B019_BasketballDrive_QP39_faster_linux.266
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Linux][GCC 13.3.0][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BasketballDrive_1920_1080_50_10_420.yuv
+vvenc [info]: Bitstream File                         : /home/vvcuser/vvc_sadab/xp/B019_BasketballDrive_QP39_faster_linux.266
+vvenc [info]: Real Format                            : 1920x1080  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 500 frames 
+vvenc [info]: Internal format                        : 1920x1080  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 39
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats:  10.0% frame=  50/500 fps=   2.3 avg_fps=   2.3 bitrate=   990.08 kbps avg_bitrate=   990.08 kbps elapsed= 00h:00m:22s left= 00h:03m:12s    
+vvenc [info]: stats:  20.0% frame= 100/500 fps=   4.4 avg_fps=   3.1 bitrate=  1011.94 kbps avg_bitrate=  1001.01 kbps elapsed= 00h:00m:33s left= 00h:02m:11s    
+vvenc [info]: stats:  30.0% frame= 150/500 fps=   4.5 avg_fps=   3.4 bitrate=  1012.87 kbps avg_bitrate=  1004.96 kbps elapsed= 00h:00m:44s left= 00h:01m:43s    
+vvenc [info]: stats:  40.0% frame= 200/500 fps=   4.3 avg_fps=   3.6 bitrate=   935.97 kbps avg_bitrate=   987.71 kbps elapsed= 00h:00m:56s left= 00h:01m:23s    
+vvenc [info]: stats:  50.0% frame= 250/500 fps=   4.4 avg_fps=   3.8 bitrate=   864.58 kbps avg_bitrate=   963.09 kbps elapsed= 00h:01m:07s left= 00h:01m:07s    
+vvenc [info]: stats:  60.0% frame= 300/500 fps=   4.4 avg_fps=   3.8 bitrate=   901.35 kbps avg_bitrate=   952.80 kbps elapsed= 00h:01m:19s left= 00h:00m:53s    
+vvenc [info]: stats:  70.0% frame= 350/500 fps=   4.3 avg_fps=   3.9 bitrate=   794.79 kbps avg_bitrate=   930.23 kbps elapsed= 00h:01m:30s left= 00h:00m:39s    
+vvenc [info]: stats:  80.0% frame= 400/500 fps=   4.0 avg_fps=   3.9 bitrate=   772.00 kbps avg_bitrate=   910.45 kbps elapsed= 00h:01m:43s left= 00h:00m:26s    
+vvenc [info]: stats:  90.0% frame= 450/500 fps=   3.8 avg_fps=   3.9 bitrate=  1157.76 kbps avg_bitrate=   937.93 kbps elapsed= 00h:01m:56s left= 00h:00m:13s    
+vvenc [info]: stats: 100.0% frame= 500/500 fps=  15.7 avg_fps=   4.2 bitrate=   732.12 kbps avg_bitrate=   917.35 kbps elapsed= 00h:01m:59s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 500/500 avg_fps= 4.2 avg_bitrate= 917.35 kbps
+vvenc [info]: stats summary: frame I:  11, kbps: 8888.36, AvgQP: 35.45
+vvenc [info]: stats summary: frame P:   0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 489, kbps:  738.04, AvgQP: 46.62
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	      500    a     917.3464   32.5839   39.6902   38.7054   33.8007
+vvencapp [info]: Total Time: 118.421 sec. Fps(avg): 4.222 encoded Frames 500
+encode exit: 0
+$ /home/vvcuser/vvc_sadab/vvdec/bin/release-static/vvdecapp -b /home/vvcuser/vvc_sadab/xp/B019_BasketballDrive_QP39_faster_linux.266 -o /home/vvcuser/vvc_sadab/xp/B019_BasketballDrive_QP39_faster_linux_rec.yuv -t 8
+POC  498 LId:  0 TId: 5 ( B-SLICE, QP 48 ) [DT  0.003] [L0 497c ] [L1 499 ] 
+vvdecapp [info]: 2026-Nov-11 18:26:23.468226: 500 frames decoded @ 28.1025 fps (17.792 sec)
+
+decode exit: 0
+RESULT bitstream_bytes 1146683 bitstream_sha256 220fcf5564bd0cbc34a26c4c15beb56e50a1891a27929f188bf6f5affabe1c4c
+RESULT recon_bytes 3110400000 recon_sha256 9457e345ed5dc8a12602613f781bb821104d7ed7a2845422460fdde21eb6e8f6

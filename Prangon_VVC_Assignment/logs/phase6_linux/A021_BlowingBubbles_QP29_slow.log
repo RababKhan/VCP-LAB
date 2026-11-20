@@ -1,0 +1,42 @@
+=== A021_BlowingBubbles_QP29_slow (Linux) 2026-11-11 18:19:22 +0600
+$ /home/vvcuser/vvc_sadab/vvenc/bin/release-static/vvencapp -i /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BlowingBubbles_416_240_50_10_420.yuv -s 416x240 -c yuv420_10 --fps 50 -f 500 -q 29 --preset slow --qpa 0 -t 8 -o /home/vvcuser/vvc_sadab/xp/A021_BlowingBubbles_QP29_slow_linux.266
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.14.0 [Linux][GCC 13.3.0][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : /mnt/d/Korea/Prangon_VVC_Assignment/dataset/BlowingBubbles_416_240_50_10_420.yuv
+vvenc [info]: Bitstream File                         : /home/vvcuser/vvc_sadab/xp/A021_BlowingBubbles_QP29_slow_linux.266
+vvenc [info]: Real Format                            : 416x240  yuv420p10  50 Hz  SDR  501 frames
+vvenc [info]: Frames                                 : encode 500 frames 
+vvenc [info]: Internal format                        : 416x240  50 Hz  SDR
+vvenc [info]: Threads                                : 8  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 29
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 48
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats:  10.0% frame=  50/500 fps=   1.1 avg_fps=   1.1 bitrate=   529.28 kbps avg_bitrate=   529.28 kbps elapsed= 00h:00m:46s left= 00h:06m:47s    
+vvenc [info]: stats:  20.0% frame= 100/500 fps=   2.5 avg_fps=   1.5 bitrate=   313.34 kbps avg_bitrate=   421.31 kbps elapsed= 00h:01m:06s left= 00h:04m:22s    
+vvenc [info]: stats:  30.0% frame= 150/500 fps=   2.6 avg_fps=   1.8 bitrate=   253.66 kbps avg_bitrate=   365.42 kbps elapsed= 00h:01m:25s left= 00h:03m:18s    
+vvenc [info]: stats:  40.0% frame= 200/500 fps=   1.8 avg_fps=   1.8 bitrate=   439.03 kbps avg_bitrate=   383.83 kbps elapsed= 00h:01m:52s left= 00h:02m:48s    
+vvenc [info]: stats:  50.0% frame= 250/500 fps=   2.3 avg_fps=   1.9 bitrate=   358.70 kbps avg_bitrate=   378.80 kbps elapsed= 00h:02m:15s left= 00h:02m:15s    
+vvenc [info]: stats:  60.0% frame= 300/500 fps=   2.1 avg_fps=   1.9 bitrate=   406.70 kbps avg_bitrate=   383.45 kbps elapsed= 00h:02m:38s left= 00h:01m:46s    
+vvenc [info]: stats:  70.0% frame= 350/500 fps=   2.4 avg_fps=   2.0 bitrate=   331.35 kbps avg_bitrate=   376.01 kbps elapsed= 00h:02m:59s left= 00h:01m:17s    
+vvenc [info]: stats:  80.0% frame= 400/500 fps=   1.7 avg_fps=   1.9 bitrate=   320.22 kbps avg_bitrate=   369.03 kbps elapsed= 00h:03m:28s left= 00h:00m:52s    
+vvenc [info]: stats:  90.0% frame= 450/500 fps=   2.3 avg_fps=   2.0 bitrate=   454.49 kbps avg_bitrate=   378.53 kbps elapsed= 00h:03m:50s left= 00h:00m:26s    
+vvenc [info]: stats: 100.0% frame= 500/500 fps=   2.9 avg_fps=   2.0 bitrate=   395.62 kbps avg_bitrate=   380.24 kbps elapsed= 00h:04m:08s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 500/500 avg_fps= 2.0 avg_bitrate= 380.24 kbps
+vvenc [info]: stats summary: frame I:  11, kbps: 6671.45, AvgQP: 26.30
+vvenc [info]: stats summary: frame P:   0, kbps:     nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 489, kbps:  238.72, AvgQP: 37.35
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	      500    a     380.2368   33.4594   38.2715   39.0960   34.4793
+vvencapp [info]: Total Time: 247.201 sec. Fps(avg): 2.023 encoded Frames 500
+encode exit: 0
+$ /home/vvcuser/vvc_sadab/vvdec/bin/release-static/vvdecapp -b /home/vvcuser/vvc_sadab/xp/A021_BlowingBubbles_QP29_slow_linux.266 -o /home/vvcuser/vvc_sadab/xp/A021_BlowingBubbles_QP29_slow_linux_rec.yuv -t 8
+POC  498 LId:  0 TId: 5 ( B-SLICE, QP 39 ) [DT  0.001] [L0 497 495 ] [L1 499c 497 ] 
+vvdecapp [info]: 2026-Nov-11 18:23:30.575662: 500 frames decoded @ 1412.43 fps (0.354 sec)
+
+decode exit: 0
+RESULT bitstream_bytes 475296 bitstream_sha256 3a3e314c34a2ee61d81704d15bc4937e392ada31949a02707cdf2ef925180e8e
+RESULT recon_bytes 149760000 recon_sha256 b04f7eba8de9fe68c6402084cfdd834ac997c181ee0ef73d6ade26d6fa7c2ef1

@@ -1,0 +1,14 @@
+﻿Phase 4A dataset inspection (streaming inspect_yuv.py) - 2026-10-27 19:41:55 +06:00
+=== regression: psnr_yuv.py (streaming) on smoke test, must equal Phase 3 values Y 34.253519576085466 / YUV411 35.1826058381694
+      "Y": 34.253519576085466,
+      "Y": 34.07103973494279,
+    "yuv_411_mse": 35.1826058381694,
+      "Y": 34.27902881509032,
+=== BasketballPass_416_240_50_10_420
+exit: 0  (1.2 s)
+=== BlowingBubbles_416_240_50_10_420
+exit: 0  (1.2 s)
+=== BQMall_832_480_60_10_420
+exit: 0  (4.5 s)
+=== BasketballDrive_1920_1080_50_10_420
+exit: 0  (22.6 s)
